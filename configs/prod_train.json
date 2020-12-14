@@ -1,0 +1,21 @@
+{
+  "data_dir": "tests/data/prod/",
+  "model_name_or_path": "chem-pretrain/chembert_v3.0",
+  "output_dir": "models/prod",
+  "labels": "configs/prod_labels.txt",
+  "max_seq_length": 256,
+  "num_train_epochs": 10,
+  "per_gpu_train_batch_size": 16,
+  "save_steps": 1000,
+  "eval_steps": 100,
+  "seed": 12,
+  "do_train": true,
+  "do_eval": true,
+  "do_predict": true,
+  "evaluate_during_training": true,
+  "use_crf": true,
+  "crf_learning_rate": 5e-3,
+  "use_fast": true,
+  "overwrite_output_dir": true,
+  "overwrite_cache": true
+}

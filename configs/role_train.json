@@ -1,0 +1,23 @@
+{
+  "data_dir": "tests/data/role/",
+  "model_name_or_path": "chem-pretrain/chembert_v3.0",
+  "output_dir": "models/role",
+  "labels": "configs/role_labels.txt",
+  "max_seq_length": 512,
+  "num_train_epochs": 30,
+  "per_gpu_train_batch_size": 8,
+  "save_steps": 500,
+  "eval_steps": 100,
+  "seed": 12,
+  "do_train": true,
+  "do_eval": true,
+  "do_predict": true,
+  "evaluate_during_training": true,
+  "use_crf": true,
+  "crf_learning_rate": 5e-3,
+  "use_cls": true,
+  "use_fast": true,
+  "prod_pooler": "span",
+  "overwrite_output_dir": true,
+  "overwrite_cache": true
+}

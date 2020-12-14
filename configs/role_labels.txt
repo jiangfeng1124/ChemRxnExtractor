@@ -1,0 +1,17 @@
+O
+B-Reactants
+I-Reactants
+B-Catalyst_Reagents
+I-Catalyst_Reagents
+B-Workup_reagents
+I-Workup_reagents
+B-Reaction
+I-Reaction
+B-Solvent
+I-Solvent
+B-Yield
+I-Yield
+B-Temperature
+I-Temperature
+B-Time
+I-Time
