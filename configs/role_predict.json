@@ -1,0 +1,13 @@
+{
+  "input_file": "tests/data/role/inputs.txt",
+  "output_file": "tests/data/role/outputs_role.txt",
+  "model_name_or_path": "models/role",
+  "labels": "configs/role_labels.txt",
+  "max_seq_length": 512,
+  "batch_size": 256,
+  "use_crf": true,
+  "use_cls": true,
+  "prod_pooler": "span",
+  "use_fast": true,
+  "overwrite_cache": true
+}
