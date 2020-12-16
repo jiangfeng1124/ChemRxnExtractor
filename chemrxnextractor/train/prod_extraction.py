@@ -21,6 +21,7 @@ from chemrxnextractor.models import BertForTagging, BertCRFForTagging
 from chemrxnextractor.data import ProdDataset, PlainProdDataset
 from chemrxnextractor.data.utils import get_labels
 from chemrxnextractor.data.prod import write_predictions
+from chemrxnextractor.utils import create_logger
 
 
 logger = logging.getLogger(__name__)
@@ -40,10 +41,11 @@ def train(model_args, data_args, train_args):
 
     # Setup logging
     logging.basicConfig(
-        format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
+        format="%(asctime)s - %(message)s",
         datefmt="%m/%d/%Y %H:%M:%S",
         level=logging.INFO,
     )
+    # logger = create_logger(name="train_prod", save_dir=train_args.output_dir)
     logger.info("Training/evaluation parameters %s", train_args)
 
     # Set seed
@@ -230,10 +232,11 @@ def train(model_args, data_args, train_args):
 def predict(model_args, predict_args):
     # Setup logging
     logging.basicConfig(
-        format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
+        format="%(asctime)s - %(message)s",
         datefmt="%m/%d/%Y %H:%M:%S",
         level=logging.INFO,
     )
+    # logger = create_logger(name="predict_prod", save_dir=train_args.output_dir)
     logger.info("Predict parameters %s", predict_args)
 
     # Prepare prod-ext task
