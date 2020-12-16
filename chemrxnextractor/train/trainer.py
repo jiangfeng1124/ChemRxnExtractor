@@ -14,6 +14,7 @@ from tqdm.auto import tqdm, trange
 
 from transformers import Trainer
 from transformers.modeling_utils import PreTrainedModel
+from transformers.trainer_utils import is_wandb_available
 from transformers.training_args import TrainingArguments
 from transformers.data.data_collator import DataCollator
 from transformers.optimization import AdamW, get_linear_schedule_with_warmup
@@ -264,4 +265,22 @@ class IETrainer(Trainer):
                 metrics[f"eval_{key}"] = metrics.pop(key)
 
         return {'predictions': preds, 'label_ids': label_ids, 'metrics': metrics}
+
+    def _log(self, logs: Dict[str, float], iterator: Optional[tqdm] = None) -> None:
+        if self.epoch is not None:
+            logs["epoch"] = self.epoch
+        if self.global_step is None:
+            # when logging evaluation metrics without training
+            self.global_step = 0
+        if is_wandb_available():
+            if self.is_world_master():
+                wandb.log(logs, step=self.global_step)
+        output = {**logs, **{"step": self.global_step}}
+        if iterator is not None:
+            iterator.write(output)
+        else:
+            logger.info(
+                {k:round(v, 4) if isinstance(v, float) else v for k, v in output.items()}
+            )
+            # logger.info(output)
 

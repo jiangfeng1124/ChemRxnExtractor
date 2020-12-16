@@ -4,7 +4,7 @@ Conditional random field
 from typing import List, Tuple, Dict, Union
 
 import torch
-import chemrxnextractor.util as util
+from .utils import logsumexp, viterbi_decode
 
 VITERBI_DECODING = Tuple[List[int], float]  # a list of tags, and a viterbi score
 INFINITY = 1e12
@@ -249,7 +249,7 @@ class ConditionalRandomField(torch.nn.Module):
 
             # In valid positions (mask == True) we want to take the logsumexp over the current_tag dimension
             # of `inner`. Otherwise (mask == False) we want to retain the previous alpha.
-            alpha = util.logsumexp(inner, 1) * mask[i].view(batch_size, 1) + alpha * (
+            alpha = logsumexp(inner, 1) * mask[i].view(batch_size, 1) + alpha * (
                 ~mask[i]
             ).view(batch_size, 1)
 
@@ -260,7 +260,7 @@ class ConditionalRandomField(torch.nn.Module):
             stops = alpha
 
         # Finally we log_sum_exp along the num_tags dim, result is (batch_size,)
-        return util.logsumexp(stops)
+        return logsumexp(stops)
 
     def _joint_likelihood(
         self, logits: torch.Tensor, tags: torch.Tensor, mask: torch.BoolTensor
@@ -421,7 +421,7 @@ class ConditionalRandomField(torch.nn.Module):
             tag_sequence[sequence_length + 1, end_tag] = 0.0
 
             # We pass the tags and the transitions to `viterbi_decode`.
-            viterbi_paths, viterbi_scores = util.viterbi_decode(
+            viterbi_paths, viterbi_scores = viterbi_decode(
                 tag_sequence=tag_sequence[: (sequence_length + 2)],
                 transition_matrix=transitions,
                 top_k=top_k,

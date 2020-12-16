@@ -23,10 +23,11 @@ from chemrxnextractor.data import RoleDataset, PlainRoleDataset
 from chemrxnextractor.data.utils import get_labels
 from chemrxnextractor.constants import PROD_START_MARKER, PROD_END_MARKER
 from chemrxnextractor.data.role import write_predictions
+from chemrxnextractor.utils import create_logger
 
 
-SPECIAL_TOKENS = [PROD_START_MARKER, PROD_END_MARKER]
 logger = logging.getLogger(__name__)
+SPECIAL_TOKENS = [PROD_START_MARKER, PROD_END_MARKER]
 
 
 def train(model_args, data_args, train_args):
@@ -43,10 +44,11 @@ def train(model_args, data_args, train_args):
 
     # Setup logging
     logging.basicConfig(
-        format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
+        format="%(asctime)s - %(message)s",
         datefmt="%m/%d/%Y %H:%M:%S",
         level=logging.INFO if train_args.local_rank in [-1, 0] else logging.WARN,
     )
+    # logger = create_logger(name="train_role", save_dir=train_args.output_dir)
     logger.info("Training/evaluation parameters %s", train_args)
 
     # Set seed
@@ -235,11 +237,12 @@ def train(model_args, data_args, train_args):
 def predict(model_args, predict_args):
     # Setup logging
     logging.basicConfig(
-        format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
+        format="%(asctime)s - %(message)s",
         datefmt="%m/%d/%Y %H:%M:%S",
         level=logging.INFO,
     )
 
+    # logger = create_logger(name="predict_role", save_dir=train_args.output_dir)
     logger.info("Predict parameters %s", predict_args)
 
     # Prepare prod-ext task
