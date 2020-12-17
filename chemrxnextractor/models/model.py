@@ -72,9 +72,19 @@ class BertForTagging(BertForTokenClassification):
 
         return outputs  # (loss), scores, (hidden_states), (attentions)
 
+    def decode(self, logits, mask):
+        preds = torch.argmax(logits, dim=2).cpu().numpy()
+        batch_size, seq_len = preds.shape
+        preds_list = [[] for _ in range(batch_size)]
+        for i in range(batch_size):
+            for j in range(seq_len):
+                if mask[i, j]:
+                    preds_list[i].append(preds[i,j])
+        return preds_list
+
 
 class BertCRFForTagging(BertForTokenClassification):
-    def __init__(self, config, tagging_schema=None, use_cls=False):
+    def __init__(self, config, tagging_schema="BIO", use_cls=False):
         super(BertCRFForTagging, self).__init__(config)
 
         print(f"Tagging schema: {tagging_schema}")
@@ -140,7 +150,6 @@ class BertCRFForTagging(BertForTokenClassification):
         # viterbi_scores = [y for x, y in viterbi_path]
 
         return viterbi_tags
-
 
 
 class BertForRoleLabeling(BertForTokenClassification):
@@ -223,12 +232,23 @@ class BertForRoleLabeling(BertForTokenClassification):
 
         return outputs
 
+    def decode(self, logits, mask):
+        preds = torch.argmax(logits, dim=2).cpu().numpy()
+        batch_size, seq_len = preds.shape
+        preds_list = [[] for _ in range(batch_size)]
+        for i in range(batch_size):
+            for j in range(seq_len):
+                if mask[i, j]:
+                    preds_list[i].append(preds[i,j])
+        return preds_list
+
+
 
 class BertCRFForRoleLabeling(BertForTokenClassification):
     def __init__(
         self,
         config,
-        tagging_schema=None,
+        tagging_schema="BIO",
         use_cls=False,
         prod_pooler="head"
     ):

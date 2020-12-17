@@ -118,11 +118,12 @@ class IETrainer(Trainer):
 
     def evaluate(self, eval_dataset: Optional[Dataset] = None) -> Dict:
         eval_dataloader = self.get_eval_dataloader(eval_dataset)
+        output = self._prediction_loop(eval_dataloader, description="Evaluation")
 
-        if self.use_crf:
-            output = self._prediction_loop_crf(eval_dataloader, description="Evaluation")
-        else:
-            output = self._prediction_loop(eval_dataloader, description="Evaluation")
+        # if self.use_crf:
+        #     output = self._prediction_loop_crf(eval_dataloader, description="Evaluation")
+        # else:
+        #     output = self._prediction_loop(eval_dataloader, description="Evaluation")
 
         self._log(output['metrics'])
 
@@ -130,13 +131,14 @@ class IETrainer(Trainer):
 
     def predict(self, test_dataset: Dataset) -> Dict:
         test_dataloader = self.get_test_dataloader(test_dataset)
+        return self._prediction_loop(test_dataloader, description="Prediction")
 
-        if self.use_crf:
-            return self._prediction_loop_crf(test_dataloader, description="Prediction")
-        else:
-            return self._prediction_loop(test_dataloader, description="Prediction")
+        # if self.use_crf:
+        #     return self._prediction_loop_crf(test_dataloader, description="Prediction")
+        # else:
+        #     return self._prediction_loop(test_dataloader, description="Prediction")
 
-    def _prediction_loop_crf(
+    def _prediction_loop(
         self,
         dataloader: DataLoader,
         description: str
@@ -202,7 +204,7 @@ class IETrainer(Trainer):
 
         return {'predictions': preds_ids, 'label_ids': label_ids, 'metrics': metrics}
 
-    def _prediction_loop(
+    def _prediction_loop_old(
         self,
         dataloader: DataLoader,
         description: str

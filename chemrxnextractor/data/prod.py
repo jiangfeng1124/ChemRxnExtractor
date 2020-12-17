@@ -84,61 +84,6 @@ class ProdDataset(Dataset):
         return self.features[i]
 
 
-class PlainProdDataset(Dataset):
-    features: List[InputFeatures]
-    pad_token_label_id: int = nn.CrossEntropyLoss().ignore_index
-    # Use cross entropy ignore_index as padding label id so that only
-    # real label ids contribute to the loss later.
-
-    def __init__(
-        self,
-        data_file: str,
-        tokenizer: AutoTokenizer,
-        labels: List[str],
-        model_type: str,
-        max_seq_length: Optional[int] = None,
-        overwrite_cache=False,
-    ):
-        # Load data features from cache or dataset file
-        data_dir = os.path.dirname(data_file)
-        fname = os.path.basename(data_file)
-        cached_features_file = os.path.join(
-            data_dir,
-            "cached_{}_{}_{}".format(
-                fname,
-                tokenizer.__class__.__name__,
-                str(max_seq_length)
-            ),
-        )
-
-        if os.path.exists(cached_features_file) and not overwrite_cache:
-            logger.info(f"Loading features from cached file {cached_features_file}")
-            self.features = torch.load(cached_features_file)
-        else:
-            logger.info(f"Creating features from dataset file at {data_file}")
-            examples = read_examples_from_file(data_file)
-            self.features = convert_examples_to_features(
-                examples,
-                labels,
-                max_seq_length,
-                tokenizer,
-                cls_token=tokenizer.cls_token,
-                cls_token_segment_id=0,
-                sep_token=tokenizer.sep_token,
-                pad_token=tokenizer.pad_token_id,
-                pad_token_segment_id=tokenizer.pad_token_type_id,
-                pad_token_label_id=self.pad_token_label_id,
-            )
-            logger.info(f"Saving features into cached file {cached_features_file}")
-            torch.save(self.features, cached_features_file)
-
-    def __len__(self):
-        return len(self.features)
-
-    def __getitem__(self, i) -> InputFeatures:
-        return self.features[i]
-
-
 def read_examples_from_file(file_path) -> List[InputExample]:
     guid_index = 1
     examples = []
@@ -192,6 +137,7 @@ def convert_examples_to_features(
     sequence_a_segment_id=0,
     sequence_b_segment_id=1,
     mask_padding_with_zero=True,
+    verbose=False
 ) -> List[InputFeatures]:
     """ Loads a data file into a list of `InputFeatures`
     """
@@ -246,7 +192,7 @@ def convert_examples_to_features(
         # assert len(segment_ids) == max_seq_length
         # assert len(label_ids) == max_seq_length
 
-        if ex_index < 1:
+        if verbose and ex_index < 1:
             logger.info("*** Example ***")
             logger.info("guid: {} (length: {})".format(example.guid, seq_length))
             logger.info("tokens: %s", " ".join([str(x) for x in tokens[:seq_length]]))
