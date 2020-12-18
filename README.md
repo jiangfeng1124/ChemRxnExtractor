@@ -26,7 +26,26 @@ This repository contains code/data for extracting chemical reactions from scient
 Our model is greatly benefited from a pre-trained model named ChemBERT.
 To train a new model on your own datasets, download ChemBERT from XXX.
 
+## Usage
+Using this extractor is straightforward:
+```
+from chemrxnextractor import RxnExtractor
+
+model_dir="models" # directory saving both prod and role models
+rxn_extractor = RxnExtractor(model_dir)
+
+# test_file contains texts line by line
+with open(test_file, "r") as f:
+    sents = f.read().splitlines()
+rxns = rxn_extractor.get_reactions(sents)
+```
+
+See `pipeline.py` for more details.
+GPU is used as the default device, please ensure that you have at least >5G allocatable GPU memory.
+
 ## Train and Evaluation
+
+It is also easy to train a new model (either product or role extraction) using your own data.
 
 To train a product extraction model, run:
 ```
