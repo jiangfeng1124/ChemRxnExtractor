@@ -1,12 +1,24 @@
 import logging
+import os
+from seqeval.metrics.sequence_labeling import get_entities
+from collections import defaultdict
+
+import warnings
+warnings.filterwarnings("ignore")
+
+import chemrxnextractor as cre
 from chemrxnextractor.models import BertForTagging
 from chemrxnextractor.models import BertCRFForTagging
 from chemrxnextractor.models import BertForRoleLabeling
 from chemrxnextractor.models import BertCRFForRoleLabeling
 from chemrxnextractor.data.utils import InputExample
+
+import torch
+import torch.nn as nn
 from torch.utils.data.dataset import Dataset
 from torch.utils.data import DataLoader
 from torch.utils.data.sampler import SequentialSampler
+from transformers import AutoConfig, AutoTokenizer
 from transformers.data.data_collator import default_data_collator
 
 
@@ -43,13 +55,14 @@ class Extractor(object):
     def load_model(self):
         prod_model_dir = os.path.join(self.model_dir, "prod")
         if os.path.isdir(prod_model_dir):
+            logger.info(f"Loading product extractor from {prod_model_dir}")
             config = AutoConfig.from_pretrained(prod_model_dir)
             prod_tokenizer = AutoTokenizer.from_pretrained(
                 prod_model_dir,
                 use_fast=True
             )
             model_class = (
-                BertCRFForRoleLabeling
+                BertCRFForTagging
                 if "BertCRFForTagging" in config.architectures
                 else BertForTagging
             )
@@ -57,8 +70,8 @@ class Extractor(object):
                 prod_model_dir,
                 config=config
             )
-            prod_labels = [] * len(config.id2label)
-            for i, label in id2label.items():
+            prod_labels = ["O"] * len(config.id2label)
+            for i, label in config.id2label.items():
                 prod_labels[int(i)] = label
         else:
             logger.info(f"Product extractor not found in {self.model_dir}!")
@@ -67,22 +80,25 @@ class Extractor(object):
 
         role_model_dir = os.path.join(self.model_dir, "role")
         if os.path.isdir(role_model_dir):
+            logger.info(f"Loading role extractor from {role_model_dir}")
             config = AutoConfig.from_pretrained(role_model_dir)
             role_tokenizer = AutoTokenizer.from_pretrained(
-                rold_model_dir,
+                role_model_dir,
                 use_fast=True
             )
             model_class = (
                 BertCRFForRoleLabeling
-                if "BertCRFForTagging" in config.architectures
-                else BertForTagging
+                if "BertCRFForRoleLabeling" in config.architectures
+                else BertForRoleLabeling
             )
             role_extractor = model_class.from_pretrained(
                 role_model_dir,
-                config=config
+                config=config,
+                use_cls=True,
+                prod_pooler="span"
             )
-            role_labels = [] * len(config.id2label)
-            for i, label in id2label.items():
+            role_labels = ["O"] * len(config.id2label)
+            for i, label in config.id2label.items():
                 role_labels[int(i)] = label
         else:
             logger.info("Role labeling model not found in {self.model_dir}!")
@@ -105,9 +121,14 @@ class Extractor(object):
         examples = []
         for guid, sent in enumerate(sents):
             words = sent.split(" ")
-            examples.append(InputExample(guid=guid, words=words))
+            labels = ["O"] * len(words)
+            examples.append(InputExample(
+                guid=guid,
+                words=words,
+                labels=labels
+            ))
 
-        features = convert_examples_to_features(
+        features = cre.data.prod.convert_examples_to_features(
             examples,
             self.prod_labels,
             self.prod_max_seq_len,
@@ -127,16 +148,19 @@ class Extractor(object):
         all_preds = []
         for batch in data_loader:
             with torch.no_grad():
+                for k, v in batch.items():
+                    if isinstance(v, torch.Tensor):
+                        batch[k] = v.to(self.device)
                 outputs = self.prod_extractor(
-                    input_ids=batch['input_ids'].to(self.device),
-                    attention_mask=batch['attention_mask'].to(self.device),
-                    token_type_ids=batch['token_type_ids'].to(self.device)
+                    input_ids=batch['input_ids'],
+                    attention_mask=batch['attention_mask'],
+                    token_type_ids=batch['token_type_ids']
                 )
                 logits = outputs[0]
 
             preds = self.prod_extractor.decode(
                 logits,
-                batch['decoder_mask'].bool().to(self.device)
+                batch['decoder_mask'].bool()
             )
             preds = [[self.prod_labels[x] for x in seq] for seq in preds]
             all_preds += preds
@@ -170,7 +194,7 @@ class Extractor(object):
                     labels=labels
                 ))
 
-        features = convert_examples_to_features(
+        features = cre.data.role.convert_examples_to_features(
             examples,
             self.role_labels,
             self.role_max_seq_len,
@@ -190,10 +214,16 @@ class Extractor(object):
         all_preds = []
         for batch in data_loader:
             with torch.no_grad():
+                for k, v in batch.items():
+                    if isinstance(v, torch.Tensor):
+                        batch[k] = v.to(self.device)
                 outputs = self.role_extractor(
-                    input_ids=batch['input_ids'].to(self.device),
-                    attention_mask=batch['attention_mask'].to(self.device),
-                    token_type_ids=batch['token_type_ids'].to(self.device)
+                    input_ids=batch['input_ids'],
+                    attention_mask=batch['attention_mask'],
+                    prod_start_mask=batch['prod_start_mask'],
+                    prod_end_mask=batch['prod_end_mask'],
+                    prod_mask=batch['prod_mask'],
+                    token_type_ids=batch['token_type_ids']
                 )
                 logits = outputs[0]
 
@@ -204,7 +234,7 @@ class Extractor(object):
             preds = [[self.role_labels[x] for x in seq] for seq in preds]
             all_preds += preds
 
-        results = {}
+        results = defaultdict(list)
         assert len(examples) == len(all_preds)
         for ex, preds in zip(examples, all_preds):
             guid = ex.guid # sent id
@@ -224,16 +254,17 @@ class Extractor(object):
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.WARNING)
+    logging.basicConfig(format="%(message)s", level=logging.INFO)
 
+    import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_dir", type=str)
-    parser.add_argument("--input", type=str)
+    parser.add_argument("--model_dir", type=str, required=True)
+    parser.add_argument("--input_file", type=str, required=True)
     args = parser.parse_args()
 
     rxn_extractor = Extractor(model_dir=args.model_dir)
 
-    with open(args.input, "r") as f:
+    with open(args.input_file, "r") as f:
         sents = f.read().splitlines()
     rxns = rxn_extractor.get_reactions(sents)
     print(rxns)

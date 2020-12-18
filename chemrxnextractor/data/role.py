@@ -377,7 +377,7 @@ def write_predictions(input_file, output_file, predictions, align="labeled"):
                 else:
                     cols = line.split('\t')
                     num_rxns = len(cols) - 1
-                    output_line = cols[0]
+                    output_line = [cols[0]]
                     for j, label in enumerate(cols[1:]):
                         output_line.append(label)
                         if label in ["B-Prod", "I-Prod"]:
