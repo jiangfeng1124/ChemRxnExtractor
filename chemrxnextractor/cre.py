@@ -3,9 +3,6 @@ import os
 from seqeval.metrics.sequence_labeling import get_entities
 from collections import defaultdict
 
-import warnings
-warnings.filterwarnings("ignore")
-
 import chemrxnextractor as cre
 from chemrxnextractor.models import BertForTagging
 from chemrxnextractor.models import BertCRFForTagging
@@ -35,7 +32,7 @@ class RxnDataset(Dataset):
         return self.features[i]
 
 
-class Extractor(object):
+class RxnExtractor(object):
     def __init__(self, model_dir, batch_size=64, use_cuda=True):
         self.model_dir = model_dir
         self.batch_size = batch_size
@@ -120,6 +117,8 @@ class Extractor(object):
         # create dataset
         examples = []
         for guid, sent in enumerate(sents):
+            # assume sents are not tokenized,
+            # todo: replace with better tokenizers
             words = sent.split(" ")
             labels = ["O"] * len(words)
             examples.append(InputExample(
@@ -165,32 +164,32 @@ class Extractor(object):
             preds = [[self.prod_labels[x] for x in seq] for seq in preds]
             all_preds += preds
 
-        return all_preds
+        tokenized_sents = [ex.words for ex in examples]
+        return tokenized_sents, all_preds
 
     def get_reactions(self, sents, products=None):
         """
         """
         if products is None:
             logging.info("Extracting products...")
-            products = self.get_products(sents)
+            tokenized_sents, products = self.get_products(sents)
 
-        assert len(products) == len(sents)
+        assert len(products) == len(tokenized_sents)
 
         # create dataset
         # for each sent, create #{prod} instances
         examples = []
-        for guid, (sent, prod_labels) in enumerate(zip(sents, products)):
-            words = sent.split(" ")
-            assert len(words) == len(prod_labels)
+        for guid, (sent, prod_labels) in enumerate(zip(tokenized_sents, products)):
+            assert len(sent) == len(prod_labels)
             prods = get_entities(prod_labels)
             for i, (etype, ss, se) in enumerate(prods):
                 assert etype == "Prod"
-                labels = ["O"] * len(words)
+                labels = ["O"] * len(sent)
                 labels[ss] = "B-Prod"
                 labels[ss+1:se+1] = ["I-Prod"] * (se-ss)
                 examples.append(InputExample(
                     guid=guid,
-                    words=words,
+                    words=sent,
                     labels=labels
                 ))
 
@@ -234,7 +233,7 @@ class Extractor(object):
             preds = [[self.role_labels[x] for x in seq] for seq in preds]
             all_preds += preds
 
-        results = defaultdict(list)
+        results = {}
         assert len(examples) == len(all_preds)
         for ex, preds in zip(examples, all_preds):
             guid = ex.guid # sent id
@@ -248,24 +247,12 @@ class Extractor(object):
                         rxn_labels.append(preds.pop(0))
                     else:
                         logger.info(f"No prediction for {ex.words[j]}")
-            results[guid].append(rxn_labels)
+            if guid not in results:
+                results[guid] = {}
+                results[guid]["tokens"] = tokenized_sents[guid]
+                results[guid]["reactions"] = [get_entities(rxn_labels)]
+            else:
+                results[guid]["reactions"].append(get_entities(rxn_labels))
 
         return results
-
-
-if __name__ == '__main__':
-    logging.basicConfig(format="%(message)s", level=logging.INFO)
-
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--model_dir", type=str, required=True)
-    parser.add_argument("--input_file", type=str, required=True)
-    args = parser.parse_args()
-
-    rxn_extractor = Extractor(model_dir=args.model_dir)
-
-    with open(args.input_file, "r") as f:
-        sents = f.read().splitlines()
-    rxns = rxn_extractor.get_reactions(sents)
-    print(rxns)
 

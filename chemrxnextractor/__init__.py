@@ -9,4 +9,4 @@ import chemrxnextractor.utils
 
 from chemrxnextractor._version import __version__
 
-from .cre import Extractor
+from .cre import RxnExtractor

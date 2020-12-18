@@ -228,6 +228,7 @@ def convert_examples_to_features(
     sequence_a_segment_id=0,
     sequence_b_segment_id=1,
     mask_padding_with_zero=True,
+    verbose=False
 ) -> List[InputFeatures]:
     """ Loads a data file into a list of `InputFeatures`
     """
@@ -331,16 +332,11 @@ def convert_examples_to_features(
         assert len(segment_ids) == max_seq_length
         assert len(label_ids) == max_seq_length
 
-        if ex_index < 1:
+        if verbose and ex_index < 1:
             logger.info("*** Example ***")
             logger.info("guid: {} (length: {})".format(example.guid, seq_length))
             logger.info("tokens: " + " ".join([str(x) for x in tokens[:seq_length]]))
             logger.info("input_ids: " + " ".join([str(x) for x in input_ids[:seq_length]]))
-            # logger.info("input_mask: %s", " ".join([str(x) for x in input_mask]))
-            # logger.info("prod_start_mask: %s", " ".join([str(x) for x in prod_start_mask]))
-            # logger.info("prod_end_mask: %s", " ".join([str(x) for x in prod_end_mask]))
-            # logger.info("prod_mask: %s", " ".join([str(x) for x in prod_mask]))
-            # logger.info("segment_ids: %s", " ".join([str(x) for x in segment_ids]))
             logger.info("label_ids: " + " ".join([str(x) for x in label_ids[:seq_length]]))
             logger.info("decoder_mask: " + " ".join([str(x) for x in decoder_mask[:seq_length]]))
 
