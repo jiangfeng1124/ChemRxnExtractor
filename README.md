@@ -42,26 +42,28 @@ rxns = rxn_extractor.get_reactions(sents)
 `test_file` has an independent paragraph/sentence each line (e.g., `tests/sample_data/raw.txt`). See `pipeline.py` for more details.
 GPU is used as the default device, please ensure that you have at least >5G allocatable GPU memory.
 
+**Preprocessing** We recommend using [ChemDataExtractor](http://chemdataextractor.org/) for preprocessing chemical documents of PDF format (e.g., PDF-to-Text, sentence segmentation, and tokenization).
+
 ## Train and Evaluation
 
 ### Pre-trained Model: ChemBERT
 
 Our model is greatly benefited from a domain-adaptively pre-trained model named ChemBERT.
-To train a new model on your own datasets, download [ChemBERT v3.0] (https://drive.google.com/file/d/1UMYYD9P8fJgs61FJc06sRbbdDxOYPbMu/view?usp=sharing).
+To train a new model on your own datasets, download [ChemBERT v3.0](https://drive.google.com/file/d/1UMYYD9P8fJgs61FJc06sRbbdDxOYPbMu/view?usp=sharing).
 
 ### Fine-tuning
 
-It is easy to train a new model (either product or role extraction) using your own data. We also plan to release our training data in the near future.
+We provide scripts to train new models (product/role extraction) using your own data. We also plan to release our training data in the near future.
 
 #### Data format
 
 Your training data should contain texts (sequences of tokens) and known target labels.
-We follow the BIO-tagging schema, where `B-{type}` indicates the Beginning of a specific entity type (e.g., Prod, Reactants), and `I-{type}` means the Inside of an entity.
+We follow conventional BIO-tagging scheme, where `B-{type}` indicates the Beginning of a specific entity type (e.g., Prod, Reactants, Solvent), and `I-{type}` means the Inside of an entity.
 
-* Product Extraction
+##### Product Extraction
 
 The train/dev/test files have the same CoNLL-style format:
-```
+```csv
 #	passage=10.1021/ja00020a078-5	sentence=1
 Reaction	O
 of	O
@@ -83,7 +85,7 @@ yield	O
 It is assumed that the tokens are in the first column, and the targets are in the second column.
 The comment line (optional) can contain any meta information of the current text sequence, such as the DOI of a paper.
 
-* Reaction Role Extraction
+##### Reaction Role Extraction
 
 Data files for role extraction can have multiple label columns, each corresponding to one product. For example:
 ```
@@ -124,25 +126,25 @@ The tokens are in the first column, and the target labels are in the remaining c
 
 #### Run
 To train a product extraction model, run:
-```bash
+```
 python train.py <task> <config_path>|<options>
 ```
 where `<task>` is either "prod" or "role" depending on the task of interest, `<config_path>` is a json file containing required hyper-parameters such as the paths to the model and the data; `<options>` are instead explicitly-specified hyper-parameters.
 
 For example:
-```bash
+```
 python train.py prod configs/prod_train.json
 ```
 
 ## Predict
 
 To generate predictions for unlabeled inputs (see `tests/sample_data/<task>/inputs.txt` for the format of unlabeled inputs), run:
-```bash
+```
 python predict.py <task> <config_json>
 ```
 
 For example:
-```bash
+```
 python predict.py prod configs/prod_predict.json
 ```
 
