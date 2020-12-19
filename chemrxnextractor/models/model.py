@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from typing import List, Optional, Tuple
+import logging
 
 import torch
 from torch import nn
@@ -10,6 +11,10 @@ from transformers.modeling_bert import BertForTokenClassification
 from .crf import ConditionalRandomField as CRF
 from .crf import allowed_transitions
 from .pooler import Pooler
+
+
+logger = logging.getLogger(__name__)
+
 
 class BertForTagging(BertForTokenClassification):
     def __init__(self, config, use_cls=False):
@@ -72,12 +77,22 @@ class BertForTagging(BertForTokenClassification):
 
         return outputs  # (loss), scores, (hidden_states), (attentions)
 
+    def decode(self, logits, mask):
+        preds = torch.argmax(logits, dim=2).cpu().numpy()
+        batch_size, seq_len = preds.shape
+        preds_list = [[] for _ in range(batch_size)]
+        for i in range(batch_size):
+            for j in range(seq_len):
+                if mask[i, j]:
+                    preds_list[i].append(preds[i,j])
+        return preds_list
+
 
 class BertCRFForTagging(BertForTokenClassification):
-    def __init__(self, config, tagging_schema=None, use_cls=False):
+    def __init__(self, config, tagging_schema="BIO", use_cls=False):
         super(BertCRFForTagging, self).__init__(config)
 
-        print(f"Tagging schema: {tagging_schema}")
+        logger.info(f"Tagging schema: {tagging_schema}")
         constraints = allowed_transitions(tagging_schema, self.config.id2label)
         self.crf = CRF(self.num_labels, constraints=constraints) #, include_start_end_transitions=False)
 
@@ -140,7 +155,6 @@ class BertCRFForTagging(BertForTokenClassification):
         # viterbi_scores = [y for x, y in viterbi_path]
 
         return viterbi_tags
-
 
 
 class BertForRoleLabeling(BertForTokenClassification):
@@ -223,12 +237,23 @@ class BertForRoleLabeling(BertForTokenClassification):
 
         return outputs
 
+    def decode(self, logits, mask):
+        preds = torch.argmax(logits, dim=2).cpu().numpy()
+        batch_size, seq_len = preds.shape
+        preds_list = [[] for _ in range(batch_size)]
+        for i in range(batch_size):
+            for j in range(seq_len):
+                if mask[i, j]:
+                    preds_list[i].append(preds[i,j])
+        return preds_list
+
+
 
 class BertCRFForRoleLabeling(BertForTokenClassification):
     def __init__(
         self,
         config,
-        tagging_schema=None,
+        tagging_schema="BIO",
         use_cls=False,
         prod_pooler="head"
     ):
@@ -244,7 +269,7 @@ class BertCRFForRoleLabeling(BertForTokenClassification):
 
         self.init_weights()
 
-        print(f"Tagging schema: {tagging_schema}")
+        logging.info(f"Tagging schema: {tagging_schema}")
         constraints = allowed_transitions(tagging_schema, self.config.id2label)
         self.crf = CRF(self.num_labels, constraints=constraints)
 

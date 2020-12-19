@@ -8,3 +8,5 @@ import chemrxnextractor.constants
 import chemrxnextractor.utils
 
 from chemrxnextractor._version import __version__
+
+from .cre import RxnExtractor

@@ -18,7 +18,7 @@ from transformers import set_seed
 
 from .trainer import IETrainer as Trainer
 from chemrxnextractor.models import BertForTagging, BertCRFForTagging
-from chemrxnextractor.data import ProdDataset, PlainProdDataset
+from chemrxnextractor.data import ProdDataset
 from chemrxnextractor.data.utils import get_labels
 from chemrxnextractor.data.prod import write_predictions
 from chemrxnextractor.utils import create_logger
@@ -110,29 +110,7 @@ def train(model_args, data_args, train_args):
         else None
     )
 
-    def _align_predictions(predictions, label_ids):
-        preds = torch.argmax(predictions, dim=2).cpu().numpy()
-        batch_size, seq_len = preds.shape
-
-        label_list = [[] for _ in range(batch_size)]
-        preds_list = [[] for _ in range(batch_size)]
-        for i in range(batch_size):
-            for j in range(seq_len):
-                if label_ids[i, j] != nn.CrossEntropyLoss().ignore_index:
-                    label_list[i].append(label_map[label_ids[i][j]])
-                    preds_list[i].append(label_map[preds[i][j]])
-
-        return preds_list, label_list
-
-    def _compute_metrics(predictions, label_ids) -> Dict:
-        preds_list, label_list = _align_predictions(predictions, label_ids)
-        return {
-            "precision": precision_score(label_list, preds_list),
-            "recall": recall_score(label_list, preds_list),
-            "f1": f1_score(label_list, preds_list),
-        }
-
-    def _compute_metrics_fast(predictions, label_ids) -> Dict:
+    def compute_metrics(predictions, label_ids) -> Dict:
         label_list = [[label_map[x] for x in seq] for seq in label_ids]
         preds_list = [[label_map[x] for x in seq] for seq in predictions]
 
@@ -142,7 +120,8 @@ def train(model_args, data_args, train_args):
             "f1": f1_score(label_list, preds_list),
         }
 
-    metrics_fn = _compute_metrics_fast if model_args.use_crf else _compute_metrics
+    metrics_fn = compute_metrics
+
     # Initialize our Trainer
     trainer = Trainer(
         model=model,
@@ -181,10 +160,7 @@ def train(model_args, data_args, train_args):
                 logger.info("  %s = %s", key, value)
                 writer.write("%s = %s\n" % (key, value))
 
-        if model_args.use_crf:
-            preds_list = [[label_map[x] for x in seq] for seq in predictions]
-        else:
-            preds_list, _ = _align_predictions(predictions, label_ids)
+        preds_list = [[label_map[x] for x in seq] for seq in predictions]
 
         # Save predictions
         write_predictions(
@@ -210,10 +186,7 @@ def train(model_args, data_args, train_args):
         label_ids = output['label_ids']
         metrics = output['metrics']
 
-        if model_args.use_crf:
-            preds_list = [[label_map[x] for x in seq] for seq in predictions]
-        else:
-            preds_list, _ = _align_predictions(predictions, label_ids)
+        preds_list = [[label_map[x] for x in seq] for seq in predictions]
 
         output_test_results_file = os.path.join(train_args.output_dir, "test_results.txt")
         with open(output_test_results_file, "w") as writer:
@@ -279,7 +252,7 @@ def predict(model_args, predict_args):
     model = model.to(device)
 
     # load test dataset
-    test_dataset = PlainProdDataset(
+    test_dataset = ProdDataset(
         data_file=predict_args.input_file,
         tokenizer=tokenizer,
         labels=labels,
@@ -302,20 +275,6 @@ def predict(model_args, predict_args):
 
     model.eval()
 
-    def _align_predictions(predictions, label_ids, input_mask):
-        preds = torch.argmax(predictions, dim=2).cpu().numpy()
-        batch_size, seq_len = preds.shape
-
-        preds_list = [[] for _ in range(batch_size)]
-        for i in range(batch_size):
-            for j in range(seq_len):
-                if input_mask[i, j] == 0: # ignore all padded tokens
-                    break
-                if label_ids[i, j] != nn.CrossEntropyLoss().ignore_index:
-                    preds_list[i].append(label_map[preds[i][j]])
-
-        return preds_list
-
     with open(predict_args.input_file, "r") as f:
         all_preds = []
         for inputs in tqdm(data_loader, desc="Predicting"):
@@ -330,17 +289,9 @@ def predict(model_args, predict_args):
                 )
                 logits = outputs[0]
 
-            if model_args.use_crf:
-                preds = model.decode(logits, mask=inputs['decoder_mask'].bool())
-                preds_list = [[label_map[x] for x in seq] for seq in preds]
-            else:
-                preds = logits.detach()
-                label_ids = inputs["labels"].detach()
-                preds_list = _align_predictions(
-                                preds,
-                                label_ids,
-                                inputs['attention_mask']
-                            )
+            preds = model.decode(logits, inputs['decoder_mask'].bool())
+            preds_list = [[label_map[x] for x in seq] for seq in preds]
+
             all_preds += preds_list
 
     write_predictions(

@@ -4,7 +4,7 @@
   "output_dir": "models/role",
   "labels": "configs/role_labels.txt",
   "max_seq_length": 512,
-  "num_train_epochs": 30,
+  "num_train_epochs": 1,
   "per_device_train_batch_size": 8,
   "save_steps": 500,
   "eval_steps": 100,

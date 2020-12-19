@@ -118,11 +118,7 @@ class IETrainer(Trainer):
 
     def evaluate(self, eval_dataset: Optional[Dataset] = None) -> Dict:
         eval_dataloader = self.get_eval_dataloader(eval_dataset)
-
-        if self.use_crf:
-            output = self._prediction_loop_crf(eval_dataloader, description="Evaluation")
-        else:
-            output = self._prediction_loop(eval_dataloader, description="Evaluation")
+        output = self._prediction_loop(eval_dataloader, description="Evaluation")
 
         self._log(output['metrics'])
 
@@ -131,12 +127,9 @@ class IETrainer(Trainer):
     def predict(self, test_dataset: Dataset) -> Dict:
         test_dataloader = self.get_test_dataloader(test_dataset)
 
-        if self.use_crf:
-            return self._prediction_loop_crf(test_dataloader, description="Prediction")
-        else:
-            return self._prediction_loop(test_dataloader, description="Prediction")
+        return self._prediction_loop(test_dataloader, description="Prediction")
 
-    def _prediction_loop_crf(
+    def _prediction_loop(
         self,
         dataloader: DataLoader,
         description: str
@@ -202,70 +195,6 @@ class IETrainer(Trainer):
 
         return {'predictions': preds_ids, 'label_ids': label_ids, 'metrics': metrics}
 
-    def _prediction_loop(
-        self,
-        dataloader: DataLoader,
-        description: str
-    ) -> Dict:
-        """
-        Prediction/evaluation loop, shared by `evaluate()` and `predict()`.
-        Works both with or without labels.
-        """
-        model = self.model
-        batch_size = dataloader.batch_size
-
-        logger.info("***** Running %s *****", description)
-        logger.info("  Num examples = %d", self.num_examples(dataloader))
-        logger.info("  Batch size = %d", batch_size)
-
-        model.eval()
-
-        eval_losses: List[float] = []
-        preds: List[torch.Tensor] = []
-        label_ids: List[torch.Tensor] = []
-
-        for inputs in tqdm(dataloader, desc=description):
-            has_labels = any(
-                inputs.get(k) is not None
-                for k in ["labels", "lm_labels", "masked_lm_labels"]
-            )
-
-            for k, v in inputs.items():
-                if isinstance(v, torch.Tensor):
-                    inputs[k] = v.to(self.args.device)
-
-            with torch.no_grad():
-                outputs = model(**inputs)
-                if has_labels:
-                    step_eval_loss, logits = outputs[:2]
-                    eval_losses += [step_eval_loss.mean().item()]
-                else:
-                    logits = outputs[0]
-
-            preds.append(logits.detach().cpu())
-
-            if inputs.get("labels") is not None:
-                label_ids.append(inputs["labels"].detach().cpu())
-
-        preds = torch.cat(preds, dim=0)
-        label_ids = torch.cat(label_ids, dim=0) if len(label_ids) > 0 else None
-
-        if self.compute_metrics is not None and \
-                preds is not None and \
-                label_ids is not None:
-            metrics = self.compute_metrics(preds, label_ids)
-        else:
-            metrics = {}
-        if len(eval_losses) > 0:
-            metrics["eval_loss"] = np.mean(eval_losses)
-
-        # Prefix all keys with eval_
-        for key in list(metrics.keys()):
-            if not key.startswith("eval_"):
-                metrics[f"eval_{key}"] = metrics.pop(key)
-
-        return {'predictions': preds, 'label_ids': label_ids, 'metrics': metrics}
-
     def _log(self, logs: Dict[str, float], iterator: Optional[tqdm] = None) -> None:
         if self.epoch is not None:
             logs["epoch"] = self.epoch
@@ -282,5 +211,4 @@ class IETrainer(Trainer):
             logger.info(
                 {k:round(v, 4) if isinstance(v, float) else v for k, v in output.items()}
             )
-            # logger.info(output)
 
