@@ -42,14 +42,14 @@ rxns = rxn_extractor.get_reactions(sents)
 `test_file` has an independent paragraph/sentence each line (e.g., `tests/sample_data/raw.txt`). See `pipeline.py` for more details.
 GPU is used as the default device, please ensure that you have at least >5G allocatable GPU memory.
 
-**Preprocessing** We recommend using [ChemDataExtractor](http://chemdataextractor.org/) for preprocessing chemical documents of PDF format (e.g., PDF-to-Text, sentence segmentation, and tokenization).
+**Preprocessing:** We recommend using the [ChemDataExtractor](http://chemdataextractor.org/) toolkit for the preprocessing of chemical documents in PDF format, such as PDF parsing, sentence segmentation, and tokenization.
 
 ## Train and Evaluation
 
-### Pre-trained Model: ChemBERT
+### Pre-training: ChemBERT
 
-Our model is greatly benefited from a domain-adaptively pre-trained model named ChemBERT.
-To train a new model on your own datasets, download [ChemBERT v3.0](https://drive.google.com/file/d/1UMYYD9P8fJgs61FJc06sRbbdDxOYPbMu/view?usp=sharing).
+Our model is greatly benefited from a domain-adaptively pre-trained model named **ChemBERT**.
+To train a new model on your own datasets, download [ChemBERT v3.0](https://drive.google.com/file/d/1UMYYD9P8fJgs61FJc06sRbbdDxOYPbMu/view?usp=sharing), and extract to a local directory.
 
 ### Fine-tuning
 
@@ -88,7 +88,7 @@ The comment line (optional) can contain any meta information of the current text
 ##### Reaction Role Extraction
 
 Data files for role extraction can have multiple label columns, each corresponding to one product. For example:
-```
+```csv
 #	passage=10.1021/ja00020a078-5	segment=1
 Reaction	O	O	O
 of	O	O	O
