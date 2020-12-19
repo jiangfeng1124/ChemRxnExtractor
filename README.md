@@ -19,14 +19,14 @@ This repository contains code/data for extracting chemical reactions from scient
 
 ### Download Trained Models
 Download the trained models: [cre_models_v0.1.tgz](https://drive.google.com/file/d/1HeP2NlSAdqNzlTqmHCrwmoUNiw9JWdaf/view?usp=sharing), and extract to the current directory:
-```
-tar zxvf cre_models_v0.1
+```bash
+tar zxvf cre_models_v0.1.tgz
 ```
 
 ## Usage
 
-Using this extractor is straightforward:
-```
+Using RxnExtractor in your code:
+```python
 from chemrxnextractor import RxnExtractor
 
 model_dir="models" # directory saving both prod and role models
@@ -38,7 +38,7 @@ with open(test_file, "r") as f:
 rxns = rxn_extractor.get_reactions(sents)
 ```
 
-`model_dir` points to the directory of the trained models (e.g., cre_models_v0.1).
+`model_dir` points to the directory of the trained models (e.g., `cre_models_v0.1`).
 `test_file` has an independent paragraph/sentence each line (e.g., `tests/sample_data/raw.txt`). See `pipeline.py` for more details.
 GPU is used as the default device, please ensure that you have at least >5G allocatable GPU memory.
 
@@ -124,25 +124,25 @@ The tokens are in the first column, and the target labels are in the remaining c
 
 #### Run
 To train a product extraction model, run:
-```
+```bash
 python train.py <task> <config_path>|<options>
 ```
 where `<task>` is either "prod" or "role" depending on the task of interest, `<config_path>` is a json file containing required hyper-parameters such as the paths to the model and the data; `<options>` are instead explicitly-specified hyper-parameters.
 
 For example:
-```
+```bash
 python train.py prod configs/prod_train.json
 ```
 
 ## Predict
 
 To generate predictions for unlabeled inputs (see `tests/sample_data/<task>/inputs.txt` for the format of unlabeled inputs), run:
-```
+```bash
 python predict.py <task> <config_json>
 ```
 
 For example:
-```
+```bash
 python predict.py prod configs/prod_predict.json
 ```
 
