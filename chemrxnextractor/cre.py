@@ -1,7 +1,10 @@
 import logging
 import os
+import sys
 from seqeval.metrics.sequence_labeling import get_entities
 from collections import defaultdict
+from dataclasses import dataclass
+from tqdm.auto import tqdm
 
 import chemrxnextractor as cre
 from chemrxnextractor.models import BertForTagging
@@ -9,6 +12,7 @@ from chemrxnextractor.models import BertCRFForTagging
 from chemrxnextractor.models import BertForRoleLabeling
 from chemrxnextractor.models import BertCRFForRoleLabeling
 from chemrxnextractor.data.utils import InputExample
+from .utils import create_logger
 
 import torch
 import torch.nn as nn
@@ -18,8 +22,6 @@ from torch.utils.data.sampler import SequentialSampler
 from transformers import AutoConfig, AutoTokenizer
 from transformers.data.data_collator import default_data_collator
 
-
-logger = logging.getLogger(__name__)
 
 class RxnDataset(Dataset):
     def __init__(self, features):
@@ -52,7 +54,7 @@ class RxnExtractor(object):
     def load_model(self):
         prod_model_dir = os.path.join(self.model_dir, "prod")
         if os.path.isdir(prod_model_dir):
-            logger.info(f"Loading product extractor from {prod_model_dir}")
+            sys.stderr.write(f"Loading product extractor from {prod_model_dir}...")
             config = AutoConfig.from_pretrained(prod_model_dir)
             prod_tokenizer = AutoTokenizer.from_pretrained(
                 prod_model_dir,
@@ -70,14 +72,15 @@ class RxnExtractor(object):
             prod_labels = ["O"] * len(config.id2label)
             for i, label in config.id2label.items():
                 prod_labels[int(i)] = label
+            sys.stderr.write("done\n")
         else:
-            logger.info(f"Product extractor not found in {self.model_dir}!")
+            sys.stderr.write(f"Product extractor not found in {self.model_dir}!")
             prod_tokenizer = None
             prod_extractor = None
 
         role_model_dir = os.path.join(self.model_dir, "role")
         if os.path.isdir(role_model_dir):
-            logger.info(f"Loading role extractor from {role_model_dir}")
+            sys.stderr.write(f"Loading role extractor from {role_model_dir}...")
             config = AutoConfig.from_pretrained(role_model_dir)
             role_tokenizer = AutoTokenizer.from_pretrained(
                 role_model_dir,
@@ -97,8 +100,9 @@ class RxnExtractor(object):
             role_labels = ["O"] * len(config.id2label)
             for i, label in config.id2label.items():
                 role_labels[int(i)] = label
+            sys.stderr.write("done\n")
         else:
-            logger.info("Role labeling model not found in {self.model_dir}!")
+            sys.stderr.write("Role labeling model not found in {self.model_dir}!")
             role_tokenizer = None
             role_extractor = None
 
@@ -171,7 +175,6 @@ class RxnExtractor(object):
         """
         """
         if products is None:
-            logging.info("Extracting products...")
             tokenized_sents, products = self.get_products(sents)
 
         assert len(products) == len(tokenized_sents)
@@ -179,9 +182,11 @@ class RxnExtractor(object):
         # create dataset
         # for each sent, create #{prod} instances
         examples = []
+        num_rxns_per_sent = []
         for guid, (sent, prod_labels) in enumerate(zip(tokenized_sents, products)):
             assert len(sent) == len(prod_labels)
             prods = get_entities(prod_labels)
+            num_rxns_per_sent.append(len(prods))
             for i, (etype, ss, se) in enumerate(prods):
                 assert etype == "Prod"
                 labels = ["O"] * len(sent)
@@ -233,26 +238,32 @@ class RxnExtractor(object):
             preds = [[self.role_labels[x] for x in seq] for seq in preds]
             all_preds += preds
 
-        results = {}
-        assert len(examples) == len(all_preds)
-        for ex, preds in zip(examples, all_preds):
-            guid = ex.guid # sent id
-            # merge preds with ex.labels
-            rxn_labels = []
-            for j, label in enumerate(ex.labels):
-                if label in ["B-Prod", "I-Prod"]:
-                    rxn_labels.append(label)
-                else:
-                    if preds:
-                        rxn_labels.append(preds.pop(0))
+        # align predictions with inputs
+        example_id = 0
+        results = []
+        for guid, sent in enumerate(tokenized_sents):
+            rxns = {"tokens": sent, "reactions": []}
+            for k in range(num_rxns_per_sent[guid]):
+                # merge preds with prod labels
+                rxn_labels = []
+                ex = examples[example_id]
+                for j, label in enumerate(ex.labels):
+                    if label in ["B-Prod", "I-Prod"]:
+                        rxn_labels.append(label)
                     else:
-                        logger.info(f"No prediction for {ex.words[j]}")
-            if guid not in results:
-                results[guid] = {}
-                results[guid]["tokens"] = tokenized_sents[guid]
-                results[guid]["reactions"] = [get_entities(rxn_labels)]
-            else:
-                results[guid]["reactions"].append(get_entities(rxn_labels))
+                        rxn_labels.append(all_preds[example_id].pop(0))
+                rxn = {}
+                for role, ss, se in get_entities(rxn_labels):
+                    if role == "Prod":
+                        rxn["Product"] = (ss, se)
+                    else:
+                        if role not in rxn:
+                            rxn[role] = [] # e.g., multiple reactants
+                        rxn[role].append((ss, se))
+                rxns["reactions"].append(rxn)
+                example_id += 1
+
+            results.append(rxns)
 
         return results
 

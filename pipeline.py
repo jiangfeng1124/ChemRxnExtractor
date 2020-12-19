@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore")
 from chemrxnextractor import RxnExtractor
 
 if __name__ == '__main__':
-    logging.basicConfig(format="%(message)s", level=logging.INFO)
+    logging.basicConfig(format="%(message)s", level=logging.WARNING)
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_dir", type=str, required=True)
@@ -22,5 +22,5 @@ if __name__ == '__main__':
     rxns = rxn_extractor.get_reactions(sents)
 
     with open(args.output, "w") as writer:
-        json.dump(rxns, writer, sort_keys=True, indent=2)
+        json.dump(rxns, writer)
 

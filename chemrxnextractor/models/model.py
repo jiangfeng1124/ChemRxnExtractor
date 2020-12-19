@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from typing import List, Optional, Tuple
+import logging
 
 import torch
 from torch import nn
@@ -10,6 +11,10 @@ from transformers.modeling_bert import BertForTokenClassification
 from .crf import ConditionalRandomField as CRF
 from .crf import allowed_transitions
 from .pooler import Pooler
+
+
+logger = logging.getLogger(__name__)
+
 
 class BertForTagging(BertForTokenClassification):
     def __init__(self, config, use_cls=False):
@@ -87,7 +92,7 @@ class BertCRFForTagging(BertForTokenClassification):
     def __init__(self, config, tagging_schema="BIO", use_cls=False):
         super(BertCRFForTagging, self).__init__(config)
 
-        print(f"Tagging schema: {tagging_schema}")
+        logger.info(f"Tagging schema: {tagging_schema}")
         constraints = allowed_transitions(tagging_schema, self.config.id2label)
         self.crf = CRF(self.num_labels, constraints=constraints) #, include_start_end_transitions=False)
 
@@ -264,7 +269,7 @@ class BertCRFForRoleLabeling(BertForTokenClassification):
 
         self.init_weights()
 
-        print(f"Tagging schema: {tagging_schema}")
+        logging.info(f"Tagging schema: {tagging_schema}")
         constraints = allowed_transitions(tagging_schema, self.config.id2label)
         self.crf = CRF(self.num_labels, constraints=constraints)
 
