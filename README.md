@@ -46,8 +46,8 @@ GPU is used as the default device, please ensure that you have at least >5G allo
 
 ### Pre-trained Model: ChemBERT
 
-Our model is greatly benefited from a pre-trained model named ChemBERT.
-To train a new model on your own datasets, download ChemBERT from XXX.
+Our model is greatly benefited from a domain-adaptively pre-trained model named ChemBERT.
+To train a new model on your own datasets, download [ChemBERT v3.0] (https://drive.google.com/file/d/1UMYYD9P8fJgs61FJc06sRbbdDxOYPbMu/view?usp=sharing).
 
 ### Fine-tuning
 
@@ -59,6 +59,7 @@ Your training data should contain texts (sequences of tokens) and known target l
 We follow the BIO-tagging schema, where `B-{type}` indicates the Beginning of a specific entity type (e.g., Prod, Reactants), and `I-{type}` means the Inside of an entity.
 
 * Product Extraction
+
 The train/dev/test files have the same CoNLL-style format:
 ```
 #	passage=10.1021/ja00020a078-5	sentence=1
@@ -83,6 +84,7 @@ It is assumed that the tokens are in the first column, and the targets are in th
 The comment line (optional) can contain any meta information of the current text sequence, such as the DOI of a paper.
 
 * Reaction Role Extraction
+
 Data files for role extraction can have multiple label columns, each corresponding to one product. For example:
 ```
 #	passage=10.1021/ja00020a078-5	segment=1
@@ -144,9 +146,9 @@ For example:
 python predict.py prod configs/prod_predict.json
 ```
 
-## Results
+## Performance
 
-Results of the provided trained models on our test set:
+Performance of the provided trained models on our test set:
 
 Task | Precision | Recall | F1 |
 | :---: | :---: | :---: | :---: |
