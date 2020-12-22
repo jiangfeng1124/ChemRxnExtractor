@@ -1,5 +1,5 @@
 {
-  "data_dir": "tests/data/role/",
+  "data_dir": "tests/sample_data/role/",
   "model_name_or_path": "chem-pretrain/chembert_v3.0",
   "output_dir": "models/role",
   "labels": "configs/role_labels.txt",

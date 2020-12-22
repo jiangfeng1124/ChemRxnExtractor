@@ -7,7 +7,7 @@ from torch import nn
 from torch.nn import CrossEntropyLoss
 import torch.nn.functional as F
 
-from transformers.modeling_bert import BertForTokenClassification
+from transformers import BertForTokenClassification
 from .crf import ConditionalRandomField as CRF
 from .crf import allowed_transitions
 from .pooler import Pooler
