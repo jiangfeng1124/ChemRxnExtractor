@@ -1,5 +1,5 @@
 {
-  "data_dir": "tests/data/prod/",
+  "data_dir": "tests/sample_data/prod/",
   "model_name_or_path": "chem-pretrain/chembert_v3.0",
   "output_dir": "models/prod",
   "labels": "configs/prod_labels.txt",

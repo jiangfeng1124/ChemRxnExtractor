@@ -1,6 +1,6 @@
 {
-  "input_file": "tests/data/prod/inputs.txt",
-  "output_file": "tests/data/prod/outputs_prod.txt",
+  "input_file": "tests/sample_data/prod/inputs.txt",
+  "output_file": "tests/sample_data/prod/outputs_prod.txt",
   "model_name_or_path": "models/prod",
   "labels": "configs/prod_labels.txt",
   "max_seq_length": 256,
