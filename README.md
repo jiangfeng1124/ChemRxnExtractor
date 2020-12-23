@@ -125,7 +125,7 @@ yield	O	O	O
 The tokens are in the first column, and the target labels are in the remaining columns.
 
 #### Run
-To train a product extraction model, run:
+To train or evaluate a product extraction model, run:
 ```
 python train.py <task> <config_path>|<options>
 ```
@@ -135,6 +135,17 @@ For example:
 ```
 python train.py prod configs/prod_train.json
 ```
+
+Configure `configs/prod_train.json` to turn on/off the train/eval modes.
+
+## Performance
+
+Performance of the provided trained models on our test set (`tests/sample_data/<task>/test.txt`):
+
+Task | Precision | Recall | F1 |
+| :---: | :---: | :---: | :---: |
+Product Extraction | 84.62 | 69.37 | 76.24 |
+Role Extraction | 80.12 | 77.25 | 78.66 |
 
 ## Predict
 
@@ -147,16 +158,6 @@ For example:
 ```
 python predict.py prod configs/prod_predict.json
 ```
-
-## Performance
-
-Performance of the provided trained models on our test set:
-
-Task | Precision | Recall | F1 |
-| :---: | :---: | :---: | :---: |
-Product Extraction | 84.62 | 69.37 | 76.24 |
-Role Extraction | 80.12 | 77.25 | 78.66 |
-
 
 ## Contact
 Please create an issue or email to [jiang_guo@csail.mit.edu](mailto:jiang_guo@csail.mit.edu) should you have any questions, comments or suggestions.
