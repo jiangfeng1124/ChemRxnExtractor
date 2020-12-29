@@ -14,7 +14,7 @@ from tqdm.auto import tqdm, trange
 
 from transformers import Trainer
 from transformers import PreTrainedModel
-from transformers import is_wandb_available
+# from transformers import is_wandb_available
 from transformers import TrainingArguments
 from transformers.data.data_collator import DataCollator
 from transformers import AdamW, get_linear_schedule_with_warmup
@@ -201,9 +201,9 @@ class IETrainer(Trainer):
         if self.global_step is None:
             # when logging evaluation metrics without training
             self.global_step = 0
-        if is_wandb_available():
-            if self.is_world_master():
-                wandb.log(logs, step=self.global_step)
+        # if is_wandb_available():
+        #     if self.is_world_master():
+        #         wandb.log(logs, step=self.global_step)
         output = {**logs, **{"step": self.global_step}}
         if iterator is not None:
             iterator.write(output)
