@@ -7,7 +7,7 @@ This repository contains code/data for extracting chemical reactions from scient
 ### Pre-requirements
 
 1. pytorch (>=1.5.0)
-2. transformers (>=3.0.2)
+2. transformers (tested on v3.0.2)
 3. tqdm (>=4.36.0)
 4. numpy (>=1.18.0)
 5. seqeval
