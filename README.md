@@ -15,7 +15,8 @@ This repository contains code/data for extracting chemical reactions from scient
 ### Install from source
 1. `git clone https://github.com/jiangfeng1124/ChemRxnExtractor`
 2. `cd ChemRxnExtractor`
-3. `pip install -e .`
+3. `pip install -r requirements.txt`
+4. `pip install -e .`
 
 ### Download Trained Models
 Download the trained models: [cre_models_v0.1.tgz](https://drive.google.com/file/d/1HeP2NlSAdqNzlTqmHCrwmoUNiw9JWdaf/view?usp=sharing), and extract to the current directory:
