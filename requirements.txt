@@ -1,4 +1,4 @@
-pytorch >= 1.5.0
+torch == 1.5.0
 transformers == 3.0.2
 tqdm
 numpy >= 1.18.0
