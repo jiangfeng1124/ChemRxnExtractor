@@ -1,0 +1,15121 @@
+#	passage=10.1021/ja00144a001-8	segment=1
+As	O	O
+observed	O	O
+for	O	O
+the	O	O
+glycosylations	O	O
+of	O	O
+the	O	O
+4-OH	O	O
+acceptor	O	O
+7	O	O
+,	O	O
+the	O	O
+use	O	O
+of	O	O
+equimolar	O	O
+proportions	O	O
+of	O	O
+the	O	O
+donor	O	O
+6	O	O
+and	O	O
+the	O	O
+acceptor	O	O
+16	O	O
+,	O	O
+in	O	O
+glycosylation	B-Reaction	B-Reaction
+reactions	O	O
+,	O	O
+led	O	O
+to	O	O
+the	O	O
+isolation	O	O
+of	O	O
+significant	B-Yield	O
+quantities	I-Yield	O
+of	O	O
+the	O	O
+glucal	O	O
+9	B-Prod	O
+and	O	O
+low	O	B-Yield
+yields	O	O
+of	O	O
+the	O	O
+disaccharides.	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00065-8	segment=2
+For	O	O
+biphenyl-4-ol	B-Reactants	O
+and	O	O
+2-naphthol	O	B-Reactants
+,	O	O
+ring-	O	O
+opening	O	O
+products	O	O
+2l	B-Prod	O
+and	O	O
+2m	O	B-Prod
+were	O	O
+produced	O	O
+in	O	O
+dramatically	O	O
+diﬀerent	O	O
+yields	O	O
+(	O	O
+84	B-Yield	O
+and	O	O
+40	O	B-Yield
+%	O	I-Yield
+,	O	O
+respectively	O	O
+)	O	O
+and	O	O
+ee	O	O
+values	O	O
+(	O	O
+87	O	O
+and	O	O
+23	O	O
+%	O	O
+ee	O	O
+,	O	O
+respectively	O	O
+)	O	O
+(	O	O
+Table	O	O
+3	O	O
+,	O	O
+entries	O	O
+12	O	O
+and	O	O
+13	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00065-8	segment=4
+The	O	O
+reactions	O	O
+of	O	O
+1a	B-Reactants	B-Reactants
+with	O	O
+phenols	O	O
+containing	O	O
+electron	O	O
+-	O	O
+donating	O	O
+multisubstituted	O	O
+groups	O	O
+gave	O	O
+the	O	O
+corresponding	O	O
+products	O	O
+2n	B-Prod	O
+and	O	O
+2p	O	B-Prod
+in	O	O
+good	O	O
+yields	O	O
+with	O	O
+moderate	O	O
+to	O	O
+good	O	O
+ee	O	O
+values	O	O
+(	O	O
+Table	O	O
+3	O	O
+,	O	O
+entries	O	O
+14	O	O
+and	O	O
+16	O	O
+)	O	O
+,	O	O
+while	O	O
+2,4-dichlorophenol	O	O
+gave	O	O
+42	O	O
+%	O	O
+yield	O	O
+and	O	O
+60	O	O
+%	O	O
+ee	O	O
+(	O	O
+Table	O	O
+3	O	O
+,	O	O
+entry	O	O
+15	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00065-8	segment=6
+In	O	O
+one	O	O
+competition	O	O
+experiment	O	O
+,	O	O
+5	O	O
+equiv	O	O
+of	O	O
+4-	B-Reactants	B-Reactants
+methoxylphenol	I-Reactants	I-Reactants
+and	O	O
+4-chlorophenol	B-Reactants	B-Reactants
+was	O	O
+used	O	O
+as	O	O
+the	O	O
+nucleophiles	O	O
+,	O	O
+and	O	O
+the	O	O
+ring	B-Reaction	B-Reaction
+-	I-Reaction	I-Reaction
+opening	I-Reaction	I-Reaction
+reaction	O	O
+proceed	O	O
+at	O	O
+73	B-Yield	B-Yield
+%	I-Yield	I-Yield
+conversion	O	O
+with	O	O
+a	O	O
+greater	O	O
+than	O	O
+2	O	O
+:	O	O
+1	O	O
+ratio	O	O
+of	O	O
+2e	B-Prod	O
+to	O	O
+2g	O	B-Prod
+(	O	O
+Table	O	O
+3	O	O
+,	O	O
+entry	O	O
+19	O	O
+)	O	O
+,	O	O
+reacted	O	O
+preferentially.	O	O
+
+#	passage=10.1021/ja00026a028-5	segment=1
+Treatment	O	O
+of	O	O
+2-(3-	B-Reactants	O
+~	I-Reactants	O
+hloropropyl)furan	I-Reactants	O
+~	O	O
+~	O	O
+with	O	O
+magnesium	B-Reactants	O
+and	O	O
+quenching	O	O
+the	O	O
+resulting	O	O
+Grigand	B-Catalyst_Reagents	O
+reagent	O	O
+with	O	O
+excess	O	O
+acetic	B-Reactants	O
+an-	I-Reactants	O
+hydride	I-Reactants	O
+gave	O	O
+ketone	O	O
+11	B-Prod	O
+in	O	O
+72	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield.lS	O	O
+Condensation	O	O
+of	O	O
+11	O	B-Reactants
+with	O	O
+(ethoxyvinyl)lithium16	O	B-Reactants
+and	O	O
+treatment	O	O
+with	O	O
+phenylsulfenyl	O	B-Workup_reagents
+chloride	O	I-Workup_reagents
+gave	O	O
+sulfoxide	O	O
+12	O	B-Prod
+as	O	O
+a	O	O
+1	O	O
+:	O	O
+l	O	O
+E	O	O
+/	O	O
+Z	O	O
+mixture.	O	O
+
+#	passage=10.1021/ja00026a028-5	segment=3
+This	O
+gave	O
+enol	O
+ether	O
+13	B-Prod
+in	O
+exceptionally	B-Yield
+high	I-Yield
+yield.	O
+
+#	passage=10.1021/ja00027a070-4	segment=0
+Pivaloylation	B-Reaction	B-Reaction
+of	O	O
+the	O	O
+diol	O	O
+10	B-Reactants	B-Reactants
+gave	O	O
+a	O	O
+mixture	O	O
+of	O	O
+monopivaloates	O	O
+12	B-Prod	O
+and	O	O
+13	O	B-Prod
+(	O	O
+1	O	O
+:	O	O
+2	O	O
+)	O	O
+(	O	O
+100	B-Yield	B-Yield
+%	I-Yield	I-Yield
+).	O	O
+
+#	passage=10.1021/ja00027a070-4	segment=2
+Swern	B-Reaction	B-Reaction
+-	I-Reaction	I-Reaction
+Moffatt	I-Reaction	I-Reaction
+oxidation	I-Reaction	I-Reaction
+of	O	O
+the	O	O
+mixture	O	O
+of	O	O
+12	B-Reactants	B-Reactants
+and	O	O
+13	B-Reactants	B-Reactants
+gave	O	O
+15	B-Prod	O
+,	O	O
+along	O	O
+with	O	O
+a	O	O
+small	O	O
+amount	O	O
+of	O	O
+the	O	O
+isomer	O	O
+14.	O	B-Prod
+
+#	passage=10.1021/ja00027a070-4	segment=5
+Reduction	B-Reaction	O	O
+of	O	O	O
+15	B-Reactants	O	O
+gave	O	O	O
+the	O	O	O
+inverted	O	O	O
+alcohol	O	O	O
+16	B-Prod	B-Reactants	O
+(	O	O	O
+64	O	O	O
+%	O	O	O
+overall	O	O	O
+from	O	O	O
+12	O	O	O
+/	O	O	O
+13	O	O	O
+)	O	O	O
+,	O	O	O
+which	O	O	O
+was	O	O	O
+converted	O	O	O
+into	O	O	O
+its	O	O	O
+pen-	O	O	O
+tafluorophenol	O	O	O
+thiono	O	O	O
+ester	O	O	O
+derivative	O	O	O
+17	O	B-Prod	B-Reactants
+(	O	O	O
+100	O	B-Yield	O
+%	O	I-Yield	O
+)	O	O	O
+and	O	O	O
+deoxygenated	O	O	B-Reaction
+to	O	O	O
+give	O	O	O
+18	O	O	B-Prod
+(	O	O	O
+loo	O	O	B-Yield
+%	O	O	I-Yield
+).	O	O	O
+
+#	passage=10.1021/acs.joc.5b00562-3	segment=3
+Zemplén	O	O
+de-O-acylation	O	O
+of	O	O
+5α	O	O
+gave	O	O
+tetraol	O	O
+6	B-Reactants	B-Reactants
+in	O	O
+virtually	O	O
+quantitative	O	O
+yield	O	O
+,	O	O
+and	O	O
+subsequent	O	O
+isopropylidenation	B-Reaction	B-Reaction
+(	O	O
+2,2-	B-Reactants	B-Reactants
+dimethoxypropane	I-Reactants	I-Reactants
+and	O	O
+camphorsulfonic	B-Reactants	B-Reactants
+acid	I-Reactants	I-Reactants
+in	O	O
+DMF	B-Solvent	B-Solvent
+at	O	O
+45	B-Temperature	B-Temperature
+°	I-Temperature	I-Temperature
+C	I-Temperature	I-Temperature
+)	O	O
+gave	O	O
+selectively	O	O
+the	O	O
+3II,4II-O-isopropylidene	B-Prod	O
+derivative	I-Prod	O
+7.	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00488-11	segment=1
+The	O
+N-monosubstituted	B-Reactants
+β-	I-Reactants
+ketothioamide	I-Reactants
+1q	B-Reactants
+can	O
+also	O
+be	O
+transformed	O
+to	O
+the	O
+corresponding	O
+product	O
+3qa	B-Prod
+in	O
+lower	B-Yield
+yield	O
+when	O
+KOAc	B-Reactants
+was	O
+added.	O
+
+#	passage=10.1021/ja000247w-0	segment=1
+Robson	O
+prepared	O
+and	O
+struc-	O
+turally	O
+characterized	O
+a	O
+[Cu12(tapp)8]	B-Prod
+cubelike	O
+cage	O
+,	O
+which	O
+was	O
+derived	O
+from	O
+the	O
+self	B-Reaction
+-	I-Reaction
+assembly	I-Reaction
+reaction	O
+of	O
+tri-bidentate	O
+ligand	O
+2,4,6-triazophenyl-1,3,5-trihydroxybenzene	B-Reactants
+(	O
+H3tapp	B-Reactants
+)	O
+and	O
+copper(II)	B-Reactants
+ions.14	I-Reactants
+Stang	O
+presented	O
+NMR	O
+and	O
+MS	O
+evidence	O
+for	O
+cuboctahedral	O
+and	O
+dodecahedral	O
+cations	O
+from	O
+tridentate	O
+and	O
+bidentate	O
+subunits.15	O
+Fujita	O
+obtained	O
+a	O
+trigonal	O
+-	O
+bipyramidal	O
+capsule	O
+with	O
+36+	O
+by	O
+reaction	O
+of	O
+[Pd(NO3)2(en)]	O
+with	O
+1,3,5-tris(3,5-	O
+
+#	passage=10.1021/acs.joc.5b00192-6	segment=0
+The	O	O
+starting	O	O
+2-bromo-3-methoxycyclohex-2-en-1-one	B-Prod	O
+(	O	O
+1	O	B-Prod
+)	O	O
+is	O	O
+easily	O	O
+prepared	O	O
+by	O	O
+bromination12	B-Reaction	B-Reaction
+(	O	O
+NBS	B-Catalyst_Reagents	B-Catalyst_Reagents
+,	O	O
+91	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+)	O	O
+of	O	O
+3-	B-Reactants	B-Reactants
+methoxy-5-methylcyclohex-2-en-1-one	I-Reactants	I-Reactants
+,	O	O
+itself	O	O
+available	O	O
+by	O	O
+the	O	O
+classical	O	O
+procedure	O	O
+of	O	O
+Michael	O	O
+addition	O	O
+of	O	O
+ethyl	O	O
+acetoacetate	O	O
+to	O	O
+methyl	O	O
+crotonate	O	O
+in	O	O
+the	O	O
+presence	O	O
+of	O	O
+EtONa	O	O
+(	O	O
+54	O	O
+%	O	O
+)	O	O
+,	O	O
+followed	O	O
+by	O	O
+heating	O	O
+with	O	O
+acid	O	O
+at	O	O
+pH	O	O
+113	O	O
+and	O	O
+O	O	O
+-	O	O
+methylation	O	O
+with	O	O
+(MeO)3CH	O	O
+(	O	O
+91	O	O
+%	O	O
+).	O	O
+
+#	passage=10.1021/ja00025a033-0	segment=0
+In	O
+the	O
+accompanying	O
+paper	O
+,	O
+we	O
+describe	O
+the	O
+facile	B-Reaction
+photo-	I-Reaction
+cyclization	I-Reaction
+of	O
+several	O
+a-(o-toly1)acetophenones	B-Reactants
+to	O
+2-indanols.'	B-Prod
+The	O
+reaction	O
+proceeds	O
+by	O
+rapid	O
+triplet	O
+-	O
+state	O
+&	O
+hydrogen	O
+abstraction	O
+that	O
+generates	O
+1,Sbiradical	O
+intermediates.	O
+
+#	passage=10.1021/acs.joc.5b00534-2	segment=0
+This	O
+type	O
+of	O
+reactivity	O
+has	O
+already	O
+been	O
+reported.6	O
+By	O
+using	O
+LiAlH4	O
+as	O
+reducing	B-Reaction
+agent	O
+,	O
+degradation	O
+of	O
+the	O
+reaction	O
+mixture	O
+was	O
+observed	O
+(	O
+Table	O
+1	O
+,	O
+entry	O
+3	O
+)	O
+,	O
+but	O
+treatment	O
+of	O
+compound	O
+1	B-Reactants
+with	O
+1.5	O
+equiv	O
+of	O
+diisobutylaluminium	B-Reactants
+hydride	I-Reactants
+in	O
+THF	B-Solvent
+at	O
+room	B-Temperature
+temperature	O
+provided	O
+the	O
+desired	O
+imidazo[1,2-a]-	O
+imidazole	O
+derivative	O
+2	B-Prod
+in	O
+a	O
+good	O
+yield	O
+of	O
+74	B-Yield
+%	I-Yield
+(	O
+Table	O
+1	O
+,	O
+entry	O
+4	O
+)	O
+.	O
+
+#	passage=10.1021/ja00023a045-2	segment=1
+Instead	O
+,	O
+when	O
+this	O
+reaction	O
+was	O
+conducted	O
+in	O
+THF	B-Solvent
+,	O
+the	O
+vinylcyclopropane-methoxyfuran	O
+system	O
+4	B-Prod
+was	O
+obtained	O
+in	O
+32	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/acs.joc.5b00433-5	segment=1
+Treatment	O
+of	O
+1	B-Reactants
+with	O
+an	O
+excess	O
+of	O
+2-	B-Reactants
+bromo-2-propen-1-yltrimethylsilane	I-Reactants
+(10)23	O
+aﬀorded	O
+allylation	B-Reaction
+product	O
+11	B-Prod
+,	O
+again	O
+with	O
+the	O
+loss	O
+of	O
+the	O
+Boc-protecting	O
+group	O
+(	O
+Scheme	O
+4	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00433-5	segment=2
+24	O
+In	O
+addition	O
+to	O
+11	O
+,	O
+bicyclic	O
+compound	O
+12	B-Prod
+was	O
+also	O
+isolated	O
+as	O
+a	O
+mixture	O
+of	O
+diastereomers.	O
+
+#	passage=10.1021/ja00140a041-9	segment=0
+For	O	O
+example	O	O
+,	O	O
+enantiomerically	O	O
+pure	O	O
+monotriflate	O	O
+(S)-2a	B-Reactants	B-Reactants
+was	O	O
+converted	O	O
+into	O	O
+methyl	O	O
+ester	O	O
+(S)-5Io	B-Prod	O
+and	O	O
+carboxylic	O	O
+acid	O	O
+(S)-6	O	B-Prod
+"	O	O
+in	O	O
+high	B-Yield	B-Yield
+yields	O	O
+by	O	O
+palladium	B-Catalyst_Reagents	B-Catalyst_Reagents
+-	O	O
+catalyzed	O	O
+carbonylationI2	B-Reaction	B-Reaction
+(	O	O
+Scheme	O	O
+3	O	O
+).	O	O
+
+#	passage=10.1021/ja00019a042-1	segment=0
+We	O	O
+have	O	O
+prepared	O	O
+poly(p-quaterphenylene-2,2'-dicarboxylic	B-Prod	O
+acid	I-Prod	O
+)	O	O
+(	O	O
+I	O	B-Prod
+)	O	O
+by	O	O
+an	O	O
+adaptation	O	O
+of	O	O
+a	O	O
+Pd(0)	B-Catalyst_Reagents	B-Catalyst_Reagents
+cross	O	O
+coupling	O	O
+of	O	O
+boronic	O	O
+acids	O	O
+and	O	O
+aryl	O	O
+halidesI4	O	O
+(	O	O
+eq	O	O
+1	O	O
+).	O	O
+
+#	passage=10.1021/ja00025a029-0	segment=9
+It	O
+has	O
+been	O
+revealed	O
+that	O
+thermal	B-Reaction
+transformation	I-Reaction
+of	O
+the	O
+enol	B-Reactants
+AQM	I-Reactants
+to	O
+the	O
+initial	O
+quinone	O
+AQ	B-Prod
+can	O
+occur	O
+as	O
+an	O
+intramolecular	O
+process	O
+via	O
+reverse	O
+transfer	O
+of	O
+a	O
+H	O
+atom	O
+,	O
+or	O
+as	O
+a	O
+second	O
+-	O
+order	O
+reaction.	O
+
+#	passage=10.1021/ja00019a039-1	segment=2
+fluorescens	O
+(	O
+ATCC	O
+1	O
+1250)4	O
+,	O
+under	O
+the	O
+conditions	O
+described	O
+by	O
+Bild	O
+and	O
+Morris	O
+:	O
+resulted	O
+in	O
+2-amino-4-hydroxy-4-phenylbutanoic	B-Prod
+acid	I-Prod
+(	O
+eq	O
+2	O
+)	O
+,	O
+which	O
+was	O
+purified	O
+by	O
+preparative	O
+HPLC	O
+in	O
+nearly	O
+quantitative	O
+yield	O
+based	O
+on	O
+L-kynurenine.	O
+
+#	passage=10.1021/ja00023a071-5	segment=0
+Cyclopentadiene	B-Reactants	B-Reactants
+reacts	O	O
+with	O	O
+both	O	O
+l	B-Reactants	O
+a	I-Reactants	O
+and	O	O
+le	O	B-Reactants
+from	O	O
+the	O	O
+a-face	O	O
+to	O	O
+give	O	O
+the	O	O
+endo	O	O
+adducts	O	O
+2a	B-Prod	O
+and	O	O
+Ze	O	B-Prod
+,	O	O
+respectively	O	O
+,	O	O
+as	O	O
+the	O	O
+sole	O	O
+products.	O	O
+
+#	passage=10.1021/ja00023a071-5	segment=2
+4	O	O	O
+Hz	O	O	O
+coupling	O	O	O
+constants	O	O	O
+observed	O	O	O
+between	O	O	O
+Hell	O	O	O
+and	O	O	O
+HC3	O	O	O
+and	O	O	O
+between	O	O	O
+HCI4	O	O	O
+and	O	O	O
+HC4	O	O	O
+in	O	O	O
+Za	O	O	O
+and	O	O	O
+2e	O	O	O
+suggests	O	O	O
+an	O	O	O
+endo	O	O	O
+geometry	O	O	O
+of	O	O	O
+the	O	O	O
+cycloadduct.21.22	O	O	O
+Ozonolysis	B-Reaction	O	O
+of	O	O	O
+2a	B-Reactants	O	O
+followed	O	O	O
+by	O	O	O
+treatment	O	O	O
+with	O	O	O
+0.75	O	O	O
+equiv	O	O	O
+of	O	O	O
+NaBH4	B-Catalyst_Reagents	O	O
+gave	O	O	O
+keto	O	B-Reactants	B-Reactants
+diol	O	I-Reactants	I-Reactants
+4a	B-Prod	B-Reactants	B-Reactants
+,	O	O	O
+which	O	O	O
+spontaneously	O	O	O
+cyclized	O	B-Reaction	B-Reaction
+to	O	O	O
+the	O	O	O
+pentacyclic	O	B-Prod	O
+ketal	O	I-Prod	O
+Sa.	O	O	B-Prod
+
+#	passage=10.1021/ja00026a024-1	segment=3
+~	O	O
+Simultaneous	O	O
+syringe	O	O
+pump	O	O
+addition	O	O
+of	O	O
+cyclohexene	B-Reactants	B-Reactants
+oxide	I-Reactants	I-Reactants
+(	O	O
+1.5	O	O
+equiv	O	O
+)	O	O
+and	O	O
+titanocene	B-Reactants	B-Reactants
+monochloride	I-Reactants	I-Reactants
+dimer	I-Reactants	I-Reactants
+(	O	O
+1.5	O	O
+equiv	O	O
+)	O	O
+to	O	O
+a	O	O
+solution	O	O
+of	O	O
+carbene	O	O
+complex	O	O
+1	B-Reactants	B-Reactants
+cooled	O	O
+to	O	O
+-20	B-Temperature	B-Temperature
+OC	I-Temperature	I-Temperature
+followed	O	O
+by	O	O
+quenching	O	O
+with	O	O
+ethereal	O	O
+HCl	B-Workup_reagents	B-Workup_reagents
+(	O	O
+3	O	O
+equiv	O	O
+)	O	O
+provided	O	O
+adducts	O	O
+2	B-Prod	O
+and	O	O
+3	O	B-Prod
+(	O	O
+eq	O	O
+l	O	O
+).	O	O
+
+#	passage=10.1021/ja00133a032-4	segment=0
+conversion	O
+of	O
+l	B-Reactants
+a	I-Reactants
+back	O
+to	O
+2a	B-Prod
+was	O
+monitored	O
+by	O
+'H	O
+NMR	O
+by	O
+observing	O
+the	O
+decay	O
+of	O
+the	O
+signal	O
+at	O
+6	O
+3.62	O
+or	O
+the	O
+increase	O
+of	O
+the	O
+signal	O
+at	O
+6	O
+9.57	O
+for	O
+the	O
+cyclobutenyl	O
+hydrogen	O
+of	O
+2a	O
+,	O
+with	O
+approximate	O
+rate	O
+constants	O
+of	O
+7	O
+x	O
+s-l	O
+at	O
+22	O
+"	O
+C	O
+for	O
+both	O
+processes.	O
+
+#	passage=10.1021/ja00133a032-4	segment=2
+Photolysis	B-Reaction
+of	O
+diphenylcyclobutenedione	B-Reactants
+(	O
+2b	B-Reactants
+)	O
+in	O
+pentane	B-Solvent
+at	O
+-	B-Temperature
+195	I-Temperature
+"	I-Temperature
+C	I-Temperature
+gave	O
+a	O
+change	O
+in	O
+the	O
+UV	O
+spectrum	O
+with	O
+a	O
+decrease	O
+in	O
+the	O
+A	O
+,	O
+,	O
+of	O
+2b	O
+at	O
+260	O
+and	O
+320	O
+nm	O
+and	O
+formation	O
+of	O
+bisketene	O
+lb	B-Prod
+with	O
+strong	O
+absorption	O
+at	O
+low	O
+wavelength	O
+and	O
+a	O
+shoulder	O
+at	O
+220	O
+nm	O
+,	O
+which	O
+re-formed	O
+2b	O
+with	O
+good	O
+first	O
+-	O
+order	O
+kinetics	O
+(	O
+Table	O
+2	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00480-4	segment=2
+To	O
+this	O
+end	O
+,	O
+compound	O
+(S)-7	O
+on	O
+oxidative	O
+cleavage	O
+in	O
+the	O
+presence	O
+of	O
+OsO4	O
+and	O
+sodium	O
+periodate	O
+followed	O
+by	O
+oxidation	O
+with	O
+oxone	O
+at	O
+room	O
+temperature	O
+furnished	O
+the	O
+phthaloyl	O
+acid	O
+8.10,11	O
+The	O
+treatment	O
+of	O
+acid	O
+(R)-8	B-Reactants
+with	O
+benzylamine	B-Reactants
+in	O
+the	O
+presence	O
+of	O
+isobutyl	B-Reactants
+chloroformate	I-Reactants
+and	O
+N-methyl	B-Reactants
+morpholine	I-Reactants
+in	O
+THF	B-Solvent
+at	O
+−	B-Temperature
+78	I-Temperature
+°	I-Temperature
+C	I-Temperature
+aﬀorded	O
+the	O
+phthaloyl	O
+amide	O
+9	B-Prod
+in	O
+88	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/acs.joc.5b00480-4	segment=3
+An	O
+alternative	O
+method	O
+for	O
+the	O
+amide	O
+formation	O
+with	O
+benzylamine	O
+is	O
+using	O
+HOBt	B-Reactants
+and	O
+EDCI	B-Reactants
+-	I-Reactants
+HCl	I-Reactants
+furnished	O
+phthaloyl	O
+amide	O
+9	B-Prod
+in	O
+61	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/ja00027a054-0	segment=4
+The	O	O	O
+title	O	O	O
+compound	O	O	O
+(	O	O	O
+2	B-Prod	O	O
+)	O	O	O
+was	O	O	O
+obtained	O	O	O
+by	O	O	O
+cocrystallization	O	O	O
+of	O	O	O
+tranr	B-Reactants	B-Reactants	B-Reactants
+-	I-Reactants	I-Reactants	I-Reactants
+[	I-Reactants	I-Reactants	I-Reactants
+(CH,NH,),Pt(	I-Reactants	I-Reactants	I-Reactants
+1-MeC-N3)(9-MeGH-N7)]Cl2	I-Reactants	I-Reactants	I-Reactants
+(	I-Reactants	I-Reactants	I-Reactants
+1)'9-21	I-Reactants	I-Reactants	I-Reactants
+and	O	O	O
+1-MeC	B-Reactants	B-Reactants	B-Reactants
+at	O	O	O
+pH	O	O	O
+5-5.5.22	O	O	O
+Colorless	O	O	O
+crystals	O	O	O
+of	O	O	O
+2	O	B-Prod	O
+were	O	O	O
+isolated	O	O	O
+in	O	O	O
+36	B-Yield	B-Yield	B-Yield
+%	I-Yield	I-Yield	I-Yield
+yield	O	O	O
+and	O	O	O
+proved	O	O	O
+to	O	O	O
+be	O	O	O
+of	O	O	O
+composition	O	O	O
+(	O	O	B-Prod
+[	O	O	I-Prod
+(CH3NH2)2Pt(	O	O	I-Prod
+1-	O	O	I-Prod
+MeC)(	O	O	I-Prod
+9-MeGH	O	O	I-Prod
+)	O	O	I-Prod
+]	O	O	I-Prod
+C12-(	O	O	I-Prod
+1	O	O	I-Prod
+-MeC))-O.5(	O	O	I-Prod
+[	O	O	I-Prod
+(	O	O	I-Prod
+1	O	O	I-Prod
+-MeCH)-(	O	O	I-Prod
+1	O	O	I-Prod
+-MeC	O	O	I-Prod
+)	O	O	I-Prod
+]	O	O	I-Prod
+Cl	O	O	I-Prod
+).	O	O	I-Prod
+
+#	passage=10.1021/acs.joc.5b00785-9	segment=1
+When	O
+the	O
+reaction	O
+of	O
+1ac	B-Reactants
+with	O
+ethyl	B-Reactants
+pyruvate	I-Reactants
+(	O
+3a	B-Reactants
+)	O
+was	O
+performed	O
+under	O
+the	O
+standard	O
+conditions	O
+,	O
+the	O
+product	O
+6	B-Prod
+was	O
+not	B-Yield
+detected	I-Yield
+(	O
+Scheme	O
+5c	O
+)	O
+,	O
+suggesting	O
+that	O
+this	O
+reaction	O
+mechanism	O
+might	O
+be	O
+diﬀerent	O
+from	O
+that	O
+of	O
+the	O
+modiﬁed	O
+Doebner	O
+−	O
+von	O
+Miller	O
+reaction.	O
+
+#	passage=10.1021/acs.joc.5b00785-9	segment=2
+When	O
+C-acylimine	B-Reactants
+(	O
+5p	B-Reactants
+)	O
+was	O
+tested	O
+in	O
+the	O
+presence	O
+of	O
+HI	B-Reactants
+,	O
+the	O
+desired	O
+product	O
+4p	B-Prod
+was	O
+formed	O
+in	O
+excellent	B-Yield
+yield.	O
+
+#	passage=10.1021/ja00020a065-3	segment=9
+"	O
+Chromium(V)	O
+may	O
+disproportionate	O
+more	O
+rapidly	O
+than	O
+it	O
+reacts	O
+with	O
+alcohols	O
+,	O
+but	O
+even	O
+a	O
+two	B-Reaction
+-	I-Reaction
+electron	I-Reaction
+oxidation	I-Reaction
+of	O
+methanol	B-Reactants
+by	O
+chro-	B-Catalyst_Reagents
+mium(V)	I-Catalyst_Reagents
+will	O
+yield	O
+Cr(lll)	B-Prod
+,	O
+not	O
+Cr(l1)	O
+.	O
+
+#	passage=10.1021/ja001379s-3	segment=3
+For	O
+example	O
+,	O
+no	O
+cyclization	O
+product	O
+2a	O
+was	O
+obtained	O
+with	O
+the	O
+benzyl-substituted	O
+bisoxazoline	O
+ligand	O
+4a	O
+(	O
+Table	O
+2	O
+,	O
+entry	O
+1	O
+)	O
+and	O
+only	O
+a	O
+29	B-Yield
+%	I-Yield
+yield	O
+of	O
+2a	B-Prod
+with	O
+disappointing	O
+zero	O
+enantiomeric	O
+excess	O
+employing	O
+the	O
+isopropyl-substituted	O
+bisoxazoline	O
+4b	B-Catalyst_Reagents
+as	O
+the	O
+ligand	O
+(	O
+Table	O
+2	O
+,	O
+entry	O
+2	O
+).	O
+
+#	passage=10.1021/ja00028a027-0	segment=0
+Abstract	O	O
+:	O	O
+Methylcobalamin	B-Reactants	B-Reactants
+(	O	O
+MeCbl	B-Reactants	B-Reactants
+,	O	O
+MeB12	B-Reactants	B-Reactants
+)	O	O
+thermolyzed	O	O
+in	O	O
+ethylene	B-Solvent	B-Solvent
+glycol	I-Solvent	I-Solvent
+from	B-Temperature	B-Temperature
+120	I-Temperature	I-Temperature
+to	I-Temperature	I-Temperature
+141	I-Temperature	I-Temperature
+OC	I-Temperature	I-Temperature
+with	O	O
+2,2,6,6-tetra-	B-Reactants	B-Reactants
+methylpiperidinyl-1-oxy	I-Reactants	I-Reactants
+(	O	O
+TEMPO	B-Reactants	B-Reactants
+)	O	O
+as	O	O
+a	O	O
+Me	O	O
+'	O	O
+trap	O	O
+gives	O	O
+the	O	O
+homolysis	B-Reaction	B-Reaction
+products	O	O
+Co1IBIzr	B-Prod	O
+and	O	O
+TEMPO-Me	O	B-Prod
+quantitatively.	B-Yield	B-Yield
+
+#	passage=10.1021/ja00137a026-0	segment=4
+The	O	O
+first	O	O
+proposal	O	O
+entailed	O	O
+direct	O	O
+C5	O	O
+oxidation	O	O
+of	O	O
+urdamycinone	B-Reactants	B-Reactants
+B	I-Reactants	I-Reactants
+(	O	O
+1	B-Reactants	B-Reactants
+)	O	O
+to	O	O
+104-2	B-Prod	O
+(	O	O
+2	O	B-Prod
+)	O	O
+by	O	O
+an	O	O
+unspecific	O	O
+oxygenase.	O	O
+
+#	passage=10.1021/ja00137a026-0	segment=5
+The	O
+second	O
+proposal	O
+,	O
+outlined	O
+below	O
+,	O
+proceeds	O
+via	O
+selective	O
+C5	O
+hydroxylation	B-Reaction
+of	O
+midstage	O
+intermediate	O
+3	B-Reactants
+to	O
+produce	O
+a	O
+hypothetical	O
+ring	O
+B	O
+triol	O
+(	O
+4	B-Prod
+).	O
+
+#	passage=10.1021/ja00137a026-0	segment=6
+Subsequent	O
+dehydration	B-Reaction
+of	O
+4	B-Reactants
+would	O
+then	O
+account	O
+for	O
+the	O
+production	O
+of	O
+5.	B-Prod
+
+#	passage=10.1021/ja00023a086-3	segment=4
+When	O
+the	O
+reaction	O
+of	O
+2	B-Reactants
+with	O
+base	B-Catalyst_Reagents
+was	O
+carried	O
+out	O
+in	O
+the	O
+presence	O
+of	O
+a	O
+good	O
+carbocation	O
+trap	O
+,	O
+azide	O
+ion,I4	O
+I-azido-3-iodobicyclo[l.l	B-Prod
+.l]pentane	I-Prod
+became	O
+the	O
+major	O
+product.I5	O
+These	O
+data	O
+strongly	O
+suggest	O
+that	O
+4	O
+can	O
+be	O
+an	O
+inter-	O
+mediate	O
+in	O
+the	O
+reaction	O
+and	O
+that	O
+it	O
+has	O
+a	O
+reasonable	O
+lifetime	O
+before	O
+rearranging.	O
+
+#	passage=10.1021/ja00023a086-3	segment=6
+Another	O
+significant	O
+observation	O
+is	O
+that	O
+the	O
+reaction	O
+of	O
+the	O
+diiodide	B-Reactants
+,	O
+2	B-Reactants
+,	O
+with	O
+bromine	B-Reactants
+in	O
+CCI4	B-Solvent
+gave	O
+3-bromo-l-iodobicyclo[	B-Prod
+I.l.l]pentane	I-Prod
+(	O
+30	B-Yield
+%	I-Yield
+)	O
+along	O
+with	O
+some	O
+rearranged	O
+products	O
+whereas	O
+1,4-diiodobicyclo-	O
+[	O
+2.1.	O
+
+#	passage=10.1021/acs.joc.5b00256-8	segment=2
+Methionine	O
+sulfoximine	O
+was	O
+the	O
+very	O
+ﬁrst	O
+isolated	O
+and	O
+fully	O
+characterized	O
+sulfoximine.28	O
+Several	O
+biological	O
+studies	O
+have	O
+established	O
+the	O
+physiological	O
+properties	O
+of	O
+methionine	O
+sulfoximine.4e	O
+The	O
+oxidation	B-Reaction
+of	O
+methonine	O
+-	O
+derived	O
+sulﬁlimine	O
+28	B-Reactants
+aﬀorded	O
+the	O
+corresponding	O
+protected	O
+sulfoximine	O
+33	B-Prod
+in	O
+high	B-Yield
+yield	O
+and	O
+as	O
+a	O
+single	O
+diastereomer	O
+(	O
+Scheme	O
+4	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00256-8	segment=3
+Orthogonal	O	O
+cleavage	O	O
+of	O	O
+the	O	O
+phenyl-	O	O
+Troc	O	O
+protecting	O	O
+group	O	O
+(	O	O
+(O)COCH(Ph)CCl3	O	O
+)	O	O
+was	O	O
+achieved	O	O
+with	O	O
+zinc	B-Catalyst_Reagents	B-Catalyst_Reagents
+in	O	O
+acetic	B-Solvent	B-Solvent
+acid	I-Solvent	I-Solvent
+,	O	O
+producing	O	O
+methionine	B-Prod	O
+NH	I-Prod	O
+-	I-Prod	O
+sulfoximine	I-Prod	O
+34	O	B-Prod
+in	O	O
+a	O	O
+good	B-Yield	B-Yield
+yield	O	O
+as	O	O
+a	O	O
+single	O	O
+diastereomer.	O	O
+
+#	passage=10.1021/acs.joc.5b00247-8	segment=1
+Adding	O
+an	O
+electron	O
+-	O
+donating	O
+group	O
+at	O
+the	O
+3-position	O
+of	O
+1,4-naphtho-	B-Reactants
+quinone	I-Reactants
+(	O
+1a	B-Reactants
+)	O
+,	O
+such	O
+as	O
+an	O
+alkyl	O
+substituent	O
+,	O
+aﬀords	O
+the	O
+thioether	O
+(	O
+3m	B-Prod
+)	O
+with	O
+improved	O
+yield.	O
+
+#	passage=10.1021/ja00026a016-3	segment=5
+~	O
+Compound	O
+8b	B-Reactants
+was	O
+debenzylated	O
+by	O
+catalytic	B-Reaction
+hydrogenolysis	I-Reaction
+over	O
+palladium	B-Catalyst_Reagents
+black	I-Catalyst_Reagents
+to	O
+afford	O
+9a	B-Prod
+(	O
+89	B-Yield
+%	I-Yield
+).	O
+
+#	passage=10.1021/ja00142a035-0	segment=0
+The	O	O
+new	O	O
+Fe(porphyrin)(NO)	B-Prod	O
+complexes	O	O
+la-f	O	B-Prod
+are	O	O
+readily	O	O
+prepared	O	O
+by	O	O
+reductive	B-Reaction	B-Reaction
+nitrosylation	I-Reaction	I-Reaction
+of	O	O
+the	O	O
+corresponding	O	O
+Fe-	B-Reactants	B-Reactants
+(porphyrin)Cl	I-Reactants	I-Reactants
+complexes	O	O
+by	O	O
+treating	O	O
+them	O	O
+with	O	O
+nitric	B-Reactants	B-Reactants
+oxide	I-Reactants	I-Reactants
+in	O	O
+the	O	O
+presence	O	O
+of	O	O
+excess	O	O
+methanol	B-Catalyst_Reagents	B-Catalyst_Reagents
+and	O	O
+2,6-lutidine.I1	B-Catalyst_Reagents	B-Catalyst_Reagents
+The	O	O
+characteristic	O	O
+data	O	O
+collected	O	O
+in	O	O
+Table	O	O
+1	O	O
+are	O	O
+typical	O	O
+of	O	O
+paramag-	O	O
+netic	O	O
+ferrous	O	O
+nitrosyl	O	O
+adducts	O	O
+,	O	O
+in	O	O
+which	O	O
+the	O	O
+nitric	O	O
+oxide	O	O
+adopts	O	O
+a	O	O
+bent	O	O
+geometry	O	O
+and	O	O
+the	O	O
+iron	O	O
+is	O	O
+five	O	O
+coordinate.I2	O	O
+The	O	O
+only	O	O
+significantly	O	O
+variable	O	O
+type	O	O
+of	O	O
+data	O	O
+for	O	O
+la-f	O	O
+in	O	O
+Table	O	O
+1	O	O
+is	O	O
+the	O	O
+potential	O	O
+of	O	O
+the	O	O
+Fe(II)	O	O
+/	O	O
+Fe(III)	O	O
+couple	O	O
+,	O	O
+which	O	O
+increases	O	O
+by	O	O
+-500	O	O
+mV	O	O
+upon	O	O
+incorporation	O	O
+of	O	O
+more	O	O
+electron	O	O
+-	O	O
+withdrawing	O	O
+substit-	O	O
+uents	O	O
+on	O	O
+the	O	O
+aryl	O	O
+ring	O	O
+or	O	O
+the	O	O
+porphyrin	O	O
+ring.	O	O
+
+#	passage=10.1021/ja00146a033-1	segment=2
+The	O	O
+resulting	O	O
+rectangular	O	O
+paral-	O	O
+lelepiped	O	O
+orange	O	O
+crystals	O	O
+of	O	O
+Cu(4,4'-bpy)	B-Prod	O
+,	O	O
+.5*N03(H20)1.25	O	B-Prod
+were	O	O
+collected	O	O
+and	O	O
+washed	O	O
+with	O	O
+deionized	O	O
+water	O	O
+(	O	O
+3	O	O
+x	O	O
+5	O	O
+mL	O	O
+)	O	O
+and	O	O
+ethanol	O	O
+(	O	O
+2	O	O
+x	O	O
+5	O	O
+mL	O	O
+)	O	O
+and	O	O
+then	O	O
+air	O	O
+dried	O	O
+to	O	O
+give	O	O
+0.25	O	O
+g	O	O
+(	O	O
+87	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+based	O	O
+on	O	O
+b	O	O
+p	O	O
+~	O	O
+)	O	O
+.	O	O
+
+#	passage=10.1021/ja00026a037-1	segment=0
+Finally	O	O
+,	O	O
+it	O	O
+was	O	O
+found	O	O
+that	O	O
+all	O	O
+four	O	O
+rings	O	O
+of	O	O
+the	O	O
+tetracyclic	O	O
+phenol	O	O
+18	B-Prod	O
+could	O	O
+be	O	O
+constructed	O	O
+in	O	O
+one	O	O
+pot	O	O
+in	O	O
+62	B-Yield	O
+%	I-Yield	O
+yield	O	O
+from	O	O
+the	O	O
+triyne	O	O
+carbene	O	O
+complex	O	O
+3b.l3	B-Reactants	B-Prod
+This	O	O
+carbene	O	O
+complex	O	O
+could	O	O
+be	O	O
+readily	O	O
+obtained	O	O
+in	O	O
+two	O	O
+steps	O	O
+from	O	O
+the	O	O
+triflate	O	O
+5	O	B-Reactants
+and	O	O
+the	O	O
+commercially	O	O
+available	O	O
+1,s	O	B-Reactants
+-	O	I-Reactants
+hexadiyne	O	I-Reactants
+as	O	O
+indicated	O	O
+in	O	O
+Scheme	O	O
+I.lS	O	O
+This	O	O
+strategy	O	O
+for	O	O
+the	O	O
+synthesis	O	O
+of	O	O
+steroids	O	O
+is	O	O
+in	O	O
+the	O	O
+class	O	O
+0	O	O
+-+	O	O
+ABCD	O	O
+and	O	O
+has	O	O
+been	O	O
+reported	O	O
+previously	O	O
+in	O	O
+a	O	O
+cobalt	O	O
+-	O	O
+mediated	O	O
+process.17	O	O
+The	O	O
+results	O	O
+described	O	O
+herein	O	O
+reveal	O	O
+that	O	O
+the	O	O
+two	O	O
+-	O	O
+alkyne	O	O
+annulations	O	O
+and	O	O
+Diels	O	O
+-	O	O
+Alder	O	O
+reactions	O	O
+of	O	O
+Fischer	O	O
+carbene	O	O
+complexes	O	O
+applied	O	O
+in	O	O
+tandem	O	O
+provide	O	O
+for	O	O
+a	O	O
+very	O	O
+straightforward	O	O
+approach	O	O
+to	O	O
+the	O	O
+steroid	O	O
+ring	O	O
+system.	O	O
+
+#	passage=10.1021/acs.joc.5b00360-1	segment=2
+We	O
+found	O
+that	O
+a	O
+signiﬁcant	O
+amount	O
+of	O
+byproducts	O
+with	O
+polarity	O
+similar	O
+to	O
+that	O
+of	O
+C60	O
+was	O
+always	O
+concurrently	O
+formed	O
+,	O
+although	O
+the	O
+desired	O
+fullerene	O
+-	O
+fused	O
+dioxane	O
+2a	B-Prod
+was	O
+obtained	O
+in	O
+17	B-Yield
+%	I-Yield
+isolated	O
+yield	O
+(	O
+entry	O
+1	O
+,	O
+Table	O
+1	O
+).	O
+
+#	passage=10.1021/ja00028a054-6	segment=3
+These	O
+observations	O
+led	O
+to	O
+the	O
+assignment	O
+of	O
+a	O
+triplet	O
+ground	O
+state	O
+for	O
+la.6	O
+The	O
+formation	O
+of	O
+product	O
+3	B-Prod
+in	O
+the	O
+thermal	O
+(	O
+80	B-Temperature
+“	I-Temperature
+C	I-Temperature
+)	O
+reaction	O
+of	O
+ketone	O
+2a	B-Reactants
+in	O
+solution	O
+with	O
+fumaric	B-Reactants
+ester	I-Reactants
+was	I-Reactants
+interpreted	O
+as	O
+chemical	O
+trapping	O
+of	O
+the	O
+biradical	O
+l	O
+a	O
+formed	O
+by	O
+loss	O
+of	O
+CO	O
+from	O
+2a.6	O
+
+#	passage=10.1021/ja000238n-5	segment=5
+The	O
+reaction	O
+of	O
+ethylene	B-Reactants
+(	O
+2b	B-Reactants
+)	O
+with	O
+1a	B-Reactants
+in	O
+1,4-dioxane	B-Solvent
+also	O
+gave	O
+the	O
+corresponding	O
+cyclo-	O
+pentenone	O
+3e	B-Prod
+in	O
+65	B-Yield
+%	I-Yield
+yield	O
+(	O
+eq	O
+2	O
+)	O
+.	O
+
+#	passage=10.1021/ja00147a007-8	segment=2
+Analogous	O
+to	O
+1's	O
+anodic	O
+oxidation	O
+dynamics	O
+,	O
+it	O
+appears	O
+that	O
+monomer	O
+2m	B-Prod
+forms	O
+from	O
+2'+	B-Reactants
+under	O
+CV	O
+conditions	O
+because	O
+the	O
+second	O
+oxidation	O
+wave	O
+is	O
+always	O
+observed	O
+,	O
+even	O
+from	O
+colorless	O
+solutions	O
+of	O
+2	O
+at	O
+low	O
+temperatures	O
+which	O
+must	O
+contain	O
+very	O
+little	O
+2m.	O
+
+#	passage=10.1021/ja00130a027-6	segment=12
+As	O	O
+an	O	O
+example	O	O
+,	O	O
+the	O	O
+preparation	O	O
+of	O	O
+4-(dimethylsi1oxy)-	B-Prod	O
+1-butyne	I-Prod	O
+(	O	O
+3a	O	B-Prod
+)	O	O
+is	O	O
+described	O	O
+:	O	O
+In	O	O
+a	O	O
+25	O	O
+mL	O	O
+round	O	O
+-	O	O
+bottom	O	O
+flask	O	O
+,	O	O
+3-butyn-1-01	B-Reactants	B-Reactants
+(	O	O
+1.00	O	O
+g	O	O
+,	O	O
+14.3	O	O
+mmol	O	O
+)	O	O
+and	O	O
+ammonium	O	O
+chloride	O	O
+(	O	O
+19.8	O	O
+mg	O	O
+,	O	O
+0.37	O	O
+mmol	O	O
+)	O	O
+were	O	O
+introduced.	O	O
+
+#	passage=10.1021/ja00130a027-6	segment=15
+The	O
+excess	O
+of	O
+1,1,3,3-tetramethyldisilazane	O
+was	O
+removed	O
+under	O
+reduced	O
+pressure	O
+,	O
+and	O
+the	O
+residue	O
+was	O
+submitted	O
+to	O
+bulb-	O
+to	O
+-	O
+bulb	O
+distillation	O
+to	O
+give	O
+3a	B-Prod
+(	O
+1.80	O
+g	O
+,	O
+98	B-Yield
+%	I-Yield
+yield	O
+)	O
+as	O
+a	O
+colorless	O
+oil.	O
+
+#	passage=10.1021/ja00023a072-2	segment=2
+While	O
+no	O
+cyclo-	O
+addition	O
+was	O
+detected	O
+at	O
+room	O
+temperature	O
+,	O
+the	O
+cyclization	B-Reaction
+pro-	O
+ceeded	O
+smoothly	O
+in	O
+refluxing	B-Temperature
+xylene	B-Solvent
+to	O
+give	O
+adduct	O
+f	B-Prod
+(	O
+mp	O
+186-1	O
+88	O
+"	O
+C	O
+)	O
+in	O
+51	B-Yield
+%	I-Yield
+overall	O
+yield.	O
+
+#	passage=10.1021/ja00024a043-3	segment=2
+As	O
+in	O
+the	O
+case	O
+of	O
+GABA	O
+,	O
+Schiff	O
+base	O
+formation	O
+of	O
+1	B-Reactants
+with	O
+the	O
+lysine	O
+-	O
+bound	O
+PLP	O
+would	O
+be	O
+followed	O
+by	O
+y-proton	B-Reaction
+removal	I-Reaction
+and	O
+azaallylic	B-Reaction
+isomerization	I-Reaction
+to	O
+give	O
+aldimine	O
+6.	B-Prod
+
+#	passage=10.1021/ja00024a043-3	segment=4
+Hydrolysis	B-Reaction	B-Reaction
+of	O	O
+8	B-Reactants	B-Reactants
+would	O	O
+release	O	O
+PMP	B-Prod	O
+and	O	O
+produce	O	O
+adduct	O	O
+10	O	B-Prod
+,	O	O
+whereas	O	O
+hydrolysis	O	O
+of	O	O
+9	O	O
+would	O	O
+release	O	O
+PLP	O	O
+
+#	passage=10.1021/acs.joc.5b00198-3	segment=3
+■	O	O
+RESULTS	O	O
+AND	O	O
+DISCUSSION	O	O
+Initially	O	O
+,	O	O
+the	O	O
+reaction	O	O
+of	O	O
+2-vinylindole	B-Reactants	B-Reactants
+1a	B-Reactants	B-Reactants
+and	O	O
+methyleneindo-	O	O
+linone	O	O
+2a	B-Reactants	B-Reactants
+catalyzed	O	O
+by	O	O
+10	O	O
+mol	O	O
+%	O	O
+of	O	O
+CPA	O	O
+4a	B-Catalyst_Reagents	B-Catalyst_Reagents
+in	O	O
+toluene	B-Solvent	B-Solvent
+at	O	O
+50	B-Temperature	B-Temperature
+°	I-Temperature	I-Temperature
+C	I-Temperature	I-Temperature
+was	O	O
+employed	O	O
+to	O	O
+testify	O	O
+our	O	O
+hypothesis	O	O
+(	O	O
+Table	O	O
+1	O	O
+,	O	O
+entry	O	O
+1	O	O
+)	O	O
+,	O	O
+which	O	O
+smoothly	O	O
+underwent	O	O
+the	O	O
+Diels	B-Reaction	B-Reaction
+−	I-Reaction	I-Reaction
+Alder	I-Reaction	I-Reaction
+reaction	O	O
+to	O	O
+aﬀord	O	O
+the	O	O
+desired	O	O
+spiro[tetrahydrocarbazole-3,3′-oxindole]	B-Prod	O
+3aa	O	B-Prod
+in	O	O
+a	O	O
+high	O	O
+yield	O	O
+of	O	O
+80	B-Yield	B-Yield
+%	I-Yield	I-Yield
+and	O	O
+a	O	O
+considerable	O	O
+stereoselectivity	O	O
+of	O	O
+>	O	O
+95	O	O
+:	O	O
+5	O	O
+dr	O	O
+and	O	O
+72	O	O
+%	O	O
+ee.	O	O
+
+#	passage=10.1021/acs.joc.5b00275-3	segment=0
+Synthesis	O	O
+of	O	O
+meta	O	O
+derivative	O	O
+3	O	O
+started	O	O
+from	O	O
+the	O	O
+commercially	O	O
+available	O	O
+3-pyridineboronic	B-Reactants	O
+acid	I-Reactants	O
+that	O	O
+was	O	O
+arylated	B-Reaction	B-Reaction
+in	O	O
+a	O	O
+Suzuki	B-Reaction	O
+coupling	I-Reaction	O
+to	O	O
+aﬀord	O	O
+bromide	O	O
+749,50	B-Prod	B-Reactants
+and	O	O
+subsequently	O	O
+reacted	O	O
+in	O	O
+another	O	O
+Suzuki	O	B-Reaction
+coupling	O	I-Reaction
+with	O	O
+pyrroleboronic	O	B-Reactants
+acid	O	I-Reactants
+to	O	O
+give	O	O
+3-Boc	O	B-Prod
+derivative.	O	I-Prod
+
+#	passage=10.1021/acs.joc.5b00011-7	segment=1
+When	O
+4-formylpyridine	B-Reactants
+(	O
+8a	B-Reactants
+)	O
+was	O
+used	O
+as	O
+a	O
+substrate	O
+,	O
+the	O
+corresponding	O
+alkene	O
+product	O
+9aa	B-Prod
+was	O
+obtained	O
+in	O
+65	B-Yield
+%	I-Yield
+yield	O
+(	O
+entry	O
+1	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00011-7	segment=3
+When	O	O
+the	O	O
+reactions	O	O
+of	O	O
+either	O	O
+a	O	O
+pyridyl	O	O
+aldehyde	O	O
+,	O	O
+which	O	O
+have	O	O
+a	O	O
+more	O	O
+sterically	O	O
+hindered	O	O
+portion	O	O
+around	O	O
+the	O	O
+nitrogen	O	O
+atom	O	O
+,	O	O
+2-bromo-6-formylpyridine	B-Reactants	O
+(	O	O
+8b	B-Reactants	O
+)	O	O
+,	O	O
+or	O	O
+2-thiophenyl	O	B-Reactants
+aldehyde	O	I-Reactants
+(	O	O
+8c	O	B-Reactants
+)	O	O
+with	O	O
+malonate	O	O
+ester	O	O
+2a	B-Reactants	B-Reactants
+were	O	O
+treated	O	O
+with	O	O
+our	O	O
+optimal	O	O
+conditions	O	O
+,	O	O
+the	O	O
+extended	O	O
+π-conjugate	O	O
+heteroaromatic	O	O
+compounds	O	O
+9ba	B-Prod	O
+and	O	O
+9ca	O	B-Prod
+were	O	O
+obtained	O	O
+in	O	O
+good	O	O
+yields	O	O
+(	O	O
+entries	O	O
+2	O	O
+and	O	O
+3	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00011-7	segment=5
+For	O
+example	O
+,	O
+a	O
+conjugated	O
+aldehyde	O
+,	O
+(E)-cinnamal-	B-Reactants
+dehyde	I-Reactants
+(	O
+8d	B-Reactants
+)	O
+,	O
+reacted	O
+with	O
+the	O
+malonate	O
+ester	O
+to	O
+aﬀord	O
+α	O
+,	O
+β	O
+,	O
+γ	O
+,	O
+δ-unsaturated	O
+carbonyl	O
+compound	O
+9da	B-Prod
+in	O
+79	B-Yield
+%	I-Yield
+yield	O
+,	O
+which	O
+retained	O
+the	O
+double	O
+-	O
+bond	O
+geometry	O
+(	O
+entry	O
+4	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00011-7	segment=6
+The	O	O
+reactions	O	O
+of	O	O
+linear	O	O
+aliphatic	O	O
+aldehydes	O	O
+8e	B-Reactants	O
+and	O	O
+8f	O	B-Reactants
+were	O	O
+completed	O	O
+within	O	O
+24	B-Time	B-Time
+h	I-Time	I-Time
+to	O	O
+give	O	O
+the	O	O
+corresponding	O	O
+products	O	O
+9ea	B-Prod	O
+and	O	O
+9fa	O	B-Prod
+in	O	O
+good	O	O
+yields	O	O
+(	O	O
+entries	O	O
+5	O	O
+and	O	O
+6	O	O
+).	O	O
+
+#	passage=10.1021/ja00143a013-2	segment=1
+However	O
+,	O
+in	O
+the	O
+presence	O
+of	O
+a	O
+radical	O
+trap	O
+X-Y	O
+(	O
+Scheme	O
+1	O
+,	O
+reactions	O
+4	O
+and	O
+5	O
+)	O
+,	O
+the	O
+quenching	O
+of	O
+R	B-Reactants
+'	O
+by	O
+X-Y	B-Reactants
+results	O
+in	O
+the	O
+formation	O
+of	O
+R-X	B-Prod
+,	O
+the	O
+trapped	O
+product	O
+bearing	O
+a	O
+new	O
+functional	O
+group	O
+,	O
+and	O
+Y	O
+'	O
+,	O
+a	O
+free	O
+radical	O
+capable	O
+of	O
+chain	O
+propagation	O
+by	O
+addition	O
+to	O
+the	O
+thiocarbonyl	O
+group	O
+of	O
+another	O
+molecule	O
+of	O
+precursor.	O
+
+#	passage=10.1021/acs.joc.5b00405-2	segment=0
+Acceptor	O
+5	B-Prod
+was	O
+prepared	O
+smoothly	O
+(	O
+77	B-Yield
+%	I-Yield
+overall	O
+)	O
+in	O
+two	O
+steps	O
+from	O
+the	O
+known5b	O
+monosaccharide	O
+10	B-Reactants
+(	O
+Scheme	O
+1	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00405-2	segment=1
+Treatment	O
+with	O
+(trichloroethoxy)carbonyl	B-Catalyst_Reagents
+chloride	I-Catalyst_Reagents
+led	O
+to	O
+the	O
+Troc	O
+-	O
+protected	O
+intermediate	O
+11	B-Prod
+,	O
+which	O
+was	O
+submitted	O
+to	O
+−	O
+reductive	O
+opening	O
+of	O
+HCl	O
+)	O
+,	O
+yielding	O
+the	O
+desired	O
+acceptor	O
+5.	O
+
+#	passage=10.1021/acs.joc.5b00405-2	segment=4
+Donor	O
+6	B-Prod
+was	O
+prepared	O
+from	O
+the	O
+known9	O
+anomeric	O
+mixture	O
+of	O
+trichloroethyl	B-Reactants
+glycoside	I-Reactants
+12	B-Reactants
+or	O
+from	O
+the	O
+known10	O
+thiotolyl	B-Reactants
+glycoside	I-Reactants
+14	B-Reactants
+(	O
+Scheme	O
+1	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00405-2	segment=5
+Glycoside	O
+12	B-Reactants
+was	O
+selectively	O
+pivaloylated	B-Reaction
+at	O
+O-6	O
+to	O
+give	O
+triol	O
+13	B-Prod
+,	O
+which	O
+was	O
+converted	O
+in	O
+three	O
+steps	O
+to	O
+alcohol	O
+15	O
+:	O
+introduction	O
+of	O
+a	O
+3,4-O-orthoacetate	O
+and	O
+in	O
+situ	O
+O-2	O
+acetylation	O
+followed	O
+by	O
+the	O
+acid	O
+-	O
+catalyzed	O
+opening	O
+of	O
+the	O
+orthoester	O
+to	O
+the	O
+O-4	O
+acetate.	O
+
+#	passage=10.1021/acs.joc.5b00405-2	segment=6
+Alcohol	O
+15	B-Reactants
+was	O
+then	O
+converted	O
+to	O
+donor	O
+6	B-Prod
+in	O
+moderate	O
+yield	O
+(	O
+26	B-Yield
+%	I-Yield
+from	O
+15	O
+or	O
+24	B-Yield
+%	I-Yield
+from	O
+13	B-Reactants
+)	O
+over	O
+the	O
+trichloroethyl	O
+group	O
+(	O
+65	O
+%	O
+)	O
+,	O
+dichloroacetylation	O
+at	O
+O-1	O
+and	O
+O-3	O
+(	O
+69	O
+%	O
+)	O
+,	O
+selective	O
+removal	O
+of	O
+the	O
+anomeric	O
+chloroacetate	O
+[	O
+quantitative	O
+(	O
+quant	O
+)	O
+]	O
+,	O
+and	O
+then	O
+conversion	O
+of	O
+the	O
+resulting	O
+hemiacetal	O
+to	O
+the	O
+trichloroacetimidate	O
+donor	O
+(	O
+57	O
+%	O
+).	O
+
+#	passage=10.1021/ja00028a040-7	segment=0
+thermal	O
+lensing,13	O
+and	O
+its	O
+triplet	O
+yield	O
+is	O
+also	O
+well	O
+-	O
+doc	O
+~	O
+mented.'	O
+~	O
+Using	O
+acridine	O
+as	O
+a	O
+standard	O
+,	O
+we	O
+have	O
+redetermined	O
+the	O
+value	O
+of	O
+IO2	B-Prod
+production	O
+from	O
+DCA	B-Reactants
+in	O
+both	O
+acetonitrile	B-Solvent
+and	O
+in	O
+benzene	B-Solvent
+with	O
+an	O
+improved	O
+detector.	O
+
+#	passage=10.1021/ja00028a040-7	segment=1
+We	O
+also	O
+prepared	O
+3DCA	B-Prod
+directly	O
+,	O
+using	O
+enhanced	B-Reaction
+intersystem	I-Reaction
+crossing	I-Reaction
+with	O
+2,s-dimethyliodobenzene	B-Reactants
+and	O
+determined	O
+the	O
+yield	O
+of	O
+IO2	O
+by	O
+this	O
+path	O
+.	O
+
+#	passage=10.1021/ja00141a016-3	segment=4
+It	O	O
+involves	O	O
+two	O	O
+active	O	O
+species	O	O
+,	O	O
+A	B-Prod	O
+and	O	O
+B	O	B-Prod
+,	O	O
+formed	O	O
+from	O	O
+H202	B-Reactants	B-Reactants
+and	O	O
+MTO.	B-Reactants	B-Reactants
+
+#	passage=10.1021/ja00143a027-4	segment=0
+mixture	O	O
+from	O	O
+the	O	O
+dilute	O	O
+ozonolysis	O	O
+of	O	O
+7	B-Reactants	B-Reactants
+was	O	O
+treated	O	O
+with	O	O
+aqueous	B-Reactants	B-Reactants
+acid	I-Reactants	I-Reactants
+,	O	O
+benzil	B-Prod	O
+and	O	O
+benzamide	O	B-Prod
+were	O	O
+obtained	O	O
+in	O	O
+approximately	O	O
+equal	O	O
+amounts	O	O
+(	O	O
+-32	O	O
+%	O	O
+).	O	O
+
+#	passage=10.1021/ja00143a027-4	segment=2
+In	O
+the	O
+same	O
+way	O
+,	O
+we	O
+showed	O
+that	O
+the	O
+labile	O
+byproduct	O
+formed	O
+along	O
+with	O
+6	B-Prod
+from	O
+the	O
+reaction	O
+of	O
+lophine	B-Reactants
+with	O
+dilute	B-Reactants
+ozone	I-Reactants
+yielded	O
+benzil	O
+on	O
+treatment	O
+with	O
+dilute	O
+acid.	O
+
+#	passage=10.1021/ja00146a034-0	segment=0
+Department	O
+of	O
+Chemistry	O
+,	O
+University	O
+of	O
+Iowa	O
+Iowa	O
+City	O
+,	O
+Iowa	O
+52242	O
+Received	O
+June	O
+8	O
+,	O
+1995	O
+The	O
+alkane	B-Reaction
+elimination	I-Reaction
+reaction	O
+of	O
+Cp*MMe3	B-Reactants
+(	I-Reactants
+Cp*	I-Reactants
+=	I-Reactants
+C5-	I-Reactants
+Me5	I-Reactants
+;	I-Reactants
+M	I-Reactants
+=	I-Reactants
+Zr	I-Reactants
+,	I-Reactants
+H	I-Reactants
+9	I-Reactants
+with	O
+C2B9H13	B-Reactants
+yields	O
+new	O
+metallocarborane	O
+complexes	O
+of	O
+stoichiometry	O
+[	B-Prod
+CP*(C	I-Prod
+~	I-Prod
+B	I-Prod
+~	I-Prod
+HI	I-Prod
+1)MMe	I-Prod
+]	I-Prod
+,	I-Prod
+(	I-Prod
+la	I-Prod
+,	I-Prod
+M	I-Prod
+=	I-Prod
+Zr	I-Prod
+;	I-Prod
+lb	I-Prod
+,	I-Prod
+M	I-Prod
+=	I-Prod
+H9.I	I-Prod
+These	O
+species	O
+polymerize	O
+ethylene	O
+and	O
+oligomerize	O
+propylene	O
+,	O
+form	O
+Lewis	O
+base	O
+adducts	O
+,	O
+insert	O
+2-bu-	O
+tyne	O
+,	O
+and	O
+undergo	O
+thermal	O
+elimination	O
+of	O
+methane	O
+yielding	O
+2-4	O
+,	O
+respectively.	O
+
+#	passage=10.1021/ja00145a015-4	segment=7
+The	O	O
+yield	O	O
+of	O	O
+sulfido	O	O
+complex	O	O
+2	B-Prod	O
+was	O	O
+found	O	O
+to	O	O
+be	O	O
+98	B-Yield	B-Yield
+%	I-Yield	I-Yield
+by	O	O
+'H	O	O
+NMR	O	O
+spectroscopy	O	O
+,	O	O
+while	O	O
+the	O	O
+yield	O	O
+of	O	O
+'H	O	O
+NMR	O	O
+detectable	O	O
+ethylene	O	B-Prod
+was	O	O
+only	O	O
+40	B-Yield	B-Yield
+%	I-Yield	I-Yield
+.	O	O
+
+#	passage=10.1021/acs.joc.5b00315-0	segment=1
+Reaction	O
+of	O
+the	O
+known	O
+thiazole	O
+410	B-Reactants
+with	O
+a	O
+2-fold	O
+molar	O
+excess11	O
+of	O
+organolithium	O
+species	O
+58	B-Reactants
+aﬀorded	O
+2	B-Prod
+in	O
+74	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/ja001455r-12	segment=0
+In	O	O
+accordance	O	O
+with	O	O
+the	O	O
+predominance	O	O
+of	O	O
+(P)-17	B-Reactants	B-Reactants
+in	O	O
+the	O	O
+crystal	O	O
+is	O	O
+the	O	O
+observation	O	O
+that	O	O
+LAH	B-Reaction	B-Reaction
+reduction	I-Reaction	I-Reaction
+of	O	O
+17	B-Reactants	B-Reactants
+gave	O	O
+the	O	O
+corre-	O	O
+sponding	O	O
+diols	O	O
+(P)-21	B-Prod	O
+and	O	O
+(M)-21	O	B-Prod
+in	O	O
+favor	O	O
+of	O	O
+the	O	O
+P-configured	O	O
+product	O	O
+(	O	O
+diastereomeric	B-Yield	B-Yield
+ratio	I-Yield	I-Yield
+(	O	O
+dr	B-Yield	B-Yield
+)	O	O
+77	B-Yield	B-Yield
+:	I-Yield	I-Yield
+23	I-Yield	I-Yield
+).	O	O
+
+#	passage=10.1021/ja000248o-4	segment=3
+Indeed	O	O
+,	O	O
+when	O	O
+unsubstituted	B-Reactants	B-Reactants
+trimethylvinylsilane	I-Reactants	I-Reactants
+was	O	O
+reacted	O	O
+with	O	O
+chiral	B-Reactants	B-Reactants
+nitrone	I-Reactants	I-Reactants
+(	O	O
+7	B-Reactants	B-Reactants
+)	O	O
+,	O	O
+5-(trimethylsilyl)	B-Prod	O
+-	I-Prod	O
+substituted	I-Prod	O
+isoxazolidine	I-Prod	O
+(	O	O
+8	O	B-Prod
+)	O	O
+was	O	O
+obtained	O	O
+(	O	O
+72	B-Yield	B-Yield
+%	I-Yield	I-Yield
+)	O	O
+as	O	O
+shown	O	O
+in	O	O
+eq	O	O
+2.	O	O
+
+#	passage=10.1021/acs.joc.5b00511-4	segment=7
+22,25	O	O
+A	O	O
+molar	O	O
+ratio	O	O
+of	O	O
+9	O	O
+:	O	O
+1	O	O
+between	O	O
+OH−	B-Reactants	B-Reactants
+and	O	O
+C70	B-Reactants	B-Reactants
+and	O	O
+a	O	O
+reaction	O	O
+temperature	O	O
+of	O	O
+60	B-Temperature	B-Temperature
+°	I-Temperature	I-Temperature
+C	I-Temperature	I-Temperature
+seem	O	O
+to	O	O
+be	O	O
+most	O	O
+appropriate	O	O
+for	O	O
+the	O	O
+generation	O	O
+of	O	O
+the	O	O
+C70	B-Prod	O
+bis-heterocyclic	I-Prod	O
+compound	I-Prod	O
+(	O	O
+entry	O	B-Prod
+5	O	I-Prod
+).	O	O
+
+#	passage=10.1021/ja000270h-0	segment=0
+Abstract	O	O	O	O
+:	O	O	O	O
+Peroxynitrite	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+reacts	O	O	O	O
+with	O	O	O	O
+morpholine	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+(	O	O	O	O
+MorH	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+)	O	O	O	O
+to	O	O	O	O
+give	O	O	O	O
+both	O	O	O	O
+N-nitromorpholine	B-Prod	O	O	O
+(	O	O	O	O
+Mor	O	B-Prod	O	O
+-	O	I-Prod	O	O
+NO2	O	I-Prod	O	O
+)	O	O	O	O
+and	O	O	O	O
+N-nitrosomorpholine	O	O	B-Prod	O
+(	O	O	O	O
+Mor	O	O	O	B-Prod
+-	O	O	O	I-Prod
+NdO	O	O	O	I-Prod
+).	O	O	O	O
+
+#	passage=10.1021/acs.joc.5b00558-10	segment=0
+radical	O	O	O	O	O
+D	O	O	O	O	O
+could	O	O	O	O	O
+be	O	O	O	O	O
+readily	O	O	O	O	O
+accessed	O	O	O	O	O
+with	O	O	O	O	O
+the	O	O	O	O	O
+release	O	O	O	O	O
+of	O	O	O	O	O
+molecular	O	O	O	O	O
+nitrogen.8	O	O	O	O	O
+Next	O	O	O	O	O
+,	O	O	O	O	O
+the	O	O	O	O	O
+addition	O	O	O	O	O
+of	O	O	O	O	O
+radical	O	O	O	O	O
+D	B-Reactants	O	O	O	O
+to	O	O	O	O	O
+an	O	O	O	O	O
+active	O	O	O	O	O
+cuprate	O	O	O	O	O
+complex	O	O	O	O	O
+E,9	B-Reactants	B-Prod	O	O	O
+which	O	O	O	O	O
+is	O	O	O	O	O
+generated	O	O	O	O	O
+by	O	O	O	O	O
+the	O	O	O	O	O
+reaction	O	O	O	O	O
+of	O	O	O	O	O
+copper	O	B-Reactants	O	O	O
+acrylate	O	I-Reactants	O	O	O
+and	O	O	O	O	O
+phenylpropiolic	O	O	O	O	O
+acid	O	O	O	O	O
+/	O	O	O	O	O
+phenylacetylene	O	B-Reactants	O	O	O
+,	O	O	O	O	O
+would	O	O	O	O	O
+give	O	O	O	O	O
+an	O	O	O	O	O
+intermediate	O	O	O	O	O
+F.9	B-Prod	O	O	O	O
+Then	O	O	O	O	O
+,	O	O	O	O	O
+the	O	O	O	O	O
+protonolysis	O	O	B-Reaction	O	O
+of	O	O	O	O	O
+intermediate	O	O	B-Reactants	O	O
+F	O	O	I-Reactants	O	O
+with	O	O	O	O	O
+tert-butanol	O	O	B-Reactants	O	O
+which	O	O	O	O	O
+was	O	O	O	O	O
+generated	O	O	O	O	O
+in	O	O	O	O	O
+the	O	O	O	O	O
+process	O	O	O	O	O
+of	O	O	O	O	O
+the	O	O	O	O	O
+oxidation	O	O	O	O	O
+of	O	O	O	O	O
+sulfonyl	O	O	O	O	O
+hydrazide	O	O	O	O	O
+resulted	O	O	O	O	O
+in	O	O	O	O	O
+the	O	O	O	O	O
+generation	O	O	O	O	O
+of	O	O	O	O	O
+G.10	O	O	B-Prod	O	O
+Eventually	O	O	O	O	O
+,	O	O	O	O	O
+target	O	O	O	O	O
+product	O	O	O	O	O
+3a	O	O	O	B-Prod	O
+is	O	O	O	O	O
+obtained	O	O	O	O	O
+from	O	O	O	O	O
+G	O	O	O	B-Reactants	B-Reactants
+with	O	O	O	O	O
+the	O	O	O	O	O
+participation	O	O	O	O	O
+of	O	O	O	O	O
+a	O	O	O	O	O
+proton	O	O	O	B-Reactants	B-Reactants
+produced	O	O	O	O	O
+from	O	O	O	O	O
+previous	O	O	O	O	O
+steps	O	O	O	O	O
+,	O	O	O	O	O
+by	O	O	O	O	O
+releasing	O	O	O	O	O
+the	O	O	O	O	O
+Cu(II)	O	O	O	O	B-Prod
+species	O	O	O	O	I-Prod
+to	O	O	O	O	O
+fullﬁll	O	O	O	O	O
+the	O	O	O	O	O
+catalytic	O	O	O	O	O
+cycle	O	O	O	O	O
+(	O	O	O	O	O
+Scheme	O	O	O	O	O
+2	O	O	O	O	O
+)	O	O	O	O	O
+.	O	O	O	O	O
+
+#	passage=10.1021/acs.joc.5b00479-2	segment=2
+A	O
+proton	O
+at	O
+C-8	O
+of	O
+dimeric	O
+compound	O
+3	B-Reactants
+was	O
+abstracted	O
+and	O
+trapped	O
+by	O
+bromobutane	B-Reactants
+to	O
+give	O
+compound	O
+4	B-Prod
+in	O
+14	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/acs.joc.5b00479-2	segment=3
+The	O	O
+three	O	O
+MOM	O	O
+groups	O	O
+in	O	O
+each	O	O
+molecule	O	O
+were	O	O
+then	O	O
+removed	O	O
+without	O	O
+diﬃculty	O	O
+under	O	O
+acidic	B-Catalyst_Reagents	B-Catalyst_Reagents
+conditions	O	O
+to	O	O
+generate	O	O
+compounds	O	O
+5	B-Prod	O
+(	O	O
+75	B-Yield	O
+%	I-Yield	O
+)	O	O
+and	O	O
+6	O	B-Prod
+(	O	O
+92	O	B-Yield
+%	O	I-Yield
+)	O	O
+from	O	O
+3	B-Reactants	O
+and	O	O
+4	O	B-Reactants
+,	O	O
+respectively	O	O
+(	O	O
+Scheme	O	O
+1	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00774-2	segment=1
+As	O	O
+a	O	O
+proof	O	O
+of	O	O
+principle	O	O
+,	O	O
+the	O	O
+MOP	O	O
+,	O	O
+DMOP	O	O
+,	O	O
+and	O	O
+TMOP	O	O
+protecting	O	O
+groups	O	O
+of	O	O
+the	O	O
+1,4-azasilepan-7-ones	B-Reactants	B-Reactants
+3a−3c	B-Reactants	B-Reactants
+were	O	O
+removed	O	O
+by	O	O
+treatment	O	O
+with	O	O
+hydrogen	B-Catalyst_Reagents	B-Catalyst_Reagents
+chloride	I-Catalyst_Reagents	I-Catalyst_Reagents
+in	O	O
+dichloro-	B-Solvent	B-Solvent
+methane	I-Solvent	I-Solvent
+at	O	O
+20	B-Temperature	B-Temperature
+°	I-Temperature	I-Temperature
+C	I-Temperature	I-Temperature
+to	O	O
+give	O	O
+the	O	O
+corresponding	O	O
+4-chloro-1,4-	B-Prod	O
+azasilepan-7-one	I-Prod	O
+6	O	B-Prod
+(	O	O
+Scheme	O	O
+3	O	O
+).	O	O
+
+#	passage=10.1021/ja00027a033-6	segment=3
+This	O
+reaction	O
+yields	O
+pure	O
+tetraethylq	B-Prod
+~	I-Prod
+inone.	I-Prod
+
+#	passage=10.1021/ja00027a033-6	segment=4
+~	O
+~	O
+J	O
+~	O
+Synthesis	O
+of	O
+6	B-Prod
+proceeds	O
+through	O
+chl	B-Reaction
+~	I-Reaction
+romethylation	I-Reaction
+'	O
+~	O
+of	O
+tetra-	B-Reactants
+ethylbenzene	I-Reactants
+by	O
+chloromethyl	B-Reactants
+methyl	I-Reactants
+ether	I-Reactants
+and	O
+stannic	B-Catalyst_Reagents
+chloride	I-Catalyst_Reagents
+,	O
+followed	O
+by	O
+solvolysis	O
+of	O
+the	O
+resulting	O
+bis(chloromethy1)	O
+compound	O
+in	O
+methanol	B-Workup_reagents
+/	O
+water	B-Workup_reagents
+(	O
+Scheme	O
+I	O
+).	O
+
+#	passage=10.1021/ja00024a059-1	segment=0
+When	O
+1	B-Reactants
+(	O
+0.079	O
+g	O
+,	O
+0.10	O
+mmol	O
+)	O
+is	O
+reacted	O
+(	O
+eq	O
+1	O
+)	O
+with	O
+equimolar	O
+Pt(PEt,)	B-Reactants
+,	O
+(	O
+0.066	O
+g	O
+,	O
+0.10	O
+mmol	O
+)	O
+in	O
+5	O
+mL	O
+of	O
+hexanes	B-Solvent
+at	O
+room	B-Temperature
+temperature	O
+under	O
+nitrogen	B-Catalyst_Reagents
+for	O
+2	B-Time
+h	I-Time
+,	O
+red	O
+crystals	O
+of	O
+2	B-Prod
+are	O
+isolated8	O
+in	O
+65	B-Yield
+%	I-Yield
+yield	O
+by	O
+reducing	O
+the	O
+volume	O
+of	O
+the	O
+reaction	O
+solution	O
+and	O
+cooling	O
+it	O
+to	O
+-30	O
+OC	O
+.	O
+
+#	passage=10.1021/ja00145a007-7	segment=2
+Steady	O
+-	O
+state	O
+photolysis	O
+(	O
+A	O
+>	O
+370	O
+nm	O
+)	O
+of	O
+acetonitrile	B-Solvent
+solutions	O
+of	O
+DCA	B-Reactants
+or	O
+TCA	B-Reactants
+in	O
+the	O
+presence	O
+of	O
+Azo-Q	B-Reactants
+affords	O
+N	B-Prod
+in	O
+virtually	O
+quantitative	O
+yield	O
+at	O
+2-50	B-Yield
+%	I-Yield
+conversion	O
+of	O
+Azo-Q	O
+;	O
+the	O
+valence	O
+isomer	O
+Q	O
+was	O
+not	O
+detected.	O
+
+#	passage=10.1021/ja00145a007-7	segment=3
+Irradiation	B-Reaction	B-Reaction
+of	O	O
+DCA	B-Reactants	B-Reactants
+or	O	O
+TCA,in	O	O
+the	O	O
+presence	O	O
+of	O	O
+Azo-N	B-Reactants	B-Reactants
+affords	O	O
+N	B-Prod	O
+(	O	O
+18	B-Yield	B-Yield
+%	I-Yield	I-Yield
+)	O	O
+and	O	O
+Q	O	B-Prod
+(	O	O
+82	B-Yield	B-Yield
+%	I-Yield	I-Yield
+)	O	O
+as	O	O
+the	O	O
+sole	O	O
+products	O	O
+(	O	O
+eq	O	O
+3	O	O
+)	O	O
+.	O	O
+
+#	passage=10.1021/ja00028a042-12	segment=1
+The	O
+use	O
+of	O
+the	O
+tert-butyl-substituted	O
+species	O
+5	B-Reactants
+under	O
+identical	O
+reaction	O
+conditions	O
+afforded	O
+the	O
+expected	O
+dihydrophenanthrene	O
+8	B-Prod
+,	O
+but	O
+with	O
+markedly	O
+lower	B-Yield
+yields	O
+(	O
+Table	O
+I	O
+,	O
+k	O
+and	O
+1	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00376-8	segment=4
+N-	B-Reaction	O	O
+Deprotection	I-Reaction	O	O
+of	O	O	O
+10	B-Reactants	O	O
+(	O	O	O
+98	O	O	O
+:	O	O	O
+2	O	O	O
+dr	O	O	O
+)	O	O	O
+using	O	O	O
+HCl	B-Catalyst_Reagents	O	O
+(	O	O	O
+1.25	O	O	O
+M	O	O	O
+in	O	O	O
+MeOH)9	B-Solvent	O	O
+gave	O	O	O
+14	B-Prod	B-Reactants	B-Reactants
+,	O	O	O
+which	O	O	O
+was	O	O	O
+reductively	O	O	O
+N	O	B-Reaction	B-Reaction
+-	O	I-Reaction	I-Reaction
+alkylated	O	I-Reaction	I-Reaction
+using	O	O	O
+either	O	O	O
+312,13	O	B-Reactants	O
+or	O	O	O
+43,13	O	O	B-Reactants
+to	O	O	O
+furnish	O	O	O
+19	O	B-Prod	O
+or	O	O	O
+20	O	O	B-Prod
+,	O	O	O
+in	O	O	O
+66	O	B-Yield	O
+%	O	I-Yield	O
+and	O	O	O
+63	O	O	B-Yield
+%	O	O	I-Yield
+yield	O	O	O
+,	O	O	O
+respectively	O	O	O
+,	O	O	O
+and	O	O	O
+98	O	O	O
+:	O	O	O
+2	O	O	O
+dr	O	O	O
+in	O	O	O
+both	O	O	O
+cases.	O	O	O
+
+#	passage=10.1021/acs.joc.5b00376-8	segment=6
+Hydrolysis	B-Reaction
+of	O
+the	O
+methyl	O
+ester	O
+within	O
+19	B-Reactants
+using	O
+HCl	B-Catalyst_Reagents
+(	O
+3.0	O
+M	O
+aq	O
+)	O
+,	O
+followed	O
+by	O
+puriﬁcation	O
+,	O
+gave	O
+21	B-Prod
+in	O
+60	B-Yield
+%	I-Yield
+isolated	O
+yield	O
+,	O
+98	O
+:	O
+2	O
+dr	O
+,	O
+and	O
+>	O
+98	O
+%	O
+ee	O
+{	O
+[α]D	O
+20	O
++	O
+8.0	O
+(	O
+c	O
+1.0	O
+in	O
+CHCl3)}.	O
+
+#	passage=10.1021/acs.joc.5b00376-8	segment=7
+Similarly	O
+,	O
+treatment	O
+of	O
+20	B-Reactants
+with	O
+HCl	B-Catalyst_Reagents
+(	O
+3.0	O
+M	O
+aq	O
+)	O
+gave	O
+22	B-Prod
+in	O
+61	B-Yield
+%	I-Yield
+isolated	O
+yield	O
+,	O
+98	O
+:	O
+2	O
+dr	O
+,	O
+and	O
+>	O
+98	O
+%	O
+ee	O
+{	O
+[α]D	O
+20	O
++	O
+8.4	O
+(	O
+c	O
+1.0	O
+in	O
+CHCl3)}.	O
+
+#	passage=10.1021/ja00024a056-6	segment=4
+Adduct	O
+3	B-Prod
+could	O
+conceivably	O
+be	O
+prepared	O
+in	O
+two	O
+ways	O
+as	O
+shown.	O
+
+#	passage=10.1021/ja00024a056-6	segment=5
+Next	O	O
+,	O	O
+the	O	O
+aglycon	O	O
+is	O	O
+delivered	O	O
+intramolecularly	O	O
+in	O	O
+a	O	O
+concerted	O	O
+reaction	O	O
+to	O	O
+produce	O	O
+the	O	O
+intermediate	O	O
+4	O	O
+,	O	O
+which	O	O
+,	O	O
+on	O	O
+quenching	O	O
+with	O	O
+water	B-Workup_reagents	B-Workup_reagents
+,	O	O
+would	O	O
+give	O	O
+8-mannoside	B-Prod	O
+5.	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00059-9	segment=2
+Complex	O
+5	B-Catalyst_Reagents
+proved	O
+to	O
+be	O
+an	O
+active	O
+catalyst	O
+because	O
+when	O
+it	O
+was	O
+designated	O
+as	O
+a	O
+catalyst	O
+(	O
+7	O
+mol	O
+%	O
+)	O
+in	O
+the	O
+presence	O
+of	O
+AgSbF6	B-Catalyst_Reagents
+for	O
+the	O
+coupling	B-Reaction
+between	O
+1a	B-Reactants
+and	O
+2a	B-Reactants
+,	O
+product	O
+3aa	B-Prod
+was	O
+isolated	O
+in	O
+a	O
+comparable	O
+yield	O
+(	O
+eq	O
+3	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00059-9	segment=3
+In	O
+addition	O
+to	O
+this	O
+coupling	O
+reaction	O
+,	O
+5	B-Catalyst_Reagents
+also	O
+proved	O
+to	O
+be	O
+an	O
+active	O
+catalyst	O
+for	O
+the	O
+C	B-Reaction
+−	I-Reaction
+C	I-Reaction
+/	I-Reaction
+C	I-Reaction
+−	I-Reaction
+N	I-Reaction
+coupling	B-Reaction
+between	O
+1a	B-Reactants
+and	O
+2a	B-Reactants
+to	O
+aﬀord	O
+4a	B-Prod
+in	O
+82	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/acs.joc.5b00264-5	segment=3
+Farnesyl-Bpin	B-Reactants	B-Reactants
+2c	B-Reactants	B-Reactants
+also	O	O
+reacted	O	O
+easily	O	O
+with	O	O
+1a	B-Reactants	B-Reactants
+to	O	O
+give	O	O
+natural	O	O
+product	O	O
+,	O	O
+farnesyl-BQ	B-Prod	O
+3c.	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00264-5	segment=7
+Naphthoquinone	B-Reactants
+1b	B-Reactants
+can	O
+be	O
+simply	O
+isoprenylated	B-Reaction
+with	O
+2d	B-Reactants
+to	O
+obtain	O
+3d	B-Prod
+.	O
+
+#	passage=10.1021/acs.joc.5b00607-5	segment=1
+This	O
+process	O
+,	O
+a	O
+variant	O
+of	O
+which	O
+was	O
+reported	O
+during	O
+the	O
+preparation	O
+of	O
+this	O
+manuscript	O
+by	O
+Kuwahara	O
+et	O
+al.,18	O
+gives	O
+acetal	O
+15	B-Prod
+in	O
+65	B-Yield
+%	I-Yield
+yield	O
+after	O
+crystallization.	O
+
+#	passage=10.1021/acs.joc.5b00607-5	segment=5
+Acetal	O
+15	B-Reactants
+did	O
+not	O
+require	O
+any	O
+speciﬁc	O
+deprotection	O
+and	O
+underwent	O
+reduction	B-Reaction
+with	O
+sodium	B-Reactants
+borohydride	I-Reactants
+to	O
+give	O
+diol	O
+16	B-Prod
+as	O
+a	O
+single	O
+stereoisomer	O
+in	O
+87	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/ja00131a028-1	segment=1
+(	O
+6	O
+)	O
+Typically	O
+,	O
+1	B-Reactants
+was	O
+oxidized	B-Reaction
+by	O
+reaction	O
+with	O
+CF3C02H	B-Reactants
+to	O
+give	O
+2	B-Prod
+(	O
+02-	O
+C	O
+C	O
+F	O
+h	O
+in	O
+98	B-Yield
+%	I-Yield
+yield	O
+(	O
+the	O
+byproduct	O
+is	O
+presumed	O
+to	O
+be	O
+Hz	O
+).	O
+
+#	passage=10.1021/ja00131a028-1	segment=6
+2	B-Prod
+has	O
+also	O
+been	O
+prepared	O
+as	O
+Salts	O
+with	O
+PF6-	O
+or	O
+BPh-	O
+by	O
+anion	O
+exchange	O
+,	O
+with	O
+BF4-	O
+by	O
+reaction	O
+of	O
+1	B-Reactants
+with	O
+Cu(NCMehBF4	B-Reactants
+or	O
+with	O
+ReOC	B-Reactants
+by	O
+oxidation	B-Reaction
+of	O
+1	O
+with	O
+Re2O.l.	B-Reactants
+
+#	passage=10.1021/ja00131a028-1	segment=7
+2	B-Reactants
+can	O
+be	O
+reduced	B-Reaction
+to	O
+1	B-Prod
+by	O
+reaction	O
+with	O
+NaBWCO	B-Catalyst_Reagents
+.	O
+
+#	passage=10.1021/acs.joc.5b00533-10	segment=3
+The	O
+formation	O
+of	O
+further	O
+established	O
+by	O
+isolating	O
+the	O
+intermediate	O
+[B]	O
+(	O
+Ar	O
+=	O
+Ph	O
+,	O
+R1	O
+=	O
+Me	O
+,	O
+R2	O
+=	O
+CH3	O
+)	O
+obtained	O
+by	O
+performing	O
+the	O
+reaction	O
+of	O
+3	B-Reactants
+(	O
+R1	O
+=	O
+CH3	O
+)	O
+and	O
+6	B-Reactants
+(	O
+R2	O
+=	O
+CH3	O
+)	O
+at	O
+room	B-Temperature
+temperature	O
+,	O
+which	O
+,	O
+on	O
+reﬂuxing	O
+in	O
+ethanol	B-Solvent
+in	O
+the	O
+presence	O
+of	O
+PTSA	B-Catalyst_Reagents
+,	O
+or	O
+in	O
+acetonitrile	B-Solvent
+in	O
+the	O
+presence	O
+of	O
+FeCl3	B-Catalyst_Reagents
+as	O
+catalyst	O
+,	O
+aﬀorded	O
+the	O
+compound	O
+7a	B-Prod
+(	O
+R1	O
+=	O
+Me	O
+,	O
+Ar	O
+=	O
+Ph	O
+,	O
+R2	O
+=	O
+Me	O
+)	O
+(	O
+Scheme	O
+3	O
+)	O
+.	O
+
+#	passage=10.1021/ja00145a038-0	segment=2
+On	O
+the	O
+other	O
+hand	O
+,	O
+addition	O
+of	O
+the	O
+Grignard	B-Catalyst_Reagents
+reagent	I-Catalyst_Reagents
+91	O
+°	O
+to	O
+a	O
+mixture	O
+of	O
+the	O
+azide	B-Reactants
+6	B-Reactants
+and	O
+cuprous	B-Reactants
+cyanide	I-Reactants
+gave	O
+reproducibly	O
+the	O
+desired	O
+adduct	O
+10	B-Prod
+,	O
+for	O
+which	O
+the	O
+vicinal	O
+coupling	O
+J	O
+a	O
+b	O
+=	O
+10	O
+HZ	O
+(	O
+6	O
+,	O
+3.10	O
+,	O
+6	O
+b	O
+3.36	O
+)	O
+confirms	O
+the	O
+regio-	O
+and	O
+diastereochemistry.	O
+
+#	passage=10.1021/ja00145a038-0	segment=3
+Difficulty	O
+associ-	O
+ated	O
+with	O
+purification	O
+of	O
+10	B-Reactants
+led	O
+to	O
+its	O
+immediate	O
+cis-dyhy-	B-Reaction
+droxylation	I-Reaction
+to	O
+give	O
+118	B-Prod
+in	O
+62	B-Yield
+%	I-Yield
+overall	O
+yield	O
+from	O
+6.	O
+
+#	passage=10.1021/ja00019a025-4	segment=3
+The	O
+combination	O
+of	O
+1-bromo-1-(p-ethoxypheny1)ethene	B-Reactants
+1Ab	B-Reactants
+and	O
+eth-	B-Reactants
+oxide	I-Reactants
+anion	I-Reactants
+gave	O
+the	O
+best	B-Yield
+yield	O
+of	O
+ipso	O
+adduct	O
+3Ab	B-Prod
+,	O
+which	O
+was	O
+isolated	O
+as	O
+crystals	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00555-5	segment=6
+recently	O	O
+reported	O	O
+a	O	O
+Sonogashira	O	O
+reaction	O	O
+on	O	O
+pyridylethynyltrimethylsilyl	O	O
+deriva-	O	O
+tives.12	O	O
+Their	O	O
+experimental	O	O
+conditions	O	O
+were	O	O
+attempted	O	O
+on	O	O
+our	O	O
+substrate	O	O
+,	O	O
+and	O	O
+we	O	O
+were	O	O
+pleased	O	O
+to	O	O
+isolate	O	O
+5q	B-Prod	O
+and	O	O
+5r	O	B-Prod
+in	O	O
+good	B-Yield	B-Yield
+yield	O	O
+(	O	O
+Scheme	O	O
+4	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00184-2	segment=2
+To	O
+this	O
+end	O
+,	O
+compound	O
+8	B-Reactants
+was	O
+transformed	O
+into	O
+the	O
+triazolide	O
+12	B-Prod
+with	O
+1,2,4-triazole	B-Reactants
+and	O
+POCl3	B-Catalyst_Reagents
+(	O
+Scheme	O
+2	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00184-2	segment=3
+Treatment	O	O
+of	O	O
+12	B-Reactants	B-Reactants
+with	O	O
+ammonia	B-Catalyst_Reagents	B-Catalyst_Reagents
+then	O	O
+aﬀorded	O	O
+the	O	O
+5-	B-Prod	O
+methlytricyclocytidine	I-Prod	O
+13	O	B-Prod
+in	O	O
+60	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+over	O	O
+two	O	O
+steps.	O	O
+
+#	passage=10.1021/acs.joc.5b00184-2	segment=4
+N4-	B-Reaction	B-Reaction
+Benzoylation	I-Reaction	I-Reaction
+of	O	O
+13	B-Reactants	B-Reactants
+with	O	O
+Bz2O	B-Catalyst_Reagents	B-Catalyst_Reagents
+yielded	O	O
+the	O	O
+two	O	O
+nucleosides	O	O
+14	B-Prod	O
+and	O	O
+15	O	B-Prod
+that	O	O
+diﬀered	O	O
+only	O	O
+by	O	O
+the	O	O
+presence	O	O
+or	O	O
+absence	O	O
+of	O	O
+the	O	O
+3′-	O	O
+O-TMS	O	O
+group.	O	O
+
+#	passage=10.1021/ja00142a013-4	segment=0
+When	O	O	O
+2	B-Reactants	B-Reactants	B-Reactants
+is	O	O	O
+stirred	O	O	O
+in	O	O	O
+acetonitrile	B-Reactants	B-Reactants	B-Reactants
+for	O	O	O
+12	B-Time	B-Time	B-Time
+h	I-Time	I-Time	I-Time
+at	O	O	O
+ambient	B-Temperature	B-Temperature	B-Temperature
+temperature	O	O	O
+,	O	O	O
+a	O	O	O
+further	O	O	O
+reaction	O	O	O
+occurs	O	O	O
+(	O	O	O
+Scheme	O	O	O
+1	O	O	O
+)	O	O	O
+to	O	O	O
+give	O	O	O
+(	O	O	O
+PiFV	B-Prod	O	O
+&	O	O	O
+0s(NCMe)3H+BF4-	O	B-Prod	O
+(	O	O	O
+3	O	O	B-Prod
+)	O	O	O
+in	O	O	O
+good	B-Yield	B-Yield	B-Yield
+yield.	O	O	O
+
+#	passage=10.1021/ja00142a013-4	segment=5
+When	O	O
+3	B-Reactants	B-Reactants
+is	O	O
+dissolved	O	O
+in	O	O
+dichloromethane-d2	B-Solvent	B-Solvent
+and	O	O
+exposed	O	O
+to	O	O
+an	O	O
+atmosphere	O	O
+of	O	O
+Hz	O	O
+,	O	O
+conversion	O	O
+back	O	O
+to	O	O
+2	B-Prod	O
+and	O	O
+free	O	O
+acetonitrile	O	B-Prod
+is	O	O
+observed	O	O
+within	O	O
+1	B-Time	B-Time
+h	I-Time	I-Time
+(	O	O
+Scheme	O	O
+1	O	O
+).	O	O
+
+#	passage=10.1021/ja00135a035-2	segment=0
+Diyne	O
+1	B-Reactants
+,	O
+prepared	O
+by	O
+the	O
+method	O
+of	O
+Grissom	O
+and	O
+co-workers,'	O
+was	O
+easily	O
+converted	O
+to	O
+the	O
+air	O
+-	O
+stable	O
+vinylidene	O
+complex	O
+2	B-Prod
+by	O
+treatment	O
+with	O
+CpRu(PMe3)2C18	B-Reactants
+and	O
+NH4PF6	B-Reactants
+in	O
+methanol	B-Solvent
+solution	O
+(	O
+Scheme	O
+2	O
+)	O
+?	O
+Saturation	O
+of	O
+the	O
+PMe3	O
+NMR	O
+resonances	O
+of	O
+2	O
+resulted	O
+in	O
+strong	O
+NOE	O
+enhancement	O
+of	O
+the	O
+vinylidene	O
+and	O
+aromatic	O
+C-H	O
+signals	O
+and	O
+not	O
+those	O
+of	O
+the	O
+methylene	O
+bridge	O
+(	O
+1	O
+)	O
+Reviews	O
+:	O
+(	O
+a	O
+)	O
+Nicolaou	O
+,	O
+K.	O
+
+#	passage=10.1021/ja00028a059-2	segment=2
+The	O
+@	O
+-	O
+pathway	O
+involves	O
+nucleophilic	O
+attack	O
+of	O
+4	B-Reactants
+on	O
+the	O
+iodine	O
+atom	O
+in	O
+either	O
+1	B-Reactants
+and	O
+/	O
+or	O
+2	B-Reactants
+to	O
+give	O
+the	O
+oxonium	O
+ion	O
+3b.	B-Prod
+
+#	passage=10.1021/ja00028a059-2	segment=3
+Elimination	O
+of	O
+HX	O
+(	O
+syn	O
+?	O
+)	O
+and	O
+PhI	O
+results	O
+in	O
+the	O
+a	O
+,	O
+@	O
+-unsaturated	O
+oxonium	O
+ion	O
+3c	B-Reactants
+,	O
+which	O
+can	O
+add	O
+azide	O
+to	O
+give	O
+4.	B-Prod
+
+#	passage=10.1021/ja00132a010-3	segment=1
+Cholesterol-	O	O
+imprinted	O	O
+polymers	O	O
+P3	B-Prod	O
+and	O	O
+P4	O	B-Prod
+were	O	O
+the	O	O
+products	O	O
+of	O	O
+the	O	O
+copolymerization	B-Reaction	B-Reaction
+of	O	O
+cholesteryl	B-Reactants	B-Reactants
+(4-viny1)phenyl	I-Reactants	I-Reactants
+carbonate	I-Reactants	I-Reactants
+(	O	O
+1	B-Reactants	B-Reactants
+)	O	O
+and	O	O
+EGDM.	B-Reactants	B-Reactants
+
+#	passage=10.1021/ja00132a010-3	segment=2
+Similarly	O	O
+the	O	O
+phenol	O	O
+-	O	O
+imprinted	O	O
+polymers	O	O
+P5	B-Prod	O
+and	O	O
+P6	O	B-Prod
+were	O	O
+synthesized	O	O
+from	O	O
+phenyl	B-Reactants	B-Reactants
+(4-viny1)phenyl	I-Reactants	I-Reactants
+carbonate	I-Reactants	I-Reactants
+(	O	O
+2	B-Reactants	B-Reactants
+)	O	O
+and	O	O
+EGDM.	B-Reactants	B-Reactants
+
+#	passage=10.1021/ja00019a048-2	segment=2
+Also	O
+illustrated	O
+are	O
+the	O
+addition	O
+of	O
+[Cp*WO,]-	B-Reactants
+to	O
+the	O
+electrophilic	O
+carbyne	O
+carbon	O
+of	O
+[	B-Reactants
+Cp(CO),Re	I-Reactants
+=	I-Reactants
+CTol]+	I-Reactants
+to	O
+form	O
+the	O
+bimetallic	O
+carbene	O
+complex	O
+13	B-Prod
+and	O
+the	O
+oxidation	O
+of	O
+11	O
+to	O
+form	O
+12.	O
+
+#	passage=10.1021/acs.joc.5b00797-5	segment=0
+Crystals	O	O
+of	O	O
+diselenide	O	O
+6	B-Prod	O
+and	O	O
+selenide	O	O
+7	O	B-Prod
+suitable	O	O
+for	O	O
+X-ray	O	O
+crystallography	O	O
+were	O	O
+obtained	O	O
+by	O	O
+slow	B-Reaction	B-Reaction
+evaporation	I-Reaction	I-Reaction
+of	O	O
+MeOH	B-Solvent	B-Solvent
+/	O	O
+THF	B-Solvent	B-Solvent
+-	O	O
+solutions	O	O
+(	O	O
+1	O	O
+:	O	O
+1	O	O
+)	O	O
+of	O	O
+the	O	O
+compounds	O	O
+at	O	O
+room	B-Temperature	B-Temperature
+temperature.	O	O
+
+#	passage=10.1021/ja00146a003-13	segment=6
+This	O	O
+would	O	O
+give	O	O
+the	O	O
+triphenylmethyl	B-Reactants	B-Prod
+cation	I-Reactants	I-Prod
+which	O	O
+,	O	O
+after	O	O
+reaction	O	O
+with	O	O
+residual	O	O
+water	B-Reactants	O
+,	O	O
+would	O	O
+result	O	O
+in	O	O
+triphenylmethanol.	B-Prod	O
+
+#	passage=10.1021/ja00146a003-13	segment=7
+Second	O	O
+,	O	O
+H	B-Reaction	B-Reaction
+atom	I-Reaction	I-Reaction
+transfer	I-Reaction	I-Reaction
+to	O	O
+the	O	O
+triplet	B-Reactants	B-Reactants
+nitrenium	I-Reactants	I-Reactants
+ion	I-Reactants	I-Reactants
+would	O	O
+result	O	O
+in	O	O
+the	O	O
+triphenylmethyl	B-Prod	O
+radical	I-Prod	O
+(	O	O
+Ph3c	O	B-Prod
+'	O	O
+).	O	O
+
+#	passage=10.1021/ja00146a003-13	segment=8
+The	O
+latter	O
+would	O
+dimerize	B-Reaction
+to	O
+give	O
+the	O
+Ullman	O
+hydrocarbon	O
+12	B-Prod
+.	O
+
+#	passage=10.1021/ja00025a027-7	segment=1
+After	O
+the	O
+reaction	O
+mixture	O
+was	O
+allowed	O
+to	O
+warm	O
+to	O
+room	B-Temperature
+temperature	O
+,	O
+workup	O
+by	O
+column	O
+chromatography	O
+of	O
+the	O
+resulting	O
+orange	O
+-	O
+brown	O
+solution	O
+afforded	O
+crystals	O
+of	O
+12	B-Prod
+in	O
+27	B-Yield
+%	I-Yield
+yield	O
+based	O
+on	O
+l	O
+l	O
+a	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00130-9	segment=0
+of	O	O	O
+sodium	B-Reactants	B-Reactants	B-Reactants
+bezenesulﬁnate	I-Reactants	I-Reactants	I-Reactants
+(	O	O	O
+1b	B-Reactants	B-Reactants	B-Reactants
+)	O	O	O
+with	O	O	O
+nitrobenzene	B-Reactants	O	O
+,	O	O	O
+p-nitro-	O	B-Reactants	O
+toluene	O	I-Reactants	O
+,	O	O	O
+and	O	O	O
+p-chloronitrobenzene	O	O	B-Reactants
+gave	O	O	O
+the	O	O	O
+desired	O	O	O
+products	O	O	O
+3ba	B-Prod	O	O
+,	O	O	O
+3bb	O	B-Prod	O
+,	O	O	O
+and	O	O	O
+3bi	O	O	B-Prod
+in	O	O	O
+excellent	O	O	O
+yields	O	O	O
+(	O	O	O
+Table	O	O	O
+3	O	O	O
+,	O	O	O
+entries	O	O	O
+1	O	O	O
+−	O	O	O
+3	O	O	O
+).	O	O	O
+
+#	passage=10.1021/acs.joc.5b00130-9	segment=1
+The	O
+reaction	O
+of	O
+sodium	B-Reactants
+4-methoxybenzenesulﬁnate	I-Reactants
+(	O
+1c	B-Reactants
+)	O
+with	O
+nitrobenzene	B-Reactants
+furnished	O
+3ca	B-Prod
+in	O
+92	B-Yield
+%	I-Yield
+yield	O
+(	O
+Table	O
+3	O
+,	O
+entry	O
+4	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00130-9	segment=4
+When	O
+sodium	O
+sulﬁnate	O
+with	O
+an	O
+amino	O
+group	O
+(	O
+1h	B-Reactants
+)	O
+was	O
+subjected	O
+to	O
+this	O
+transformation	O
+,	O
+the	O
+desired	O
+product	O
+3ha	B-Prod
+could	O
+be	O
+obtained	O
+directly	O
+in	O
+84	B-Yield
+%	I-Yield
+yield	O
+with	O
+the	O
+amino	O
+group	O
+unaﬀected	O
+(	O
+Table	O
+3	O
+,	O
+entry	O
+9	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00322-8	segment=5
+21	O
+The	O
+substitution	B-Reaction
+gave	O
+product	O
+(R)-14	B-Prod
+in	O
+high	B-Yield
+yield	O
+and	O
+practically	O
+without	O
+any	O
+racemization.	O
+
+#	passage=10.1021/acs.joc.5b00322-8	segment=7
+In	O
+the	O
+catalytic	B-Reaction
+hydrogenation	I-Reaction
+to	O
+obtain	O
+amino	O
+alcohol	O
+(R)-15	B-Prod
+,	O
+using	O
+conditions	O
+identical	O
+to	O
+those	O
+used	O
+for	O
+the	O
+other	O
+substrates	O
+,	O
+only	O
+a	O
+slight	O
+decrease	O
+in	O
+enantiomeric	O
+excess	O
+was	O
+observed	O
+(	O
+97	O
+%	O
+to	O
+94	O
+%	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00322-8	segment=8
+In	O
+order	O
+to	O
+reduce	B-Reaction
+the	O
+amide	O
+to	O
+an	O
+amine	O
+without	O
+reducing	O
+the	O
+ester	O
+functionality	O
+,	O
+we	O
+used	O
+a	O
+modiﬁed	O
+literature	O
+procedure	O
+employing	O
+borane	B-Catalyst_Reagents
+dimethylsul-	I-Catalyst_Reagents
+ﬁde	I-Catalyst_Reagents
+complex	I-Catalyst_Reagents
+;	O
+22	O
+this	O
+transformation	O
+gave	O
+the	O
+known	O
+compound	O
+(R)-16	B-Prod
+with	O
+an	O
+enantiomeric	O
+excess	O
+of	O
+95	O
+%	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00322-8	segment=9
+Final	O
+hydrolysis	B-Reaction
+of	O
+the	O
+ester	O
+function	O
+to	O
+the	O
+carboxylic	O
+acid	O
+was	O
+accomplished	O
+following	O
+a	O
+literature	O
+procedure	O
+using	O
+LiOH.3	B-Catalyst_Reagents
+The	O
+absolute	O
+conﬁguration	O
+of	O
+2	B-Prod
+was	O
+conﬁrmed	O
+to	O
+be	O
+R	O
+by	O
+comparing	O
+the	O
+sign	O
+of	O
+the	O
+optical	O
+rotation	O
+with	O
+that	O
+previously	O
+reported.9,23	O
+
+#	passage=10.1021/ja00134a034-0	segment=2
+In	O	O	O
+an	O	O	O
+attempt	O	O	O
+to	O	O	O
+clarify	O	O	O
+the	O	O	O
+mechanism	O	O	O
+involved	O	O	O
+in	O	O	O
+these	O	O	O
+deuterium-	O	O	O
+scrambling	O	O	O
+reactions	O	O	O
+we	O	O	O
+have	O	O	O
+carried	O	O	O
+out	O	O	O
+kinetic	O	O	O
+investigations	O	O	O
+of	O	O	O
+the	O	O	O
+interconversion	B-Reaction	B-Reaction	B-Reaction
+of	O	O	O
+diastereomeric	O	O	O
+(hydrido)(dimethylcy-	B-Reactants	B-Prod	O
+clopropy1)iridium	I-Reactants	I-Prod	O
+complexes	I-Reactants	I-Prod	O
+l	B-Reactants	O	B-Prod
+a	I-Reactants	O	I-Prod
+and	O	O	O
+l	B-Prod	B-Reactants	B-Reactants
+b	I-Prod	I-Reactants	I-Reactants
+and	O	O	O
+the	O	O	O
+deuterium	O	O	O
+scrambling	O	O	O
+of	O	O	O
+their	O	O	O
+a-deuterio	O	O	O
+analogs.	O	O	O
+
+#	passage=10.1021/ja00143a028-1	segment=2
+At	O	O
+25	B-Temperature	B-Temperature
+"	I-Temperature	I-Temperature
+C	I-Temperature	I-Temperature
+,	O	O
+C-H	B-Reaction	B-Reaction
+oxidative	I-Reaction	I-Reaction
+addition	I-Reaction	I-Reaction
+takes	O	O
+place	O	O
+,	O	O
+quantitatively	O	O
+yielding	O	O
+the	O	O
+Rh(III)	B-Prod	O
+hydride	I-Prod	O
+2a	O	B-Prod
+,	O	O
+which	O	O
+was	O	O
+fully	O	O
+characterized	O	O
+spectroscopically9	O	O
+(	O	O
+eq	O	O
+2	O	O
+).	O	O
+
+#	passage=10.1021/ja00143a028-1	segment=3
+An	O
+analogous	O
+reaction	O
+with	O
+ClRh[P(i-Pr)2(n-Pr)]3	B-Reactants
+yields	O
+complex	O
+2b	B-Prod
+,	O
+which	O
+was	O
+characterized	O
+s	O
+ctros	O
+~	O
+opically	O
+~	O
+and	O
+by	O
+X-ray	O
+crystal-	O
+lography	O
+(	O
+Figure	O
+1	O
+)	O
+.	O
+
+#	passage=10.1021/ja00143a005-8	segment=0
+trihydroxy-p-fert-butylcalix[4]arene	B-Prod	O
+7	O	B-Prod
+(	O	O
+16	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+)	O	O
+,	O	O
+previously	O	O
+prepared	O	O
+by	O	O
+reductive	B-Reaction	B-Reaction
+cleavage	I-Reaction	I-Reaction
+of	O	O
+a	O	O
+mono(diisopropy1	B-Reactants	B-Reactants
+phos-	I-Reactants	I-Reactants
+phate	I-Reactants	I-Reactants
+)	I-Reactants	I-Reactants
+ester	I-Reactants	I-Reactants
+calixarene	I-Reactants	I-Reactants
+deri	I-Reactants	I-Reactants
+~	I-Reactants	I-Reactants
+ative,6	I-Reactants	I-Reactants
+~	O	O
+,	O	O
+”	O	O
+and	O	O
+the	O	O
+monoaminotri-	O	O
+hydroxycalixarene	O	O
+5	O	O
+(	O	O
+ca.	O	O
+
+#	passage=10.1021/ja00143a005-8	segment=3
+The	O	O
+formation	O	O
+of	O	O
+the	O	O
+monodehydroxylated	B-Prod	O
+calixarene	I-Prod	O
+7	O	B-Prod
+in	O	O
+the	O	O
+reaction	O	O
+of	O	O
+4a	B-Reactants	B-Reactants
+with	O	O
+hydrazine	B-Reactants	B-Reactants
+can	O	O
+be	O	O
+rationalized	O	O
+if	O	O
+in	O	O
+the	O	O
+first	O	O
+step	O	O
+the	O	O
+correspond-	O	O
+ing	O	O
+hydrazone	O	O
+is	O	O
+formed	O	O
+,	O	O
+which	O	O
+under	O	O
+the	O	O
+reaction	O	O
+conditions	O	O
+eliminates	O	O
+nitrogen	O	O
+(	O	O
+a	B-Reaction	B-Reaction
+Wolff	I-Reaction	I-Reaction
+-	I-Reaction	I-Reaction
+Kishner	I-Reaction	I-Reaction
+-	I-Reaction	I-Reaction
+type	I-Reaction	I-Reaction
+process)’*	I-Reaction	I-Reaction
+and	O	O
+undergoes	O	O
+reductive	O	O
+cleavage	O	O
+of	O	O
+the	O	O
+spiro	O	O
+C-0	O	O
+bond	O	O
+.	O	O
+
+#	passage=10.1021/acs.joc.5b00550-7	segment=3
+The	O	O
+diﬂuorinated	O	O
+2′,3′-dideoxy-2′,3′-FF-ribo	O	O
+35	O	O
+was	O	O
+pre-	O	O
+pared	O	O
+from	O	O
+the	O	O
+known	O	O
+lyxo-epoxide21	O	O
+32	B-Reactants	B-Reactants
+(	O	O
+Scheme	O	O
+4	O	O
+)	O	O
+following	O	O
+the	O	O
+Watanabe	O	O
+two	O	O
+-	O	O
+step	O	O
+process	O	O
+initiated	O	O
+by	O	O
+epoxide	O	O
+opening	O	O
+with	O	O
+a	O	O
+ﬂuoride	B-Reactants	B-Reactants
+ion	I-Reactants	I-Reactants
+exclusively	O	O
+from	O	O
+the	O	O
+α-face	O	O
+of	O	O
+the	O	O
+sugar	O	O
+to	O	O
+aﬀord	O	O
+a	O	O
+3	O	O
+:	O	O
+1	O	O
+ratio	O	O
+of	O	O
+regioisomers	O	O
+3′-ﬂuoro-arabino	O	O
+33	B-Prod	O
+and	O	O
+2′-	O	O
+ﬂuoro	O	O
+-	O	O
+xylo	O	O
+34	O	B-Prod
+in	O	O
+a	O	O
+65	B-Yield	B-Yield
+%	I-Yield	I-Yield
+combined	O	O
+yield.	O	O
+
+#	passage=10.1021/ja00021a031-7	segment=4
+Compound	O
+11	B-Reactants
+was	O
+no	O
+exception	O
+,	O
+affording	O
+pyridine	O
+12	B-Prod
+smoothly	O
+and	O
+in	O
+good	B-Yield
+yield.	O
+
+#	passage=10.1021/ja00021a031-7	segment=5
+Subsequent	O
+ozonolysis	B-Reaction
+of	O
+the	O
+benzylidene	O
+group	O
+provided	O
+13	B-Prod
+in	O
+65	O
+%	O
+overall	O
+yield	O
+from	O
+10.	O
+
+#	passage=10.1021/ja00025a020-1	segment=1
+However	O	O
+,	O	O
+in	O	O
+this	O	O
+case	O	O
+the	O	O
+dinuclear	O	O
+bridging	O	O
+hydride	O	O
+[	O	O
+CpRu(C0)(PMe,)l2(p-H)'	B-Prod	O
+is	O	O
+the	O	O
+predominant	O	O
+oxidation	B-Reaction	B-Reaction
+product	O	O
+in	O	O
+addition	O	O
+to	O	O
+the	O	O
+dihydrogen	O	O
+complex	O	O
+CpRu(CO)(PMe3)(q2	O	B-Prod
+-	O	I-Prod
+HJt.	O	I-Prod
+
+#	passage=10.1021/ja00145a045-0	segment=2
+The	O	O
+first	O	O
+of	O	O
+these	O	O
+postulates	O	O
+processing	O	O
+a	O	O
+single	O	O
+precursor	O	O
+steroid	O	O
+via	O	O
+selective	O	O
+oxidations	O	O
+to	O	O
+individual	O	O
+“	O	O
+North	O	O
+”	O	O
+and	O	O
+“	O	O
+South	O	O
+”	O	O
+a-amino	B-Reactants	B-Reactants
+ketones	I-Reactants	I-Reactants
+9	B-Reactants	B-Reactants
+and	O	O
+10	B-Reactants	B-Reactants
+which	O	O
+undergo	O	O
+dimer-	O	O
+ization	O	O
+to	O	O
+the	O	O
+unsymmetrical	O	O
+pyrazine	B-Prod	O
+cephalostatin	I-Prod	O
+7	I-Prod	O
+.(	O	O
+12	O	B-Prod
+).	O	O
+
+#	passage=10.1021/ja00022a050-6	segment=0
+Surprisingly	O	O
+,	O	O
+when	O	O
+the	O	O
+deuterido	O	O
+complexes	O	O
+la	B-Prod	O
+and	O	O
+2a	O	B-Prod
+,	O	O
+obtained	O	O
+from	O	O
+reaction	O	O
+of	O	O
+[Ir(C8H14)2C1]2	B-Reactants	B-Reactants
+with	O	O
+ND3	B-Reactants	B-Reactants
+,	O	O
+are	O	O
+left	O	O
+standing	O	O
+at	O	O
+room	O	O
+temperature	O	O
+in	O	O
+THF	O	O
+under	O	O
+nitrogen	O	O
+,	O	O
+Ir-H	O	O
+and	O	O
+N-H	O	O
+bonds	O	O
+
+#	passage=10.1021/ja00026a039-4	segment=2
+0.02	O
+M	O
+solution	O
+)	O
+under	O
+acidic	O
+conditions	O
+(	O
+1.2	O
+equiv	O
+of	O
+TsOH	B-Solvent
+-	I-Solvent
+H20	I-Solvent
+,	O
+benzene-cyclohexadiene	B-Solvent
+=	O
+4	O
+:	O
+1,25	B-Temperature
+O	I-Temperature
+C	I-Temperature
+,	O
+4	B-Time
+h	I-Time
+)	O
+produced	O
+smoothly	O
+the	O
+corresponding	O
+naphthalene	O
+derivative	O
+23	B-Prod
+in	O
+78	B-Yield
+%	I-Yield
+yield	O
+,	O
+no	O
+dramatic	O
+changes	O
+in	O
+the	O
+UV	O
+and	O
+fluorescent	O
+spectra	O
+were	O
+
+#	passage=10.1021/ja00132a015-1	segment=6
+The	O
+hydrosilylation	B-Reaction
+of	O
+1,5-hexadiene	B-Reactants
+effected	O
+by	O
+Cp’2SmCH(SiMe3)2	B-Reactants
+affords	O
+predominantly	O
+cyclopentylCH2SiH2Ph	B-Prod
+,	O
+while	O
+Me2SiCp	O
+”	O
+zSmCH-	O
+(SiMe3)2	O
+and	O
+(R)-MezSiCp	O
+”	O
+[	O
+(	O
+-)-menthylCp]SmCH(SiMe3)2	O
+also	O
+yield	O
+hydrosilylation	O
+products	O
+derived	O
+from	O
+1,5-	O
+hexadiene	O
+skeletal	O
+rearrangement.	O
+
+#	passage=10.1021/ja00136a036-0	segment=1
+~	O
+~	O
+,	O
+~	O
+Producing	O
+1	B-Prod
+through	O
+Norrish	B-Reaction
+type	I-Reaction
+I	I-Reaction
+photocleavage	I-Reaction
+of	O
+2	B-Reactants
+enabled	O
+us	O
+to	O
+show	O
+that	O
+5,6-dihydrothymid-5-y1	O
+does	O
+not	O
+abstract	O
+hydrogen	O
+atoms	O
+from	O
+isopropyl	O
+alcohol	O
+or	O
+glycolaldehyde	O
+dimethyl	O
+acetal.4a	O
+These	O
+observations	O
+suggest	O
+that	O
+1	O
+is	O
+incompetent	O
+at	O
+inducing	O
+nucleic	O
+acid	O
+strand	O
+scission	O
+via	O
+direct	O
+hydrogen	O
+atom	O
+abstraction	O
+from	O
+a	O
+sugar	O
+moiety	O
+of	O
+an	O
+adjacent	O
+nucleotide	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00049-5	segment=2
+The	O
+isomeric	O
+alkenols	O
+5n	B-Reactants
+and	O
+5o	B-Reactants
+gave	O
+the	O
+same	O
+product	O
+,	O
+6n.	B-Prod
+
+#	passage=10.1021/acs.joc.5b00049-5	segment=7
+Substrates	O	O
+5v	B-Reactants	O
+and	O	O
+5x	O	B-Reactants
+(	O	O
+entries	O	O
+4	O	O
+and	O	O
+6	O	O
+)	O	O
+gave	O	O
+two	O	O
+inseparable	O	O
+diastereomers	O	O
+,	O	O
+7v	B-Prod	O
+and	O	O
+7x	O	B-Prod
+,	O	O
+in	O	O
+71	B-Yield	O
+%	I-Yield	O
+and	O	O
+74	O	B-Yield
+%	O	I-Yield
+overall	O	O
+yield	O	O
+,	O	O
+respectively.	O	O
+
+#	passage=10.1021/acs.joc.5b00049-5	segment=8
+The	O
+substrate	O
+5w	B-Reactants
+gave	O
+hydrolyzed	O
+product	O
+7w	B-Prod
+under	O
+these	O
+reaction	O
+conditions.	O
+
+#	passage=10.1021/acs.joc.5b00049-5	segment=9
+On	O
+the	O
+other	O
+hand	O
+,	O
+5x	B-Reactants
+having	O
+hydroxyl	O
+and	O
+thiol	O
+groups	O
+gave	O
+thiazolidine	O
+7x	B-Prod
+selectively	O
+,	O
+without	O
+formation	O
+of	O
+any	O
+morpho-	O
+line	O
+products.	O
+
+#	passage=10.1021/ja00027a020-1	segment=1
+The	O	O
+kinetic	O	O
+behavior	O	O
+of	O	O
+the	O	O
+majority	O	O
+of	O	O
+these	O	O
+systems	O	O
+has	O	O
+been	O	O
+analyzed	O	O
+in	O	O
+terms	O	O
+of	O	O
+a	O	O
+model	O	O
+resembling	O	O
+that	O	O
+shown	O	O
+in	O	O
+Scheme	O	O
+I	O	O
+for	O	O
+the	O	O
+decay	O	O
+of	O	O
+aryloxyl-butyrophenone	O	O
+ketyl	O	O
+triplet	O	O
+-	O	O
+derived	O	O
+radical	O	O
+pairs	O	O
+in	O	O
+sodium	O	O
+dodecyl	O	O
+sulfate	O	O
+(	O	O
+SDS	O	O
+)	O	O
+mice1les.l	O	O
+'	O	O
+These	O	O
+radical	O	O
+pairs	O	O
+were	O	O
+formed	O	O
+via	O	O
+hydrogen	B-Reaction	B-Reaction
+ab-	I-Reaction	I-Reaction
+straction	I-Reaction	I-Reaction
+from	O	O
+the	O	O
+phenol	O	O
+,	O	O
+ArOH	B-Reactants	B-Reactants
+,	O	O
+by	O	O
+triplet	O	O
+n-butyrophenone	B-Reactants	B-Reactants
+,	O	O
+leading	O	O
+to	O	O
+formation	O	O
+of	O	O
+the	O	O
+phenoxyl	O	O
+(	O	O
+ArO	B-Prod	O
+'	O	O
+)	O	O
+and	O	O
+the	O	O
+butyro-	O	O
+phenone	O	O
+ketyl	O	O
+(	O	O
+BTK	O	B-Prod
+'	O	O
+)	O	O
+.	O	O
+
+#	passage=10.1021/acs.joc.5b00303-3	segment=1
+So	O
+,	O
+the	O
+previously	O
+reported	O
+alcohol	O
+9,9	O
+obtained	O
+from	O
+diol	O
+8	O
+in	O
+four	O
+steps	O
+including	O
+ones	O
+involving	O
+Negishi	O
+cross-coupling	O
+and	O
+intramolecular	O
+Diels	O
+−	O
+Alder	O
+cycloaddition	O
+reactions,10	O
+was	O
+into	O
+acetate	O
+10	O
+and	O
+its	O
+converted	O
+,	O
+by	O
+conventional	O
+means	O
+,	O
+structure	O
+conﬁrmed	O
+by	O
+single	O
+-	O
+crystal	O
+X-ray	O
+analysis.11	O
+Com-	O
+pound	O
+10	B-Reactants
+could	O
+be	O
+diastereoselectively	O
+cis-dihydroxylated	B-Reaction
+using	O
+the	O
+Sharpless	B-Reaction
+modiﬁcation	I-Reaction
+of	O
+the	O
+Upjohn	B-Reaction
+conditions12	O
+and	O
+so	O
+aﬀording	O
+the	O
+diol	O
+11	B-Prod
+and	O
+this	O
+then	O
+converted	O
+into	O
+the	O
+corresponding	O
+p-methoxyphenylbenzylidene	O
+acetal	O
+through	O
+its	O
+reaction	O
+with	O
+p-methoxybenzaldehyde	O
+dimethylacetal	O
+(	O
+PMBDMA	O
+)	O
+in	O
+the	O
+presence	O
+of	O
+p-toluenesulfonic	O
+acid	O
+(	O
+p-	O
+TsOH	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00716-1	segment=2
+6,16,17	O	O
+Within	O	O
+this	O	O
+area	O	O
+,	O	O
+we	O	O
+are	O	O
+currently	O	O
+engaged	O	O
+in	O	O
+a	O	O
+research	O	O
+program	O	O
+concerning	O	O
+the	O	O
+development	O	O
+and	O	O
+deployment	O	O
+of	O	O
+eﬃcient	O	O
+methods	O	O
+to	O	O
+enable	O	O
+the	O	O
+diastereoselective	O	O
+epoxidation	O	O
+of	O	O
+a	O	O
+range	O	O
+of	O	O
+allylic	O	O
+amines.18	O	O
+We	O	O
+have	O	O
+reported	O	O
+two	O	O
+complementary	O	O
+methods	O	O
+to	O	O
+eﬀect	O	O
+the	O	O
+formal	O	O
+anti-dihydroxylation	O	O
+of	O	O
+the	O	O
+oleﬁn	O	O
+functionality	O	O
+within	O	O
+3-N,N-dibenzylaminocyclohex-1-ene	O	O
+1	O	O
+in	O	O
+a	O	O
+diastereodivergent	O	O
+manner.19,20	O	O
+Sequential	O	O
+treatment	O	O
+of	O	O
+1	B-Reactants	B-Reactants
+with	O	O
+Cl3CCO2H	B-Reactants	B-Reactants
+(	O	O
+5	O	O
+equiv	O	O
+)	O	O
+and	O	O
+m-CPBA	B-Reactants	B-Reactants
+(	O	O
+1.6	O	O
+equiv	O	O
+)	O	O
+was	O	O
+shown	O	O
+to	O	O
+give	O	O
+trichloroacetate	B-Prod	O
+ester	I-Prod	O
+4	O	B-Prod
+in	O	O
+95	O	O
+:	O	O
+5	O	O
+diastereoisomeric	O	O
+ratio	O	O
+(	O	O
+dr	O	O
+)	O	O
+;	O	O
+4	O	O
+may	O	O
+be	O	O
+isolated	O	O
+or	O	O
+the	O	O
+crude	O	O
+reaction	O	O
+mixture	O	O
+may	O	O
+be	O	O
+
+#	passage=10.1021/ja00130a029-0	segment=0
+(	O	O
+7	O	O
+)	O	O
+Compounds	O	O
+1	B-Prod	O
+and	O	O
+2	O	B-Prod
+are	O	O
+both	O	O
+synthesized	O	O
+from	O	O
+2-bromoanisole	B-Reactants	B-Reactants
+using	O	O
+the	O	O
+following	O	O
+series	O	O
+of	O	O
+reactions.	O	O
+
+#	passage=10.1021/ja00142a029-2	segment=1
+The	O
+ligand	O
+was	O
+easily	O
+removed	O
+by	O
+oxidation	O
+of	O
+K5	B-Prod
+prepared	O
+from	O
+0.23	O
+g	O
+of	O
+lPF6	B-Reactants
+in	O
+THF	B-Solvent
+(	O
+50	O
+mL	O
+)	O
+with	O
+0	B-Reactants
+2	B-Reactants
+at	O
+room	B-Temperature
+(	O
+0.64	O
+"	O
+01	O
+)	O
+temperature	O
+overnight.	B-Time
+
+#	passage=10.1021/ja00142a029-2	segment=3
+The	O	O
+product	O	O
+was	O	O
+crystallized	B-Reaction	B-Reaction
+from	O	O
+a	O	O
+minimum	O	O
+amount	O	O
+of	O	O
+ethanol	O	O
+to	O	O
+give	O	O
+0.22	O	O
+g	O	O
+(	O	O
+0.47	O	O
+mmol	O	O
+=	O	O
+73	O	O
+%	O	O
+)	O	O
+of	O	O
+white	O	O
+microcrystalline	O	O
+4a,8a-dihydro-4,4-diphenyl-	B-Prod	O
+1	I-Prod	O
+-(diphen-	I-Prod	O
+ylmethylidene)isochroman-3-one	I-Prod	O
+(8)8-14	O	B-Prod
+(	O	O
+Scheme	O	O
+l	O	O
+)	O	O
+,	O	O
+which	O	O
+was	O	O
+characterized	O	O
+by	O	O
+HRMS	O	O
+,	O	O
+an	O	O
+IR	O	O
+lactone	O	O
+absorption	O	O
+at	O	O
+1765	O	O
+cm-l	O	O
+,	O	O
+and	O	O
+comparison	O	O
+of	O	O
+its	O	O
+'H	O	O
+NMR	O	O
+spectrum	O	O
+with	O	O
+that	O	O
+of	O	O
+5-	O	O
+(	O	O
+the	O	O
+terminal	O	O
+protons	O	O
+of	O	O
+the	O	O
+diene	O	O
+shift	O	O
+,	O	O
+as	O	O
+3-4	O	O
+ppm	O	O
+downfield	O	O
+following	O	O
+decomplexation	O	O
+,	O	O
+while	O	O
+the	O	O
+distinctive	O	O
+>	O	O
+10	O	O
+Hz	O	O
+coupling	O	O
+between	O	O
+the	O	O
+vicinal	O	O
+protons	O	O
+at	O	O
+the	O	O
+ring	O	O
+junction	O	O
+is	O	O
+retained	O	O
+)	O	O
+.	O	O
+
+#	passage=10.1021/acs.joc.5b00353-9	segment=2
+the	O
+optimized	O
+reaction	O
+conditions	O
+,	O
+1-phenyl-but-1-yne	B-Reactants
+6a	B-Reactants
+,	O
+1-phenyl-pent-1-yne	O
+6b	O
+,	O
+and	O
+1-phenyl-hex-1-yne	O
+6c	O
+yielded	O
+the	O
+corresponding	O
+naphthalene	O
+compounds	O
+7a	B-Prod
+−	O
+c	O
+in	O
+good	B-Yield
+66	B-Yield
+−	I-Yield
+70	I-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/acs.joc.5b00353-9	segment=4
+The	O
+reaction	O
+of	O
+4-chloro-	O
+,	O
+4-bromo-	O
+,	O
+and	O
+4-methyl-	O
+substituted	O
+alkynes	O
+6d	B-Reactants
+−	O
+f	O
+aﬀorded	O
+the	O
+desired	O
+products	O
+7d	B-Prod
+−	O
+f	O
+with	O
+comparable	O
+good	O
+results	O
+(	O
+62	B-Yield
+−	I-Yield
+69	I-Yield
+%	I-Yield
+yield	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00353-9	segment=7
+The	O	O
+benzannulation	B-Reaction	B-Reaction
+of	O	O
+symmetrical	O	O
+alkynes	O	O
+6g	B-Reactants	O
+and	O	O
+6h	O	B-Reactants
+led	O	O
+to	O	O
+naphthalenes	O	O
+7g	B-Prod	O
+and	O	O
+7h	O	B-Prod
+in	O	O
+46	B-Yield	O
+%	I-Yield	O
+and	O	O
+49	O	B-Yield
+%	O	I-Yield
+yield	O	O
+,	O	O
+respectively.	O	O
+
+#	passage=10.1021/acs.joc.5b00353-9	segment=8
+The	O	O
+eﬀectiveness	O	O
+of	O	O
+this	O	O
+catalytic	O	O
+reaction	O	O
+was	O	O
+further	O	O
+demonstrated	O	O
+by	O	O
+reacting	O	O
+4-phenyl-but-3-yn-2-one	B-Reactants	B-Reactants
+6i	B-Reactants	B-Reactants
+,	O	O
+which	O	O
+aﬀorded	O	O
+the	O	O
+corresponding	O	O
+2-acetyl-substituted	B-Prod	O
+naph-	I-Prod	O
+thalene	I-Prod	O
+7i	O	B-Prod
+in	O	O
+moderate	O	O
+46	B-Yield	B-Yield
+%	I-Yield	I-Yield
+isolated	O	O
+yield.	O	O
+
+#	passage=10.1021/ja00028a012-0	segment=0
+Abstract	O	O	O	O	O	O
+:	O	O	O	O	O	O
+An	O	O	O	O	O	O
+electron	O	O	O	O	O	O
+paramagnetic	O	O	O	O	O	O
+resonance	O	O	O	O	O	O
+spectroscopic	O	O	O	O	O	O
+study	O	O	O	O	O	O
+of	O	O	O	O	O	O
+the	O	O	O	O	O	O
+reaction	O	O	O	O	O	O
+of	O	O	O	O	O	O
+ground	O	O	O	O	O	O
+-	O	O	O	O	O	O
+state	O	O	O	O	O	O
+AI	B-Reactants	B-Reactants	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+atoms	O	O	O	O	O	O
+with	O	O	O	O	O	O
+NH3	B-Reactants	B-Reactants	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+in	O	O	O	O	O	O
+adamantane	B-Solvent	B-Solvent	B-Solvent	B-Solvent	B-Solvent	B-Solvent
+at	O	O	O	O	O	O
+77	B-Temperature	B-Temperature	B-Temperature	B-Temperature	B-Temperature	B-Temperature
+K	I-Temperature	I-Temperature	I-Temperature	I-Temperature	I-Temperature	I-Temperature
+on	O	O	O	O	O	O
+a	O	O	O	O	O	O
+rotating	O	O	O	O	O	O
+cryostat	O	O	O	O	O	O
+has	O	O	O	O	O	O
+demonstrated	O	O	O	O	O	O
+the	O	O	O	O	O	O
+formation	O	O	O	O	O	O
+of	O	O	O	O	O	O
+three	O	O	O	O	O	O
+mononuclear	O	O	O	O	O	O
+Al	O	O	O	O	O	O
+-	O	O	O	O	O	O
+NH3	O	O	O	O	O	O
+complexes	O	O	O	O	O	O
+,	O	O	O	O	O	O
+AI(NH3)4	B-Prod	O	O	O	O	O
+(	O	O	O	O	O	O
+A	O	B-Prod	O	O	O	O
+)	O	O	O	O	O	O
+,	O	O	O	O	O	O
+HAINHz	O	O	B-Prod	O	O	O
+(	O	O	O	O	O	O
+B	O	O	O	B-Prod	O	O
+)	O	O	O	O	O	O
+,	O	O	O	O	O	O
+and	O	O	O	O	O	O
+Al(NH3)z	O	O	O	O	B-Prod	O
+(	O	O	O	O	O	O
+C	O	O	O	O	O	B-Prod
+).	O	O	O	O	O	O
+
+#	passage=10.1021/ja00028a012-0	segment=3
+HAIOH	B-Prod	O
+(	O	O
+D	O	B-Prod
+)	O	O
+is	O	O
+also	O	O
+formed	O	O
+in	O	O
+this	O	O
+system	O	O
+from	O	O
+adventitious	O	O
+H	O	O
+2	O	O
+0	O	O
+and	O	O
+has	O	O
+the	O	O
+parameters	O	O
+aAl	O	O
+=	O	O
+911.3	O	O
+f	O	O
+1.06	O	O
+MHz	O	O
+,	O	O
+aH	O	O
+=	O	O
+286.4	O	O
+f	O	O
+3.7	O	O
+MHz	O	O
+,	O	O
+and	O	O
+g	O	O
+=	O	O
+1.9998	O	O
+f	O	O
+0.0004	O	O
+.	O	O
+
+#	passage=10.1021/acs.joc.5b00739-5	segment=1
+To	O
+our	O
+delight	O
+the	O
+reaction	O
+provided	O
+a	O
+30	B-Yield
+%	I-Yield
+yield	O
+of	O
+3-arylated	O
+product	O
+3a	B-Prod
+(	O
+Table	O
+1	O
+,	O
+entry	O
+1	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00739-5	segment=2
+Diﬀerent	O
+solvents	O
+such	O
+as	O
+dimethyl	O
+sulfoxide	O
+(	O
+DMSO	O
+)	O
+,	O
+dimethylacetamide	O
+(	O
+DMA	O
+)	O
+and	O
+N-methylpyrrolidone	O
+(	O
+NMP	O
+)	O
+were	O
+screened	O
+based	O
+on	O
+the	O
+solubility	O
+of	O
+the	O
+substrate	O
+and	O
+DMSO	B-Solvent
+found	O
+to	O
+be	O
+the	O
+best	O
+solvent	O
+,	O
+providing	O
+76	B-Yield
+%	I-Yield
+yield	O
+of	O
+3a	B-Prod
+(	O
+Table	O
+1	O
+,	O
+entry	O
+2	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00739-5	segment=3
+DMA	B-Solvent
+produced	O
+slightly	O
+better	B-Yield
+yields	O
+of	O
+3a	B-Prod
+than	O
+DMF	O
+(	O
+Table	O
+1	O
+,	O
+entry	O
+3	O
+)	O
+whereas	O
+in	O
+the	O
+case	O
+of	O
+NMP	O
+no	O
+reaction	O
+was	O
+observed	O
+(	O
+Table	O
+1	O
+,	O
+entry	O
+4	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00263-7	segment=0
+■	O
+RESULTS	O
+AND	O
+DISCUSSION	O
+2-Chromanone	B-Reactants
+6	B-Reactants
+is	O
+reduced	B-Reaction
+in	O
+the	O
+presence	O
+of	O
+DIBAL-H	B-Catalyst_Reagents
+to	O
+obtain	O
+the	O
+desired	O
+lactol	O
+7	B-Prod
+in	O
+high	B-Yield
+chemical	O
+yield	O
+(	O
+Scheme	O
+3	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00263-7	segment=1
+17	O	O	O
+Reaction	O	O	O
+of	O	O	O
+7	B-Reactants	O	O
+with	O	O	O
+carbon	B-Catalyst_Reagents	O	O
+tetrabromide	I-Catalyst_Reagents	O	O
+and	O	O	O
+triphenylphosphine	B-Catalyst_Reagents	O	O
+provides	O	O	O
+geminal	O	O	O
+dibromide	O	O	O
+8	B-Prod	B-Reactants	B-Reactants
+,	O	O	O
+and	O	O	O
+subsequent	O	O	O
+addition	O	O	O
+of	O	O	O
+n-	O	B-Catalyst_Reagents	B-Catalyst_Reagents
+butyllithium	O	I-Catalyst_Reagents	I-Catalyst_Reagents
+in	O	O	O
+the	O	O	O
+presence	O	O	O
+of	O	O	O
+paraformaldehyde	O	B-Catalyst_Reagents	B-Catalyst_Reagents
+aﬀords	O	O	O
+propargyl	O	B-Prod	O
+alcohol	O	I-Prod	O
+9	O	O	B-Prod
+in	O	O	O
+high	O	B-Yield	B-Yield
+chemical	O	O	O
+yield.	O	O	O
+
+#	passage=10.1021/acs.joc.5b00250-10	segment=0
+For	O	O
+the	O	O
+iodoacetoxylation	B-Reaction	B-Reaction
+of	O	O
+the	O	O
+ynamide	O	O
+derivative	O	O
+4a	B-Reactants	B-Reactants
+,	O	O
+at	O	O
+elevated	B-Temperature	O
+temperatures	O	O
+the	O	O
+thermodynamic	O	O
+pathway	O	O
+was	O	O
+favored	O	O
+leading	O	O
+to	O	O
+formation	O	O
+of	O	O
+a	O	O
+higher	O	O
+portion	O	O
+of	O	O
+the	O	O
+cis-isomer	O	O
+5a′	B-Prod	O
+;	O	O
+however	O	O
+,	O	O
+at	O	O
+0	O	B-Temperature
+°	O	I-Temperature
+C	O	I-Temperature
+the	O	O
+kinetic	O	O
+pathway	O	O
+predominates	O	O
+to	O	O
+aﬀord	O	O
+almost	O	O
+exclusively	O	O
+the	O	O
+trans-isomer	O	O
+5a.	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00250-10	segment=1
+To	O
+further	O
+probe	O
+the	O
+eﬀect	O
+of	O
+temperature	O
+on	O
+this	O
+reaction	O
+process	O
+,	O
+the	O
+iodoacetox-	B-Reaction
+ylation	I-Reaction
+of	O
+1c	B-Reactants
+was	O
+performed	O
+at	O
+elevated	O
+temperature	O
+(	O
+60	B-Temperature
+°	I-Temperature
+C	I-Temperature
+)	O
+in	O
+an	O
+attempt	O
+to	O
+generate	O
+the	O
+cis-adduct	O
+;	O
+however	O
+,	O
+once	O
+again	O
+the	O
+trans-isomer	O
+of	O
+2c	B-Prod
+was	O
+formed	O
+as	O
+the	O
+major	O
+product	O
+(	O
+83	B-Yield
+%	I-Yield
+yield	O
+,	O
+E	O
+/	O
+Z	O
+=	O
+40	O
+:	O
+1	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00250-10	segment=2
+The	O
+iodoacetoxylation	B-Reaction
+of	O
+1f	B-Reactants
+was	O
+then	O
+conducted	O
+at	O
+−	B-Temperature
+20	I-Temperature
+°	I-Temperature
+C	I-Temperature
+to	O
+observe	O
+if	O
+the	O
+kinetic	O
+pathway	O
+to	O
+form	O
+the	O
+trans-	O
+isomer	O
+could	O
+be	O
+favored	O
+;	O
+however	O
+,	O
+the	O
+cis-isomer	O
+of	O
+2f	B-Prod
+was	O
+again	O
+isolated	O
+as	O
+the	O
+major	O
+product	O
+(	O
+86	B-Yield
+%	I-Yield
+yield	O
+,	O
+E	O
+/	O
+Z	O
+=	O
+1	O
+:	O
+12	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00571-3	segment=0
+Because	O
+the	O
+NEt2	O
+groups	O
+were	O
+found	O
+in	O
+the	O
+initial	O
+reaction	O
+intermediates	O
+of	O
+11	O
+and	O
+DAST	O
+,	O
+we	O
+tentatively	O
+assumed	O
+that	O
+DAST	B-Reactants
+preferentially	O
+reacted	O
+with	O
+the	O
+primary	O
+hydroxyl	O
+group	O
+in	O
+11	B-Reactants
+to	O
+furnish	O
+intermediate	O
+16	B-Prod
+(	O
+Scheme	O
+3	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00571-3	segment=1
+On	O
+one	O
+hand	O
+,	O
+attack	O
+of	O
+ﬂuoride	O
+at	O
+the	O
+C-7	O
+leaving	O
+group	O
+would	O
+aﬀord	O
+product	O
+12	B-Reactants
+,	O
+which	O
+would	O
+continue	O
+to	O
+react	O
+with	O
+another	O
+equivalent	O
+of	O
+DAST	B-Reactants
+to	O
+give	O
+intermediate	O
+17.	B-Prod
+
+#	passage=10.1021/ja00026a042-5	segment=4
+”	O	O
+To	O	O
+complete	O	O
+the	O	O
+biomimetic	O	O
+sequence	O	O
+,	O	O
+7b	B-Reactants	O
+and	O	O
+7c	O	B-Reactants
+were	O	O
+efficiently	O	O
+converted	O	O
+to	O	O
+the	O	O
+enantiomerically	O	O
+pure	O	O
+myo-	O	O
+inositol	O	O
+derivatives	O	O
+llb	B-Prod	O
+and	O	O
+llc	O	B-Prod
+by	O	O
+a	O	O
+completely	O	O
+stereoselective	O	B-Reaction
+hydroxyl-directed	B-Reaction	I-Reaction
+hydride	I-Reaction	I-Reaction
+reduction	I-Reaction	I-Reaction
+(	O	O
+NaBH(OAc)3	B-Catalyst_Reagents	B-Catalyst_Reagents
+,	O	O
+AcOH	B-Solvent	B-Solvent
+,	O	O
+MeCN	B-Solvent	B-Solvent
+,	O	O
+25	B-Temperature	B-Temperature
+OC	I-Temperature	I-Temperature
+).	O	O
+
+#	passage=10.1021/ja00135a011-9	segment=1
+The	O
+vinylvinyl	O
+compound	O
+8	B-Prod
+was	O
+isolated	O
+as	O
+a	O
+dark	O
+blue	O
+solid	O
+in	O
+86	B-Yield
+%	I-Yield
+yield	O
+,	O
+by	O
+addition	O
+of	O
+the	O
+stoichio-	O
+metric	O
+amount	O
+of	O
+2-methyl-	B-Reactants
+1-buten-3-yne	I-Reactants
+to	O
+a	O
+toluene	B-Solvent
+solution	O
+of	O
+2.	B-Reactants
+
+#	passage=10.1021/ja00135a011-9	segment=2
+In	O	O
+a	O	O
+similar	O	O
+fashion	O	O
+to	O	O
+the	O	O
+reaction	O	O
+of	O	O
+6	B-Reactants	O
+with	O	O
+HC1	B-Reactants	O
+to	O	O
+give	O	O
+5	B-Prod	O
+,	O	O
+the	O	O
+reaction	O	O
+of	O	O
+8	O	B-Reactants
+with	O	O
+the	O	O
+stoichiometric	O	O
+amount	O	O
+of	O	O
+a	O	O
+toluene	O	B-Solvent
+HCl	O	B-Reactants
+solution	O	O
+affords	O	O
+the	O	O
+vinylcarbene	O	O
+complex	O	O
+7.	O	B-Prod
+
+#	passage=10.1021/ja00134a043-4	segment=3
+In	O
+practice	O
+,	O
+iodosulfonamide	O
+14	B-Reactants
+was	O
+treated	O
+with	O
+to	O
+afford	O
+ethyl	O
+thioglycoside	O
+15	B-Prod
+excess	O
+lithium	B-Reactants
+ethanethi	I-Reactants
+~	I-Reactants
+late	I-Reactants
+'	O
+~	O
+(	O
+Scheme	O
+3	O
+).	O
+
+#	passage=10.1021/ja00134a043-4	segment=5
+Major	O
+product	O
+16	B-Prod
+was	O
+obtained	O
+in	O
+70-85	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/ja0014335-8	segment=4
+Hydrolysis	B-Reaction
+of	O
+9	B-Reactants
+under	O
+acidic	O
+conditions	O
+affords	O
+the	O
+R¢	O
+-	O
+monohydroxymethyl	O
+ketone	O
+5.	B-Prod
+
+#	passage=10.1021/acs.joc.5b00384-4	segment=0
+was	O
+found	O
+in	O
+the	O
+reaction	O
+of	O
+2a	B-Reactants
+with	O
+5a	B-Reactants
+,	O
+which	O
+gave	O
+6a	B-Prod
+in	O
+more	O
+than	O
+99	O
+%	O
+ee	O
+,	O
+>	O
+20	O
+:	O
+1	O
+dr	O
+ratio	O
+,	O
+and	O
+77	B-Yield
+%	I-Yield
+yield	O
+(	O
+Scheme	O
+1	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00237-2	segment=1
+14	O	O
+2-(N-Fmoc-amino)but-3-enoic	O	O
+acid	O	O
+(	O	O
+vinylglycine	O	O
+19	O	O
+)	O	O
+was	O	O
+synthesized	O	O
+as	O	O
+previously	O	O
+described.21,22	O	O
+Dipeptides	O	O
+6	B-Prod	O
+and	O	O
+7	O	B-Prod
+were	O	O
+synthesized	O	O
+by	O	O
+coupling	B-Reaction	B-Reaction
+ester	O	O
+16	B-Reactants	B-Reactants
+and	O	O
+acids	O	O
+17	B-Reactants	O
+and	O	O
+18	O	B-Reactants
+using	O	O
+HATU	B-Catalyst_Reagents	B-Catalyst_Reagents
+and	O	O
+N-ethylmorpholine	B-Catalyst_Reagents	B-Catalyst_Reagents
+in	O	O
+70	O	O
+−	O	O
+80	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+(	O	O
+Scheme	O	O
+3	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00237-2	segment=2
+14	O
+Double	O
+bond	O
+migration	O
+occurred	O
+during	O
+coupling	O
+of	O
+but-3-enoic	B-Reactants
+acid	I-Reactants
+19	B-Reactants
+to	O
+2-(N-Dmb-amino)hex-5-oate	B-Reactants
+16b	B-Reactants
+using	O
+HATU	B-Catalyst_Reagents
+and	O
+DIEA	B-Catalyst_Reagents
+and	O
+gave	O
+dehydropeptide	O
+20	B-Prod
+(	O
+Scheme	O
+4	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00237-2	segment=4
+Macrocycles	O	O
+9	B-Prod	O
+and	O	O
+10	O	B-Prod
+were	O	O
+prepared	O	O
+from	O	O
+dipeptides	O	O
+6	B-Reactants	O
+and	O	O
+7	O	B-Reactants
+in	O	O
+60	B-Yield	B-Yield
+−	I-Yield	I-Yield
+90	I-Yield	I-Yield
+%	I-Yield	I-Yield
+yields	O	O
+in	O	O
+solution	O	O
+using	O	O
+RCM	O	O
+employing	O	O
+the	O	O
+
+#	passage=10.1021/ja00024a088-1	segment=0
+We	O
+have	O
+recently	O
+reported	O
+that	O
+the	O
+bis(sulfid0)	O
+complex	O
+trans-W(PMe,),(S)	B-Prod
+,	O
+may	O
+be	O
+readily	O
+obtained	O
+by	O
+the	O
+reaction	O
+of	O
+W(PMe3)4(q2-CH2PMe2)H	B-Reactants
+with	O
+H2S	B-Reactants
+,	O
+accompanied	O
+by	O
+elimination	O
+of	O
+dihydrogen.6	O
+Although	O
+the	O
+corresponding	O
+reaction	O
+with	O
+H2Te	O
+may	O
+provide	O
+a	O
+route	O
+to	O
+the	O
+analogous	O
+(bis)tellurido	O
+complex	O
+the	O
+instability	O
+of	O
+H2Te7	O
+limits	O
+the	O
+con-	O
+t	O
+r	O
+a	O
+n	O
+~	O
+-	O
+W	O
+(	O
+P	O
+M	O
+e	O
+~	O
+)	O
+~	O
+(	O
+T	O
+e	O
+)	O
+~	O
+,	O
+venience	O
+of	O
+such	O
+a	O
+method.	O
+
+#	passage=10.1021/ja00024a088-1	segment=1
+However	O
+,	O
+we	O
+have	O
+found	O
+that	O
+the	O
+reaction	O
+between	O
+W(PMe3)4(q2-CHzPMe2)H	B-Reactants
+and	O
+elemental	O
+tellurium	B-Reactants
+provides	O
+a	O
+straightforward	O
+synthesis	O
+of	O
+trans-W-	B-Prod
+(PMe3)4(Te)z.	I-Prod
+
+#	passage=10.1021/ja00021a055-1	segment=1
+Presumably	O
+the	O
+concentration	O
+of	O
+unbridged	O
+isomers	O
+of	O
+1	O
+can	O
+be	O
+increased	O
+by	O
+photochemical	O
+or	O
+thermal	O
+dis-	O
+sociation	O
+of	O
+M	O
+o	O
+-	O
+0	O
+bridge	O
+bonds	O
+,	O
+and	O
+indeed	O
+,	O
+solutions	O
+of	O
+1	B-Reactants
+in	O
+acetone	B-Solvent
+or	O
+CH3CN	B-Solvent
+that	O
+have	O
+been	O
+subjected	O
+to	O
+light	O
+from	O
+an	O
+intense	O
+white	B-Catalyst_Reagents
+light	I-Catalyst_Reagents
+source	I-Catalyst_Reagents
+or	O
+heated	O
+to	O
+reflux	O
+also	O
+yield	O
+large	B-Yield
+quantities	I-Yield
+of	O
+isomer	O
+2.	B-Prod
+
+#	passage=10.1021/ja00025a022-0	segment=0
+Abstract	O
+:	O
+The	O
+reaction	O
+of	O
+RU(NH	B-Reactants
+~	I-Reactants
+)	I-Reactants
+~	I-Reactants
+OH	I-Reactants
+?	I-Reactants
++	O
+with	O
+CoP(py)	B-Reactants
+,	O
+(	O
+cobalt	B-Reactants
+meso-tetrakis(4-pyridy1)porphyrin	I-Reactants
+)	O
+within	O
+Nafion	B-Catalyst_Reagents
+coatings	I-Catalyst_Reagents
+on	I-Catalyst_Reagents
+graphite	I-Catalyst_Reagents
+electrodes	I-Catalyst_Reagents
+produces	O
+[	B-Prod
+COP(	I-Prod
+~	I-Prod
+~	I-Prod
+RU(NH	I-Prod
+~	I-Prod
+)	I-Prod
+~	I-Prod
+),]*'.	I-Prod
+
+#	passage=10.1021/acs.joc.5b00195-5	segment=2
+Treatment	O	O
+of	O	O
+1k	B-Reactants	B-Reactants
+with	O	O
+N-acetylethanolamine	B-Reactants	B-Reactants
+(	O	O
+2a	B-Reactants	B-Reactants
+)	O	O
+furnished	O	O
+,	O	O
+selectively	O	O
+,	O	O
+the	O	O
+desired	O	O
+7-azatryptamine	B-Prod	O
+(	O	O
+3k	O	B-Prod
+)	O	O
+,	O	O
+although	O	O
+only	O	O
+in	O	O
+poor	O	O
+yield.	O	O
+
+#	passage=10.1021/ja00028a029-18	segment=2
+We	O
+now	O
+find	O
+that	O
+the	O
+addition	O
+of	O
+benzil	B-Reactants
+to	O
+1	B-Reactants
+produces	O
+low	B-Yield
+yields	O
+of	O
+>	O
+99	O
+%	O
+pure	O
+3,3(	B-Prod
+"	I-Prod
+-')-dibenzoyl[n]staffanes	I-Prod
+[n]	I-Prod
+If	O
+,	O
+even	O
+in	O
+the	O
+presence	O
+of	O
+ether	B-Solvent
+(	O
+1.7	O
+-	O
+4.5	O
+%	O
+,	O
+2.3	O
+-	O
+3.8	O
+%	O
+,	O
+0.5	O
+-	O
+0.7	O
+%	O
+,	O
+and	O
+0.1	O
+%	O
+based	O
+on	O
+8	O
+,	O
+for	O
+n	O
+=	O
+1	O
+,	O
+2	O
+,	O
+3	O
+,	O
+and	O
+4	O
+,	O
+respectively	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00357-2	segment=1
+Fortunately	O	O
+,	O	O
+the	O	O
+desired	O	O
+product	O	O
+,	O	O
+3-phenyl-	B-Prod	O
+isoquinolin-1(2H)-one	I-Prod	O
+(	O	O
+3a	O	B-Prod
+)	O	O
+,	O	O
+was	O	O
+observed	O	O
+though	O	O
+the	O	O
+yield	O	O
+was	O	O
+unsatisfactory	B-Yield	B-Yield
+(	O	O
+entry	O	O
+1	O	O
+).	O	O
+
+#	passage=10.1021/ja00134a040-2	segment=1
+Thus	O	O
+,	O	O
+employing	O	O
+Jeffery	O	O
+conditions	O	O
+on	O	O
+enamine	O	O
+10aI0	B-Reactants	O
+afforded	O	O
+the	O	O
+expected	O	O
+endo	O	O
+product	O	O
+11Io	B-Prod	O
+in	O	O
+good	B-Yield	O
+yield	O	O
+,	O	O
+while	O	O
+the	O	O
+enol	O	O
+derivative	O	O
+10bl0	O	B-Reactants
+afforded	O	O
+exclusively	O	O
+1210*’2	O	B-Prod
+on	O	O
+exposure	O	O
+to	O	O
+standard	O	O
+Heck	O	O
+conditions.	O	O
+
+#	passage=10.1021/ja00132a048-3	segment=1
+Treatment	O
+of	O
+a	O
+solution	O
+of	O
+2	B-Reactants
+in	O
+toluene	B-Solvent
+with	O
+a	O
+solution	O
+of	O
+CH3Li	B-Reactants
+in	O
+ether	B-Solvent
+at	O
+room	B-Temperature
+temperature	O
+,	O
+followed	O
+(	O
+after	O
+30	B-Time
+min	I-Time
+)	O
+by	O
+addition	O
+of	O
+5	O
+mL	O
+of	O
+acetone	B-Reactants
+,	O
+gave	O
+a	O
+yellow	O
+-	O
+brown	O
+reaction	O
+mixture	O
+,	O
+from	O
+which	O
+upon	O
+chromatographic	O
+workup	O
+yellow	O
+crystals	O
+of	O
+9	B-Prod
+were	O
+isolated	O
+in	O
+65	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/ja00133a031-0	segment=1
+Un-	O	O
+der	O	O
+certain	O	O
+conditions	O	O
+this	O	O
+binuclear	O	O
+species	O	O
+slowly	O	O
+decomposes	B-Reaction	B-Reaction
+yielding	O	O
+Tl(1)	B-Prod	O
+and	O	O
+the	O	O
+hitherto	O	O
+unknown	O	O
+[	O	B-Prod
+Pt1	O	I-Prod
+"	O	I-Prod
+(CN)5(0H2)]-	O	I-Prod
+ion.	O	O
+
+#	passage=10.1021/ja00133a031-0	segment=3
+Scheme	O	O
+1	O	O
+[	O	O
+Pt	O	O
+"	O	O
+(CN)4]2-	O	O
++	O	O
+cr[T1111(CN)3]1'	O	O
++	O	O
+H+	O	O
+*	O	O
+[(NC),Pt-Tl(CN)]-	O	O
++	O	O
+H,O	O	O
++	O	O
+H+	O	O
+2	O	O
+[Pt1V(CN),(OH2)]-	O	O
++	O	O
+Tl	O	O
+'	O	O
++	O	O
+HCN	O	O
+[F't1v(CN)5(OH,)]-	O	O
++	O	O
+HCN	O	O
+*	O	O
+[Pt'v(cN)6]2-	O	O
++	O	O
+H	O	O
+2	O	O
+0	O	O
++	O	O
+H+	O	O
+equilibration	O	O
+The	O	O
+Pt-T1	B-Prod	O
+species	O	O
+appear	O	O
+during	O	O
+the	O	O
+oxidation	B-Reaction	B-Reaction
+of	O	O
+R(II)	B-Reactants	B-Reactants
+to	O	O
+Pt(IV)	O	B-Prod
+by	O	O
+Tl(III)	B-Reactants	B-Reactants
+,	O	O
+which	O	O
+in	O	O
+tum	O	O
+is	O	O
+reduced	O	O
+to	O	O
+Tl(1	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00455-0	segment=1
+The	O
+bifunctional	O
+salicylate	O
+synthase	O
+MbtI	O
+catalyzes	O
+the	O
+ﬁrst	O
+step	O
+of	O
+mycobactin	O
+biosynthesis	B-Reaction
+through	O
+the	O
+conversion	O
+of	O
+the	O
+primary	O
+metabolite	O
+chorismate	B-Reactants
+into	O
+salicylic	B-Prod
+acid	I-Prod
+via	O
+isochorismate.	B-Catalyst_Reagents
+
+#	passage=10.1021/acs.joc.5b00153-4	segment=1
+Unexpectedly	O	O
+,	O	O
+aliphatic	O	O
+substituted	O	O
+products	O	O
+3l	B-Prod	O
+and	O	O
+3m	O	B-Prod
+were	O	O
+obtained	O	O
+with	O	O
+moderate	O	O
+yields	O	O
+and	O	O
+enantioselectivities.	O	O
+
+#	passage=10.1021/ja00143a031-4	segment=1
+Exhaustive	B-Reaction	B-Reaction	B-Reaction	B-Reaction
+reduction	I-Reaction	I-Reaction	I-Reaction	I-Reaction
+of	O	O	O	O
+18	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+with	O	O	O	O
+lithium	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+aluminum	I-Reactants	I-Reactants	I-Reactants	I-Reactants
+hydride	I-Reactants	I-Reactants	I-Reactants	I-Reactants
+,	O	O	O	O
+with	B-Reaction	B-Reaction	B-Reaction	B-Reaction
+an	I-Reaction	I-Reaction	I-Reaction	I-Reaction
+acidic	B-Workup_reagents	B-Workup_reagents	B-Workup_reagents	B-Workup_reagents
+workup	I-Workup_reagents	I-Workup_reagents	I-Workup_reagents	I-Workup_reagents
+that	O	O	O	O
+removed	O	O	O	O
+the	O	O	O	O
+silyl	O	O	O	O
+protecting	O	O	O	O
+group	O	O	O	O
+at	O	O	O	O
+C	O	O	O	O
+1	O	O	O	O
+,	O	O	O	O
+gave	O	O	O	O
+pentaol	B-Prod	O	O	O
+19	O	B-Prod	O	O
+and	O	O	O	O
+its	O	O	O	O
+8a	O	O	B-Prod	O
+epimer	O	O	O	B-Prod
+(	O	O	O	O
+4	O	O	O	O
+:	O	O	O	O
+l	O	O	O	O
+respectively	O	O	O	O
+).	O	O	O	O
+
+#	passage=10.1021/ja00143a031-4	segment=2
+The	O	O	O
+pentaacetate	O	O	O
+20	B-Prod	B-Reactants	O
+derived	O	O	O
+from	O	O	O
+19	B-Reactants	O	O
+underwent	O	O	O
+clean	O	O	O
+acidic	O	B-Reaction	O
+hy-	O	I-Reaction	O
+drolysis	O	I-Reaction	O
+of	O	O	O
+its	O	O	O
+benzylidene	O	O	O
+acetal	O	O	O
+to	O	O	O
+give	O	O	O
+21	O	B-Prod	B-Reactants
+,	O	O	O
+which	O	O	O
+was	O	O	O
+conveniently	O	O	O
+purified	O	O	O
+as	O	O	O
+its	O	O	O
+heptaacetate	O	O	O
+22.	O	O	B-Prod
+
+#	passage=10.1021/ja00143a031-4	segment=3
+Alternatively	O
+,	O
+22	B-Prod
+could	O
+be	O
+obtained	O
+directly	O
+from	O
+18	B-Reactants
+by	O
+reduction	B-Reaction
+,	O
+treatment	O
+with	O
+Amberlite	B-Workup_reagents
+resin	I-Workup_reagents
+,	O
+and	O
+finally	O
+acetylation.	B-Workup_reagents
+
+#	passage=10.1021/ja00143a031-4	segment=4
+Hydroxylation	B-Reaction	B-Reaction
+of	O	O
+the	O	O
+trisubstituted	B-Reactants	B-Reactants
+olefin	I-Reactants	I-Reactants
+22	B-Reactants	B-Reactants
+with	O	O
+excess	O	O
+osmium	B-Reactants	B-Reactants
+tetraoxide	I-Reactants	I-Reactants
+,	O	O
+followed	O	O
+by	O	O
+acetylation	O	O
+,	O	O
+afforded	O	O
+the	O	O
+known	O	O
+euonyminol	O	O
+octaacetate	O	O
+235	B-Prod	O
+accompanied	O	O
+by	O	O
+its	O	O
+stereoisomer	O	O
+24.	O	B-Prod
+
+#	passage=10.1021/ja00146a007-2	segment=0
+(	O
+IO	O
+)	O
+IC	B-Prod
+was	O
+synthesised	O
+in	O
+solution	O
+by	O
+reacting	O
+bromomethyl	B-Reactants
+ketone	I-Reactants
+5	B-Reactants
+with	O
+the	O
+tert-butyl	B-Reactants
+amide	I-Reactants
+of	I-Reactants
+L-pipecolinic	I-Reactants
+acid	I-Reactants
+,	O
+reducing	O
+with	O
+N	B-Workup_reagents
+a	I-Workup_reagents
+B	I-Workup_reagents
+h	I-Workup_reagents
+to	O
+give	O
+the	O
+hydroxyethylamine	O
+analogue	O
+of	O
+6	O
+,	O
+coupling	O
+6	O
+to	O
+Asn	O
+with	O
+HBTU	O
+,	O
+and	O
+elaboration	O
+as	O
+in	O
+Scheme	O
+1.	O
+
+#	passage=10.1021/ja00146a007-2	segment=1
+2b	B-Prod
+was	O
+synthesized	O
+after	O
+reduction	B-Reaction
+of	O
+BocPhe-COCH2Br	B-Reactants
+to	O
+the	O
+bromohydrin	O
+,	O
+c6romatographic	O
+separation	O
+of	O
+diastereomers	O
+;	O
+one	O
+was	O
+then	O
+treated	O
+with	O
+alcoholic	O
+KOH	O
+,	O
+giving	O
+the	O
+S,S-	O
+epoxide	O
+”	O
+which	O
+was	O
+subsequently	O
+added	O
+to	O
+the	O
+cycle	O
+11	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00292-1	segment=0
+In	O	O
+continuation	O	O
+of	O	O
+our	O	O
+ongoing	O	O
+research	O	O
+on	O	O
+IBX-	O	O
+and	O	O
+Oxone	O	O
+·K2SO4	O	O
+)	O	O
+-	O	O
+mediated	O	O
+oxidation	O	O
+chemistry,7b,16	O	O
+(	O	O
+2KHSO5	O	O
+we	O	O
+recently	O	O
+showed	O	O
+that	O	O
+naphthalene	B-Reactants	B-Reactants
+undergoes	O	O
+oxidation	B-Reaction	B-Reaction
+with	O	O
+Oxone	B-Reactants	B-Reactants
+,	O	O
+providing	O	O
+o-carboxycinnamic	B-Prod	O
+acid	I-Prod	O
+and	O	O
+naphthoquinone	O	B-Prod
+in	O	O
+56	B-Yield	B-Yield
+and	O	O
+31	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yields	O	O
+,	O	O
+respectively.7b	O	O
+This	O	O
+spurred	O	O
+us	O	O
+to	O	O
+comprehensively	O	O
+investigate	O	O
+oxidations	O	O
+of	O	O
+methoxy-	O	O
+and	O	O
+hydroxy-substituted	O	O
+naphthalenes	O	O
+with	O	O
+Oxone	O	O
+in	O	O
+view	O	O
+of	O	O
+environmentally	O	O
+benign	O	O
+,	O	O
+nontoxic	O	O
+,	O	O
+cheap	O	O
+,	O	O
+and	O	O
+easy	O	O
+handling	O	O
+attributes	O	O
+of	O	O
+the	O	O
+latter.	O	O
+
+#	passage=10.1021/ja00131a036-0	segment=0
+Department	O	O
+of	O	O
+Chemistry	O	O
+,	O	O
+Rutgers	O	O
+,	O	O
+the	O	O
+State	O	O
+University	O	O
+of	O	O
+New	O	O
+Jersey	O	O
+,	O	O
+Newark	O	O
+,	O	O
+New	O	O
+Jersey	O	O
+07102	O	O
+Received	O	O
+July	O	O
+20	O	O
+,	O	O
+1994	O	O
+Revised	O	O
+Manuscript	O	O
+Received	O	O
+March	O	O
+27	O	O
+,	O	O
+1995	O	O
+Subsequent	O	O
+to	O	O
+the	O	O
+Fmt	O	O
+successful	O	O
+generation	O	O
+of	O	O
+enamines	O	O
+related	O	O
+to	O	O
+the	O	O
+central	O	O
+intermediate	O	O
+present	O	O
+on	O	O
+all	O	O
+thiamin	O	O
+diphosphate	O	O
+(ThDP)-dependent	O	O
+enzymes,'	O	O
+we	O	O
+determined	O	O
+its	O	O
+structure	O	O
+in	O	O
+solution	O	O
+,	O	O
+its	O	O
+mechanism	O	O
+of	O	O
+oxidation	O	O
+at	O	O
+an	O	O
+electrode,2a	O	O
+the	O	O
+p	O	O
+6	O	O
+s	O	O
+leading	O	O
+to	O	O
+it	O	O
+both	O	O
+in	O	O
+DMSOzb	O	O
+and	O	O
+in	O	O
+water,zc	O	O
+and	O	O
+the	O	O
+kinetics	O	O
+of	O	O
+proton	O	O
+transfer	O	O
+to	O	O
+and	O	O
+from	O	O
+the	O	O
+C2a	O	O
+position.2c	O	O
+Herein	O	O
+is	O	O
+reported	O	O
+the	O	O
+mechanism	O	O
+of	O	O
+oxidation	B-Reaction	B-Reaction
+of	O	O
+the	O	O
+enamine	O	O
+by	O	O
+a	O	O
+flavin	O	O
+adenine	O	O
+dinucleotide	O	O
+(	O	O
+FAD	O	O
+)	O	O
+analog	O	O
+,	O	O
+providing	O	O
+a	O	O
+model	O	O
+for	O	O
+the	O	O
+flavoenzyme	B-Reactants	B-Reactants
+pyruvate	I-Reactants	I-Reactants
+oxidase	I-Reactants	I-Reactants
+(	O	O
+POX	B-Reactants	B-Reactants
+)	O	O
+,	O	O
+whose	O	O
+product	O	O
+is	O	O
+acetyl	B-Prod	O
+phosphate	I-Prod	O
+and	O	O
+C	O	B-Prod
+O	O	I-Prod
+Z	O	I-Prod
+.	O	O
+
+#	passage=10.1021/ja00144a005-25	segment=1
+A	O
+typical	O
+reaction	O
+procedure	O
+is	O
+described	O
+for	O
+the	O
+synthesis	O
+of	O
+4a.	B-Prod
+
+#	passage=10.1021/ja00136a025-20	segment=2
+We	O
+first	O
+designed	O
+this	O
+to	O
+be	O
+vinylstannane	O
+-	O
+sulfone	O
+48	B-Prod
+,	O
+prepared	O
+by	O
+us	O
+from	O
+the	O
+known	O
+alcohol	O
+4742	B-Reactants
+(	O
+Scheme	O
+10	O
+).	O
+
+#	passage=10.1021/ja00136a025-20	segment=4
+~	O
+~	O
+In	O
+model	O
+studies	O
+,	O
+regiospecific	B-Reaction
+anion	I-Reaction
+addition	I-Reaction
+of	O
+48	B-Reactants
+to	O
+cinnamaldehyde	B-Reactants
+produced	O
+in	O
+86	B-Yield
+%	I-Yield
+yield	O
+the	O
+adduct	O
+49	B-Prod
+as	O
+a	O
+statistical	O
+mixture	O
+of	O
+diastereomers.	O
+
+#	passage=10.1021/acs.joc.5b00477-4	segment=1
+The	O
+oxidative	B-Reaction
+annulation	I-Reaction
+of	O
+other	O
+2-pyridylacetates	B-Reactants
+such	O
+as	O
+−COOMe	O
+,	O
+−COOiPr	O
+,	O
+−COOnBu	O
+,	O
+−COOtBu	O
+,	O
+and	O
+−COOCy	O
+,	O
+reacted	O
+well	O
+with	O
+4-chloroaceto-	B-Reactants
+phenone	I-Reactants
+and	O
+produced	O
+the	O
+corresponding	O
+indolizine	O
+esters	B-Prod
+3b−3f	I-Prod
+in	O
+moderate	O
+to	O
+good	O
+yields.	O
+
+#	passage=10.1021/ja00025a057-0	segment=2
+Therefore	O
+,	O
+our	O
+attention	O
+was	O
+shifted	O
+to	O
+the	O
+Stille	O
+coupling	O
+rea	O
+~	O
+ti0n.l	O
+~	O
+The	O
+required	O
+6-iodo	O
+amide	O
+1415	B-Prod
+was	O
+readily	O
+prepared	O
+by	O
+coupling	B-Reaction
+(	O
+p-TsC1	B-Catalyst_Reagents
+/	O
+DMAP	B-Catalyst_Reagents
+/	O
+CH2CI2	B-Solvent
+/	O
+room	B-Temperature
+temperature	O
+)	O
+of	O
+5-iodopentadienoic	B-Reactants
+acidI6	I-Reactants
+and	O
+iV	B-Reactants
+"	I-Reactants
+,N	I-Reactants
+"	I-Reactants
+'	I-Reactants
+-diacetyl-	I-Reactants
+L-arginine	I-Reactants
+trimethylsilylethyl	I-Reactants
+ester.	I-Reactants
+
+#	passage=10.1021/ja00025a057-0	segment=5
+Tetrabutylammonium	B-Reactants	B-Reactants
+fluoride	I-Reactants	I-Reactants
+(	O	O
+THF	B-Solvent	B-Solvent
+/	O	O
+room	B-Temperature	B-Temperature
+tem-	O	O
+perature	O	O
+)	O	O
+and	O	O
+lithium	B-Reactants	B-Reactants
+hydroxide	I-Reactants	I-Reactants
+(	O	O
+MeOH	B-Solvent	B-Solvent
+/	O	O
+room	B-Temperature	B-Temperature
+temperature	O	O
+)	O	O
+treatments	O	O
+of	O	O
+15	B-Reactants	B-Reactants
+gave	O	O
+synthetic	O	O
+onnamide	B-Prod	O
+A	I-Prod	O
+(	O	O
+3	O	B-Prod
+)	O	O
+in	O	O
+59	B-Yield	B-Yield
+%	I-Yield	I-Yield
+overall	O	O
+yield.	O	O
+
+#	passage=10.1021/ja00023a089-3	segment=1
+(	O
+23	O
+)	O
+A	O
+concerted	O
+rearrangement	B-Reaction
+of	O
+9	B-Reactants
+(	O
+Scheme	O
+I	O
+)	O
+could	O
+also	O
+lead	O
+to	O
+com-	O
+pounds	O
+10	B-Prod
+and	O
+12	O
+.	O
+
+#	passage=10.1021/ja00141a039-0	segment=2
+The	O
+analogous	O
+n-Pr-DuPHOS-Rh	B-Catalyst_Reagents
+and	O
+i-Pr-DuPHOS-Rh	B-Catalyst_Reagents
+catalysts	O
+provided	O
+2a	B-Prod
+with	O
+even	O
+lower	O
+selectivity	O
+(	O
+45	O
+%	O
+and	O
+14	O
+%	O
+ee	O
+,	O
+respectively	O
+).	O
+
+#	passage=10.1021/ja00141a039-0	segment=3
+Upon	O
+moving	O
+to	O
+the	O
+less	O
+sterically	O
+congested	O
+Me-DuPHOS-Fth	O
+catalysts	O
+,	O
+how-	O
+ever	O
+,	O
+a	O
+significant	O
+increase	O
+in	O
+selectivity	O
+was	O
+observed	O
+,	O
+and	O
+the	O
+valine	O
+derivative	O
+2a	B-Prod
+was	O
+obtained	O
+in	O
+91.9	O
+%	O
+ee.	O
+
+#	passage=10.1021/ja00131a033-1	segment=18
+A	O
+repre-	O
+sentative	O
+procedure	O
+is	O
+exemplified	O
+by	O
+the	O
+preparation	O
+of	O
+7b	B-Prod
+:	O
+To	O
+a	O
+solution	O
+of	O
+1	B-Reactants
+(	O
+24.4	O
+mg	O
+,	O
+37.1	O
+pmol	O
+)	O
+,	O
+EDC	B-Reactants
+(	O
+7.1	O
+mg	O
+,	O
+37.1	O
+pmol	O
+)	O
+,	O
+and	O
+DMAP	B-Reactants
+(	O
+4.0	O
+mg	O
+,	O
+37.1	O
+pmol	O
+)	O
+in	O
+absolute	O
+CHzClz	B-Solvent
+(	O
+1	O
+mL	O
+)	O
+was	O
+added	O
+a	O
+solution	O
+of	O
+7a	B-Reactants
+(	O
+5	O
+mg	O
+,	O
+12.4	O
+pmol	O
+)	O
+in	O
+CHzClz	B-Solvent
+(	O
+1	O
+mL	O
+)	O
+at	O
+room	B-Temperature
+temperature.	O
+
+#	passage=10.1021/acs.joc.5b00470-2	segment=0
+The	O
+route	O
+begins	O
+with	O
+6,6-dimethylfulvene	B-Reactants
+,	O
+which	O
+was	O
+allowed	O
+to	O
+react	O
+neatly	O
+with	O
+dimethylacetylene	B-Reactants
+dicarboxylate	I-Reactants
+(	O
+DMAD	B-Reactants
+)	O
+to	O
+yield	O
+the	O
+trienediester	O
+3.	B-Prod
+
+#	passage=10.1021/acs.joc.5b00470-2	segment=1
+Wilkinson	B-Catalyst_Reagents
+’s	I-Catalyst_Reagents
+catalyst	O
+was	O
+employed	O
+to	O
+reduce	B-Reaction
+the	O
+least	O
+substituted	O
+double	O
+bond	O
+,	O
+yielding	O
+4.	B-Prod
+
+#	passage=10.1021/acs.joc.5b00470-2	segment=2
+This	O
+reduction	O
+was	O
+followed	O
+by	O
+saponiﬁcation	B-Reaction
+of	O
+the	O
+carbomethoxy	O
+groups	O
+with	O
+LiOH	B-Reactants
+to	O
+form	O
+a	O
+dicarboxylic	B-Prod
+acid	I-Prod
+,	O
+which	O
+was	O
+then	O
+converted	O
+without	O
+workup	O
+into	O
+the	O
+corresponding	O
+anhydride	O
+using	O
+triﬂuoroacetic	O
+anhydride	O
+(	O
+TFAA	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00470-2	segment=4
+This	O
+was	O
+followed	O
+by	O
+a	O
+Fleming	B-Reaction
+-	I-Reaction
+Tamao	I-Reaction
+oxidation	I-Reaction
+to	O
+convert	O
+the	O
+silane	O
+to	O
+alcohol	O
+8	B-Prod
+and	O
+a	O
+diimide	O
+reduction	O
+to	O
+reduce	O
+selectively	O
+the	O
+less	O
+substituted	O
+double	O
+bond.	O
+
+#	passage=10.1021/acs.joc.5b00470-2	segment=6
+Alcohol	O	O
+9	B-Reactants	O
+was	O	O
+oxidized	B-Reaction	O
+to	O	O
+a	O	O
+ketone	O	O
+(	O	O
+10	B-Prod	B-Reactants
+)	O	O
+by	O	O
+treatment	O	O
+with	O	O
+pyridinium	B-Reactants	O
+chlorochromate	I-Reactants	O
+(	O	O
+PCC	B-Reactants	O
+)	O	O
+and	O	O
+then	O	O
+reduced	O	B-Reaction
+stereospeciﬁcally	O	O
+with	O	O
+LiBH4	O	B-Reactants
+to	O	O
+form	O	O
+1	O	B-Prod
+.	O	O
+
+#	passage=10.1021/ja00022a077-6	segment=0
+Chorismate	B-Catalyst_Reagents
+synthase	I-Catalyst_Reagents
+(	O
+EC	B-Catalyst_Reagents
+4.6.1,4	I-Catalyst_Reagents
+)	O
+,	O
+the	O
+seventh	O
+enzyme	O
+in	O
+the	O
+shikimate	O
+pathway,'	O
+catalyzes	O
+the	O
+conversion	O
+of	O
+5-enolpyruvyl-	B-Reactants
+shikimate	I-Reactants
+3-phosphate	I-Reactants
+(	O
+EPSP	B-Reactants
+)	O
+to	O
+chorismate	B-Prod
+in	O
+a	O
+reaction	O
+that	O
+involves	O
+the	O
+trans	B-Reaction
+1,4-elimination	I-Reaction
+of	O
+the	O
+C-6-pro-R	O
+proton	O
+and	O
+(	O
+Scheme	O
+I	O
+).	O
+
+#	passage=10.1021/ja001456j-4	segment=0
+Allylation	B-Reaction
+of	O
+either	O
+1	B-Reactants
+or	O
+2	B-Reactants
+with	O
+allyltributyl	B-Reactants
+tin	I-Reactants
+(	O
+9	B-Reactants
+)	O
+using	O
+2	O
+equivs	O
+of	O
+MgBr2	B-Reactants
+at	O
+-78	B-Temperature
+(	O
+cid	O
+:	O
+176	O
+)	O
+C	B-Temperature
+gave	O
+the	O
+allylated	O
+product	O
+8	B-Prod
+in	O
+good	B-Yield
+yield	O
+and	O
+(	O
+cid	O
+:	O
+24)40	O
+:	O
+1	O
+selectivity	O
+(	O
+Table	O
+2	O
+,	O
+entries	O
+1	O
+and	O
+2	O
+).	O
+
+#	passage=10.1021/ja001456j-4	segment=3
+The	O
+observed	O
+high	O
+selectivity	O
+suggests	O
+the	O
+following	O
+:	O
+(	O
+1	O
+)	O
+both	O
+diastereomers	O
+produce	O
+the	O
+same	O
+radical	O
+intermediate	O
+,	O
+(	O
+2	O
+)	O
+the	O
+intermediate	O
+radical	O
+is	O
+chelated	O
+to	O
+the	O
+Lewis	O
+acid	O
+as	O
+an	O
+s-cis	O
+rotamer	O
+and	O
+approach	O
+of	O
+the	O
+reagent	O
+occurs	O
+from	O
+the	O
+face	O
+opposite	O
+to	O
+the	O
+bulky	O
+chiral	O
+auxiliary	O
+,	O
+(	O
+3	O
+)	O
+assuming	O
+that	O
+bromine	O
+atom	O
+abstraction	O
+may	O
+or	O
+may	O
+not	O
+occur	O
+from	O
+a	O
+chelated	O
+form	O
+of	O
+the	O
+substrate	O
+1	O
+and	O
+2	O
+,	O
+rotation	O
+across	O
+the	O
+radical-carbonyl	O
+(	O
+COCHCH3	O
+)	O
+bond	O
+(	O
+structures	O
+4f3	O
+)	O
+as	O
+well	O
+as	O
+(	O
+10	O
+)	O
+Enolate	B-Reaction
+allylation	I-Reaction
+of	O
+3-(1-oxopropyl)-4-(diphenylmethyl)-2-oxazo-	B-Reactants
+lidinone	I-Reactants
+gave	O
+8	B-Prod
+in	O
+63	B-Yield
+%	I-Yield
+yield	O
+with	O
+>	O
+99	O
+%	O
+de.	O
+
+#	passage=10.1021/ja00138a017-1	segment=1
+’	O
+The	O
+reaction	O
+involves	O
+the	O
+conversion	O
+of	O
+the	O
+conjugate	O
+base	O
+of	O
+benzisoxazole-3-carboxylic	O
+acid	O
+(	O
+1	B-Reactants
+)	O
+to	O
+cy-	O
+anophenoxide	O
+3	B-Prod
+,	O
+without	O
+formation	O
+of	O
+an	O
+intermediate	O
+(	O
+Scheme	O
+1	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00657-0	segment=1
+The	O
+product	O
+was	O
+determined	O
+to	O
+be	O
+9,9,10,10-	B-Prod
+tetraﬂuoro-1,2,4,12-tetraphenyl[2.2]paracyclophan-1-ene	I-Prod
+by	O
+X-ray	O
+crystallography	O
+and	O
+is	O
+proposed	O
+to	O
+be	O
+formed	O
+via	O
+the	O
+ﬁrst	O
+reported	O
+example	O
+of	O
+reductive	B-Reaction
+deﬂuorination	I-Reaction
+by	O
+a	O
+Grignard	O
+reagent	O
+.	O
+
+#	passage=10.1021/ja001415n-12	segment=1
+Reaction	O	O
+of	O	O
+1	B-Reactants	B-Reactants
+with	O	O
+isopropyl	B-Reactants	B-Reactants
+R-(bromomethyl)-	I-Reactants	I-Reactants
+acrylate	I-Reactants	I-Reactants
+gave	O	O
+dienes	O	O
+11r	B-Prod	O
+and	O	O
+11	O	B-Prod
+(	O	O
+cid	O	O
+:	O	O
+226	O	O
+)	O	O
+in	O	O
+very	B-Yield	B-Yield
+high	I-Yield	I-Yield
+yield	O	O
+and	O	O
+a	O	O
+5	O	O
+:	O	O
+1	O	O
+ratio	O	O
+(	O	O
+Scheme	O	O
+2	O	O
+).	O	O
+
+#	passage=10.1021/ja001415n-12	segment=3
+However	O
+,	O
+when	O
+1	B-Reactants
+was	O
+reacted	O
+with	O
+cinnamyl	B-Reactants
+bromide	I-Reactants
+the	O
+(	O
+cid	O
+:	O
+240	O
+)	O
+-	O
+facial	O
+selectivity	O
+changed	O
+,	O
+giving	O
+12	B-Prod
+as	O
+the	O
+major	O
+product	O
+isolated	O
+in	O
+54	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/ja001366e-1	segment=1
+As	O
+shown	O
+in	O
+Scheme	O
+1	O
+,	O
+the	O
+reaction	O
+of	O
+the	O
+[Et2C2B4H4]2-	B-Reactants
+dianion	O
+with	O
+TiCl4(PMe3)2	B-Reactants
+13	B-Reactants
+in	O
+toluene	B-Solvent
+affords	O
+1	B-Prod
+as	O
+a	O
+red	O
+solid	O
+in	O
+46	B-Yield
+%	I-Yield
+yield	O
+,	O
+characterized	O
+by	O
+1H	O
+,	O
+13C	O
+,	O
+11B	O
+,	O
+and	O
+31P	O
+NMR	O
+spectroscopy	O
+and	O
+elemental	O
+analysis.	O
+
+#	passage=10.1021/acs.joc.5b00365-2	segment=7
+To	O	O
+our	O	O
+delight	O	O
+,	O	O
+oxidation	B-Reaction	B-Reaction
+of	O	O
+9	B-Reactants	B-Reactants
+with	O	O
+freshly	O	O
+prepared	O	O
+Fétizon	B-Catalyst_Reagents	B-Catalyst_Reagents
+reagent	O	O
+in	O	O
+reﬂuxing	B-Temperature	B-Temperature
+benzene	B-Solvent	B-Solvent
+produced	O	O
+the	O	O
+desired	O	O
+target	O	O
+lactone	O	O
+(+)-iresin	O	O
+(	O	O
+4	B-Prod	O
+)	O	O
+chemoselectively	O	O
+in	O	O
+78	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+,	O	O
+along	O	O
+with	O	O
+aldehyde	O	O
+11	O	B-Prod
+in	O	O
+14	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield.	O	O
+
+#	passage=10.1021/acs.joc.5b00365-2	segment=8
+Reduction	B-Reaction
+of	O
+11	B-Reactants
+with	O
+NaBH4	B-Catalyst_Reagents
+at	O
+0	B-Temperature
+°	I-Temperature
+C	I-Temperature
+in	O
+methanol	B-Solvent
+gave	O
+(+)-iresin	O
+(	O
+4	B-Prod
+)	O
+in	O
+86	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/acs.joc.5b00365-2	segment=9
+Synthetic	O
+4	O
+exhibits	O
+identical	O
+spectroscopic	O
+data	O
+with	O
+those	O
+of	O
+reported	O
+(+)-iresin.5,6	O
+Further	O
+structural	O
+conﬁrmation	O
+of	O
+synthetic	O
+4	O
+was	O
+provided	O
+by	O
+the	O
+X-ray	O
+crystallographic	O
+analysis	O
+of	O
+the	O
+bis-para-bromobenzoate	O
+de-	O
+rivative	O
+14.6e,16	O
+Interestingly	O
+,	O
+oxidation	B-Reaction
+of	O
+10	B-Reactants
+with	O
+excess	O
+Fétizon	B-Catalyst_Reagents
+reagent	O
+in	O
+reﬂuxing	B-Temperature
+benzene	B-Solvent
+furnished	O
+lactone	O
+aldehyde	O
+12	B-Prod
+chemoselectively	O
+in	O
+91	B-Yield
+%	I-Yield
+yield	O
+,	O
+which	O
+was	O
+reduced	O
+with	O
+
+#	passage=10.1021/acs.joc.5b00541-2	segment=2
+Treatment	O	O	O
+of	O	O	O
+1	B-Reactants	B-Reactants	B-Reactants
+with	O	O	O
+diisobutylaluminum	O	O	O
+hydride	O	O	O
+(	O	O	O
+DIBAL-H	B-Reactants	B-Reactants	B-Reactants
+)	O	O	O
+in	O	O	O
+THF	O	O	O
+followed	O	O	O
+by	O	O	O
+addition	O	O	O
+of	O	O	O
+N-	B-Reactants	B-Reactants	B-Reactants
+bromosuccinimide	I-Reactants	I-Reactants	I-Reactants
+(	O	O	O
+NBS	B-Reactants	B-Reactants	B-Reactants
+)	O	O	O
+gave	O	O	O
+2-bromo-3-[2-bromo-2-	B-Prod	O	O
+(trimethylsilyl)vinyl]naphthalene	I-Prod	O	O
+2	O	B-Prod	O
+as	O	O	O
+an	O	O	O
+inseparable	O	O	O
+mixture	O	O	O
+with	O	O	O
+2-bromo-3-[2-(trimethylsilyl)vinyl]naphthalene.	O	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00541-2	segment=4
+2	O	O
+equiv	O	O
+of	O	O
+nBuLi	B-Reactants	B-Reactants
+,	O	O
+followed	O	O
+by	O	O
+sequential	O	O
+treatments	O	O
+with	O	O
+dichloro(phenyl)phosphine	B-Reactants	B-Reactants
+and	O	O
+hydrogen	B-Reactants	B-Reactants
+peroxide	I-Reactants	I-Reactants
+,	O	O
+aﬀorded	O	O
+2-(trimethylsilyl)naphtho[2,3-b]phosphole	B-Prod	O
+P-oxide	I-Prod	O
+3.	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00541-2	segment=5
+Bromolysis	O
+of	O
+the	O
+C(sp2)−Si	O
+bond	O
+of	O
+3	B-Reactants
+with	O
+NBS	B-Reactants
+produced	O
+bromide	O
+4	B-Prod
+as	O
+a	O
+colorless	O
+solid	O
+.	O
+
+#	passage=10.1021/ja00137a021-4	segment=5
+Aldehyde	O
+6	B-Reactants
+was	O
+easily	O
+oxidized	O
+to	O
+7	B-Prod
+with	O
+a	O
+stoichiometric	O
+amount	O
+of	O
+TBA'Mn04-	B-Reactants
+in	O
+pyridine	B-Solvent
+/	O
+THF.	B-Solvent
+
+#	passage=10.1021/ja00146a009-9	segment=5
+The	O
+synthesis	O
+of	O
+20	B-Prod
+proceeded	O
+in	O
+a	O
+straightforward	O
+manner	O
+from	O
+y-valerolactone	B-Reactants
+17	B-Reactants
+as	O
+outlined	O
+in	O
+Scheme	O
+3.	O
+
+#	passage=10.1021/ja00146a009-9	segment=6
+Its	O
+coupling	O
+to	O
+enol	B-Reactants
+triflate	I-Reactants
+16	B-Reactants
+via	O
+the	O
+higher	O
+order	O
+cuprate	B-Catalyst_Reagents
+reagent	I-Catalyst_Reagents
+proved	O
+quite	O
+superior	O
+to	O
+the	O
+two	O
+previous	O
+cases	O
+,	O
+leading	O
+to	O
+25	B-Prod
+with	O
+an	O
+85	B-Yield
+%	I-Yield
+total	O
+yield	O
+and	O
+with	O
+ca.	O
+
+#	passage=10.1021/ja00145a036-1	segment=1
+the	O
+slower	O
+reactions	O
+quantitatively	O
+gave	O
+Et20	B-Prod
+after	O
+1.5	O
+h.	O
+
+#	passage=10.1021/ja00145a036-1	segment=2
+Under	O
+similar	O
+conditions	O
+,	O
+the	O
+less	O
+effective	O
+Mn(C0)sCHz	O
+and	O
+Mn(C0)sBr	B-Catalyst_Reagents
+catalysts	O
+converted	O
+CH	B-Reactants
+?	I-Reactants
+C02Et	B-Reactants
+over	B-Time
+4	I-Time
+h	I-Time
+to	O
+Et20	B-Prod
+(	O
+85	B-Yield
+and	O
+55	B-Yield
+%	I-Yield
+).	O
+
+#	passage=10.1021/acs.joc.5b00741-1	segment=1
+Dibenziodolium	B-Prod	O
+iodide	I-Prod	O
+2	O	B-Prod
+was	O	O
+originally	O	O
+prepared	O	O
+by	O	O
+Mascarelli	O	O
+and	O	O
+Benati	O	O
+in	O	O
+1909	O	O
+by	O	O
+diazotization	B-Reaction	B-Reaction
+of	O	O
+2,2′-diaminodiphenyl	B-Reactants	B-Reactants
+1	B-Reactants	B-Reactants
+with	O	O
+sodium	B-Reactants	B-Reactants
+nitrite	I-Reactants	I-Reactants
+in	O	O
+a	O	O
+hydrochloric	B-Catalyst_Reagents	B-Catalyst_Reagents
+acid	I-Catalyst_Reagents	I-Catalyst_Reagents
+solution	O	O
+followed	O	O
+by	O	O
+addition	O	O
+of	O	O
+potassium	B-Reactants	B-Reactants
+iodide.41	I-Reactants	I-Reactants
+A	O	O
+similar	O	O
+diazotization	O	O
+reaction	O	O
+starting	O	O
+from	O	O
+2-amino-2′-iododiphenyl	O	O
+3	O	O
+aﬀords	O	O
+dibenziodolium	O	O
+as	O	O
+hexaﬂuorophosphate	O	O
+4	O	O
+or	O	O
+tetraﬂuor-	O	O
+
+#	passage=10.1021/ja00021a056-2	segment=1
+Because	O
+of	O
+the	O
+unsurpassed	O
+effectiveness	O
+and	O
+control	O
+inherent	O
+in	O
+the	O
+cyclization	B-Reaction
+of	O
+1	B-Reactants
+to	O
+form	O
+2	B-Prod
+,	O
+we	O
+have	O
+for	O
+some	O
+time	O
+been	O
+interested	O
+in	O
+obtaining	O
+the	O
+sterol	O
+cyclase	O
+in	O
+pure	O
+form	O
+for	O
+X-ray	O
+crystallographic	O
+studies	O
+with	O
+a	O
+bound	O
+substrate	O
+-	O
+based	O
+inhibitor	O
+,	O
+e.g.	O
+
+#	passage=10.1021/acs.joc.5b00101-6	segment=2
+Ineﬃcient	O
+reactions	O
+were	O
+caused	O
+by	O
+the	O
+homocoupling	O
+reaction	O
+of	O
+amines	O
+,	O
+producing	O
+secondary	O
+amines.16	O
+The	O
+reaction	O
+of	O
+ε-	B-Reactants
+caprolactone	I-Reactants
+(	O
+1e	B-Reactants
+)	O
+aﬀorded	O
+only	O
+the	O
+corresponding	O
+aminoamide	O
+6ea	B-Prod
+in	O
+88	B-Yield
+%	I-Yield
+yield	O
+,	O
+indicating	O
+that	O
+an	O
+aminoamide	O
+may	O
+be	O
+the	O
+intermediate	O
+before	O
+intramolecular	O
+transamidation	O
+to	O
+furnish	O
+the	O
+corresponding	O
+lactam	O
+(	O
+entry	O
+18	O
+)	O
+.	O
+
+#	passage=10.1021/ja00132a043-0	segment=0
+Department	O	O
+of	O	O
+Chemistry	O	O
+,	O	O
+The	O	O
+University	O	O
+of	O	O
+Utah	O	O
+Salt	O	O
+Lake	O	O
+City	O	O
+,	O	O
+Utah	O	O
+84112	O	O
+Received	O	O
+April	O	O
+3	O	O
+,	O	O
+1995	O	O
+Intramolecular	O	O
+cyclopropanation	O	O
+reactions	O	O
+have	O	O
+been	O	O
+studied	O	O
+since	O	O
+the	O	O
+fust	O	O
+report	O	O
+in	O	O
+1961	O	O
+of	O	O
+catalytic	O	O
+intramolecular	O	O
+cyclization	O	O
+with	O	O
+an	O	O
+unsaturated	O	O
+diazo	O	O
+ketone.'	O	O
+In	O	O
+all	O	O
+examples	O	O
+then	O	O
+and	O	O
+subsequently	O	O
+,	O	O
+intramolecular	O	O
+cyclopropanations	O	O
+formed	O	O
+bicyclo[3.1	O	O
+.O	O	O
+]	O	O
+and	O	O
+bicyclo[4.1	O	O
+.O	O	O
+]	O	O
+rings	O	O
+with	O	O
+great	O	O
+preference	O	O
+over	O	O
+the	O	O
+next	O	O
+higher	O	O
+and	O	O
+lower	O	O
+homologs	O	O
+;	O	O
+extensions	O	O
+beyond	O	O
+bicyclo-	O	O
+[	O	O
+4.1	O	O
+.O]heptan-2-one	O	O
+systems	O	O
+do	O	O
+not	O	O
+occur	O	O
+in	O	O
+meaningful	O	O
+Coates	O	O
+and	O	O
+Robinson	O	O
+investigated	O	O
+the	O	O
+catalytic	B-Reaction	B-Reaction
+diazo	I-Reaction	I-Reaction
+decom-	I-Reaction	I-Reaction
+position	I-Reaction	I-Reaction
+of	O	O
+trans,trans	B-Reactants	B-Reactants
+-	I-Reactants	I-Reactants
+famesyl	I-Reactants	I-Reactants
+diazoacetate	I-Reactants	I-Reactants
+(	O	O
+1	B-Reactants	B-Reactants
+)	O	O
+and	O	O
+reported	O	O
+formation	O	O
+of	O	O
+the	O	O
+oxabicyclo[3.1.O]hexanone	B-Prod	O
+product	O	O
+(	O	O
+2	O	B-Prod
+,	O	O
+eq	O	O
+1	O	O
+)	O	O
+as	O	O
+the	O	O
+only	O	O
+cyclopropane	O	O
+-	O	O
+containing	O	O
+prod	O	O
+~	O	O
+ct.	O	O
+
+#	passage=10.1021/ja00142a018-0	segment=2
+The	O
+reaction	O
+occurs	O
+in	O
+a	O
+stepwise	O
+mechanism	O
+,	O
+the	O
+rate	O
+-	O
+determining	O
+step	O
+being	O
+the	O
+reaction	O
+of	O
+1	O
+equiv	O
+of	O
+acetylene	O
+with	O
+1	O
+equiv	O
+of	O
+C	B-Reactants
+&	O
+surface	O
+intermediate	O
+(	O
+formed	O
+at	O
+-1	O
+10	O
+K	O
+)	O
+to	O
+form	O
+benzene.	B-Prod
+
+#	passage=10.1021/ja00142a018-0	segment=6
+The	O
+activation	O
+barrier	O
+for	O
+benzene	O
+formation	O
+is	O
+43.5	O
+f	O
+4.5	O
+kJ	O
+/	O
+mol	O
+with	O
+a	O
+preexponential	O
+of	O
+109.s*0.1	O
+s-'	O
+,	O
+Additionally	O
+,	O
+butadiene	B-Prod
+is	O
+observed	O
+,	O
+confirming	O
+the	O
+presence	O
+of	O
+C4	O
+species	O
+on	O
+the	O
+surface	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00426-2	segment=4
+In	O
+contrast	O
+to	O
+IOOC	O
+,	O
+we	O
+reported	O
+that	O
+O-silylated	O
+oximes	O
+6	B-Reactants
+having	O
+oleﬁn	O
+·OEt2	O
+,	O
+underwent	O
+intramolecular	O
+moieties	O
+,	O
+on	O
+treatment	O
+BF3	O
+cycloaddition	O
+via	O
+N-boranonitrones	O
+7	B-Prod
+under	O
+very	O
+mild	O
+conditions.6	O
+More	O
+recently	O
+,	O
+it	O
+was	O
+also	O
+reported	O
+that	O
+intermolecular	O
+cycloaddition	O
+of	O
+C-ester	O
+substituted	O
+O-silylated	O
+oxime	O
+8a	O
+aﬀorded	O
+3,5-trans-cycloadducts	O
+as	O
+the	O
+major	O
+isomers.7	O
+In	O
+this	O
+paper	O
+,	O
+we	O
+would	O
+like	O
+to	O
+report	O
+that	O
+cycloaddition	B-Reaction
+of	O
+C-	O
+·	O
+amide	O
+substituted	O
+O-silylated	O
+oxime	O
+8b	O
+in	O
+the	O
+presence	O
+of	O
+BF3	O
+OEt2	O
+produces	O
+3,5-cis-cycloadducts	O
+predominantly	O
+probably	O
+via	O
+·14	O
+(	O
+Scheme	O
+3	O
+).	O
+
+#	passage=10.1021/ja00142a048-4	segment=1
+However	O
+,	O
+in	O
+the	O
+context	O
+of	O
+this	O
+mechanistic	O
+sequence	O
+,	O
+it	O
+is	O
+noteworthy	O
+that	O
+treatment	O
+of	O
+preformed	O
+living	O
+polymer	O
+(	O
+made	O
+from	O
+2	B-Reactants
+)	O
+with	O
+1-octene	B-Reactants
+affords	O
+the	O
+desired	O
+monomer	O
+7	B-Prod
+,	O
+albeit	O
+in	O
+low	B-Yield
+yield	O
+(	O
+15	B-Yield
+%	I-Yield
+).	O
+
+#	passage=10.1021/ja0013780-0	segment=1
+Hogenkamp	O	O	O
+and	O	O	O
+co-workers24,25	O	O	O
+have	O	O	O
+shown	O	O	O
+that	O	O	O
+anaerobic	B-Reaction	B-Reaction	B-Reaction
+photolysis	I-Reaction	I-Reaction	I-Reaction
+of	O	O	O
+AdoCbl	B-Reactants	B-Reactants	B-Reactants
+yields	O	O	O
+cob(II)alamin	B-Prod	O	O
+(	O	O	O
+B12r	O	O	O
+)	O	O	O
+and	O	O	O
+5¢	O	B-Prod	O
+-deoxy-	O	I-Prod	O
+8,5¢	O	I-Prod	O
+-cycloadenosine	O	I-Prod	O
+(	O	O	O
+2	O	O	B-Prod
+)	O	O	O
+(	O	O	O
+Scheme	O	O	O
+1	O	O	O
+).	O	O	O
+
+#	passage=10.1021/ja0013780-0	segment=2
+In	O	O	O	O	O
+the	O	O	O	O	O
+presence	O	O	O	O	O
+of	O	O	O	O	O
+oxygen	B-Reactants	B-Reactants	O	O	O
+,	O	O	O	O	O
+B12r	B-Reactants	B-Reactants	O	O	O
+is	O	O	O	O	O
+oxidized	O	O	O	O	O
+to	O	O	O	O	O
+cob(III)alamin	B-Prod	O	O	O	O
+(	O	O	O	O	O
+B12a	O	B-Prod	O	O	O
+)	O	O	O	O	O
+,	O	O	O	O	O
+and	O	O	O	O	O
+the	O	O	O	O	O
+adenosyl	O	O	O	O	O
+radical	O	O	O	O	O
+is	O	O	O	O	O
+converted	O	O	O	O	O
+to	O	O	O	O	O
+(	O	O	O	O	O
+2	O	O	B-Prod	O	O
+)	O	O	O	O	O
+and	O	O	O	O	O
+adenosine-5¢	O	O	O	B-Prod	O
+-carboxaldehyde	O	O	O	I-Prod	O
+(	O	O	O	O	O
+1	O	O	O	O	B-Prod
+)	O	O	O	O	O
+(	O	O	O	O	O
+Scheme	O	O	O	O	O
+1	O	O	O	O	O
+).	O	O	O	O	O
+
+#	passage=10.1021/ja00021a059-2	segment=1
+Iodide	B-Reactants	B-Reactants
+13a	B-Reactants	B-Reactants
+reacted	O	O
+rapidly	O	O
+with	O	O
+2	B-Reactants	B-Reactants
+to	O	O
+produce	O	O
+the	O	O
+air	O	O
+-	O	O
+stable	O	O
+stibine	B-Prod	O
+13b	O	B-Prod
+(	O	O
+65	B-Yield	B-Yield
+%	I-Yield	I-Yield
+).	O	O
+
+#	passage=10.1021/ja00021a059-2	segment=4
+Brief	O	O
+reaction	O	O
+of	O	O
+a	O	O
+1	O	O
+:	O	O
+l	O	O
+mixture	O	O
+of	O	O
+iodides	O	O
+13a	B-Reactants	B-Reactants
+and	O	O
+14a	B-Reactants	B-Reactants
+with	O	O
+2gave	B-Reactants	B-Reactants
+only	O	O
+the	O	O
+stibine	O	O
+136	B-Prod	O
+(	O	O
+60	B-Yield	B-Yield
+%	I-Yield	I-Yield
+)	O	O
+and	O	O
+unchanged	O	O
+iodide	O	O
+14a	O	B-Prod
+(	O	O
+98	B-Yield	B-Yield
+%	I-Yield	I-Yield
+)	O	O
+.	O	O
+
+#	passage=10.1021/acs.joc.5b00124-6	segment=3
+The	O	O
+target	O	O
+products	O	O
+9a	B-Prod	O
+and	O	O
+10a	O	B-Prod
+were	O	O
+isolated	O	O
+in	O	O
+35	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+but	O	O
+,	O	O
+most	O	O
+importantly	O	O
+,	O	O
+with	O	O
+quite	O	O
+encouraging	O	O
+diastereoselectivity.	O	O
+
+#	passage=10.1021/ja00024a058-4	segment=2
+Here	O	O
+we	O	O
+report	O	O
+general	O	O
+syntheses	O	O
+of	O	O
+both	O	O
+the	O	O
+3'-thia	O	O
+(	O	O
+5	B-Prod	O
+)	O	O
+and	O	O
+the	O	O
+3'-oxa	O	O
+series	O	O
+(	O	O
+6	O	B-Prod
+)	O	O
+using	O	O
+a	O	O
+highly	O	O
+stereoselective	O	O
+base	O	O
+-	O	O
+coupling	B-Reaction	B-Reaction
+reaction	O	O
+which	O	O
+operates	O	O
+via	O	O
+the	O	O
+in	O	O
+situ	O	O
+formation	O	O
+of	O	O
+a	O	O
+complex	O	O
+between	O	O
+a	O	O
+suitable	O	O
+cyclic	B-Reactants	B-Reactants
+precursor	I-Reactants	I-Reactants
+and	O	O
+an	O	O
+appropriate	B-Reactants	B-Reactants
+Lewis	I-Reactants	I-Reactants
+acid	I-Reactants	I-Reactants
+(	O	O
+see	O	O
+18	O	O
+,	O	O
+Scheme	O	O
+111	O	O
+).	O	O
+
+#	passage=10.1021/ja00024a058-4	segment=4
+Reaction	O	O	O
+of	O	O	O
+7	B-Reactants	B-Reactants	O
+with	O	O	O
+mercaptoacetic	B-Reactants	B-Reactants	O
+acid	I-Reactants	I-Reactants	O
+in	O	O	O
+refluxing	O	O	O
+toluene	B-Solvent	B-Solvent	O
+produced	O	O	O
+thia	B-Prod	O	O
+lactone	I-Prod	O	O
+8	O	B-Prod	O
+in	O	O	O
+84	B-Yield	B-Yield	O
+%	I-Yield	I-Yield	O
+yield.'	O	O	O
+Reduction	O	O	B-Reaction
+of	O	O	O
+8	O	O	B-Reactants
+with	O	O	O
+diisobutylaluminum	O	O	B-Reactants
+hydride	O	O	I-Reactants
+(	O	O	O
+DIBAL-H	O	O	B-Reactants
+,	O	O	O
+toluene	O	O	B-Solvent
+,	O	O	O
+-78	O	O	B-Temperature
+"	O	O	I-Temperature
+C	O	O	I-Temperature
+)	O	O	O
+or	O	O	O
+lithium	O	O	B-Reactants
+tri-tert-but-	O	O	I-Reactants
+oxyaluminum	O	O	I-Reactants
+hydride	O	O	I-Reactants
+(	O	O	O
+THF	O	O	B-Solvent
+,	O	O	O
+0	O	O	B-Temperature
+"	O	O	I-Temperature
+C	O	O	I-Temperature
+)	O	O	O
+,	O	O	O
+followed	O	O	O
+by	O	O	O
+trapping	O	O	O
+of	O	O	O
+the	O	O	O
+resulting	O	O	O
+lactol	O	O	O
+with	O	O	O
+acetic	O	O	B-Workup_reagents
+anhydride	O	O	I-Workup_reagents
+,	O	O	O
+gave	O	O	O
+9	O	O	B-Prod
+as	O	O	O
+a	O	O	O
+2	O	O	O
+:	O	O	O
+l	O	O	O
+mixture	O	O	O
+of	O	O	O
+anomers	O	O	O
+in	O	O	O
+yields	O	O	O
+of	O	O	O
+60-80	O	O	B-Yield
+%	O	O	I-Yield
+.	O	O	O
+
+#	passage=10.1021/ja00143a030-1	segment=4
+A	O
+third	O
+dialkyl	O
+3	B-Prod
+,	O
+was	O
+ob-	O
+dithiophosphate	O
+cluster	O
+,	O
+{	O
+CU	O
+~	O
+[	O
+S	O
+~	O
+P(OE	O
+~	O
+)	O
+~	O
+]	O
+~	O
+.	O
+
+#	passage=10.1021/ja00132a001-13	segment=4
+The	O
+residue	O
+was	O
+chromatographed	O
+on	O
+silica	O
+gel	O
+(	O
+PhMeEtOAc	O
+,	O
+1	O
+:	O
+l	O
+)	O
+to	O
+yield	O
+inhibitor	O
+18	B-Prod
+as	O
+dark	O
+red	O
+crystals	O
+(	O
+56	B-Yield
+mg	I-Yield
+,	O
+91	B-Yield
+%	I-Yield
+)	O
+:	O
+'H	O
+NMR	O
+(	O
+300	O
+MHz	O
+,	O
+CD3OD	O
+)	O
+6	O
+1.94	O
+(	O
+s	O
+,	O
+3	O
+H	O
+)	O
+,	O
+3.05	O
+(	O
+br	O
+s	O
+,	O
+3	O
+H	O
+)	O
+,	O
+3.25	O
+(	O
+br	O
+s	O
+,	O
+3	O
+H	O
+)	O
+,	O
+4.49	O
+(	O
+m	O
+,	O
+2	O
+H	O
+)	O
+,	O
+4.63	O
+(	O
+m.	O
+
+#	passage=10.1021/ja00142a051-5	segment=1
+"	O	O
+Triene	O	O
+lactone	B-Reactants	B-Reactants
+17	B-Reactants	B-Reactants
+was	O	O
+converted	O	O
+to	O	O
+gracilin	B-Prod	O
+C	I-Prod	O
+(	O	O
+2	O	B-Prod
+)	O	O
+in	O	O
+78	B-Yield	B-Yield
+%	I-Yield	I-Yield
+overall	O	O
+yield	O	O
+by	O	O
+the	O	O
+following	O	O
+three	O	O
+-	O	O
+step	O	O
+sequence	O	O
+:	O	O
+(	O	O
+9	O	O
+)	O	O
+Prepared	O	O
+according	O	O
+to	O	O
+the	O	O
+following	O	O
+:	O	O
+(	O	O
+a	O	O
+)	O	O
+Pelletier	O	O
+,	O	O
+S.	O	O
+
+#	passage=10.1021/acs.joc.5b00494-8	segment=0
+Treatment	O
+of	O
+the	O
+diynes	O
+17a,b	B-Reactants
+with	O
+Zn(OTf)2	B-Reactants
+/	O
+Et3N	B-Reactants
+in	O
+the	O
+presence	O
+of	O
+(−)-N-methylephedrine	B-Reactants
+(	O
+NME	B-Reactants
+)	O
+as	O
+a	O
+chiral	O
+inducer	O
+in	O
+CH2Cl2	B-Solvent
+,	O
+followed	O
+by	O
+addition	O
+of	O
+the	O
+ynal	O
+21	B-Reactants
+,	O
+led	O
+to	O
+the	O
+bis-	O
+alkynylated	O
+products	O
+(R,R)-22a,b	B-Prod
+in	O
+85	B-Yield
+%	I-Yield
+yield	O
+(	O
+Scheme	O
+4	O
+)	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00144-8	segment=1
+Using	O
+1.0	O
+g	O
+of	O
+1a	B-Reactants
+as	O
+the	O
+substrate	O
+,	O
+the	O
+triﬂuoromethyl-	O
+thiolated	O
+product	O
+3a	B-Prod
+was	O
+obtained	O
+in	O
+86	B-Yield
+%	I-Yield
+yield	O
+(	O
+Scheme	O
+2	O
+)	O
+.	O
+
+#	passage=10.1021/ja00024a055-1	segment=0
+The	O
+reaction	O
+of	O
+either	O
+alkyne	O
+C(6)mbstituted	O
+pterin	O
+1	B-Reactants
+or	O
+the	O
+alkyne	O
+C(2)	O
+-	O
+substituted	O
+quinoxaline	O
+26	O
+with	O
+Cp,MoS.,'	B-Reactants
+results	O
+in	O
+the	O
+formation	O
+of	O
+complexes	O
+3	B-Prod
+(	O
+62	B-Yield
+%	I-Yield
+)	O
+and	O
+4	O
+(	O
+36	O
+%	O
+)	O
+,	O
+respectively.	O
+
+#	passage=10.1021/ja00024a055-1	segment=2
+Addition	O	O
+of	O	O
+1	O	O
+equiv	O	O
+of	O	O
+PPh	B-Reactants	B-Reactants
+,	O	O
+to	O	O
+either	O	O
+complex	O	O
+3	B-Reactants	B-Reactants
+or	O	O
+4	O	B-Reactants
+results	O	O
+in	O	O
+sulfur	O	O
+abstraction	O	O
+,	O	O
+elimination	B-Reaction	B-Reaction
+of	O	O
+SPPh3	O	O
+,	O	O
+and	O	O
+formation	O	O
+of	O	O
+the	O	O
+desired	O	O
+molybdenum-1	O	O
+,Zenedithiolate	O	O
+complexes	O	O
+5	B-Prod	O
+and	O	O
+6	O	B-Prod
+,	O	O
+both	O	O
+in	O	O
+>	B-Yield	B-Yield
+95	I-Yield	I-Yield
+%	I-Yield	I-Yield
+yield.	O	O
+
+#	passage=10.1021/ja001444y-1	segment=1
+1	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+)	O	O	O	O
+to	O	O	O	O
+the	O	O	O	O
+corresponding	O	O	O	O
+NDP	B-Prod	O	O	O
+-	I-Prod	O	O	O
+sugar	I-Prod	O	O	O
+nucleotide	I-Prod	O	O	O
+(	O	O	O	O
+3	O	B-Prod	O	O
+)	O	O	O	O
+and	O	O	O	O
+pyrophosphate	O	O	B-Prod	O
+(	O	O	O	O
+4	O	O	O	B-Prod
+).	O	O	O	O
+
+#	passage=10.1021/ja00132a006-8	segment=1
+When	O	O
+the	O	O
+reaction	O	O
+was	O	O
+carried	O	O
+out	O	O
+at	O	O
+-60	B-Temperature	B-Temperature
+"	O	O
+C	B-Temperature	B-Temperature
+in	O	O
+CHzC12	B-Solvent	B-Solvent
+,	O	O
+[	O	O
+2	O	O
++	O	O
+21	O	O
+and	O	O
+ene	B-Reaction	B-Reaction
+products	O	O
+15	B-Prod	O
+and	O	O
+16	O	B-Prod
+were	O	O
+formed	O	O
+in	O	O
+a	O	O
+ratio	O	O
+of	O	O
+75	B-Yield	B-Yield
+:	I-Yield	I-Yield
+25	I-Yield	I-Yield
+,	O	O
+respectively.	O	O
+
+#	passage=10.1021/ja00020a041-10	segment=2
+Thus	O
+,	O
+treatment	O
+of	O
+the	O
+hydroperoxide	O
+17	B-Reactants
+with	O
+aqueous	O
+sodium	B-Reactants
+thiosulfate	I-Reactants
+(	O
+eq	O
+10	O
+)	O
+yielded	O
+the	O
+keto	O
+alcohol	O
+19	B-Prod
+(	O
+95	B-Yield
+%	I-Yield
+).	O
+
+#	passage=10.1021/ja00020a041-10	segment=3
+An	O
+authentic	O
+sample	O
+of	O
+19	B-Prod
+was	O
+prepared	O
+in	O
+94	B-Yield
+%	I-Yield
+yield	O
+by	O
+treatment	O
+of	O
+2,3-dimethylnaphthoquinone	B-Reactants
+(	O
+20	B-Reactants
+)	O
+with	O
+methyllithium	B-Reactants
+in	O
+ether	B-Solvent
+
+#	passage=10.1021/ja00021a064-0	segment=0
+Reaction	O
+of	O
+o-nitrobenzaldehyde	B-Reactants
+with	O
+1	B-Reactants
+-methoxy-I-lithio-	I-Reactants
+b	I-Reactants
+~	I-Reactants
+t	I-Reactants
+a	I-Reactants
+d	I-Reactants
+i	I-Reactants
+e	I-Reactants
+n	I-Reactants
+e	I-Reactants
+'	O
+~	O
+generates	O
+carbinol	O
+5	B-Prod
+(	O
+Scheme	O
+I	O
+).	O
+
+#	passage=10.1021/ja00024a064-0	segment=0
+Polyarenefullerenes	B-Prod	O
+,	O	O
+Ca(H-Ar)	O	B-Prod
+,	O	O
+,	O	O
+,	O	O
+Obtained	O	O
+by	O	O
+Acid	B-Reaction	B-Reaction
+-	I-Reaction	I-Reaction
+Catalyzed	I-Reaction	I-Reaction
+Fullerenation	I-Reaction	I-Reaction
+of	O	O
+Aromaticd8	B-Reactants	B-Reactants
+George	O	O
+A.	O	O
+
+#	passage=10.1021/acs.joc.5b00796-2	segment=1
+This	O	O
+compound	O	O
+was	O	O
+easily	O	O
+made	O	O
+in	O	O
+two	O	O
+steps	O	O
+,	O	O
+starting	O	O
+with	O	O
+the	O	O
+Claisen	B-Reaction	O
+reaction	O	O
+of	O	O
+1-	B-Reactants	O
+phenylpiperidin-2-one	I-Reactants	O
+(	O	O
+3a	B-Reactants	O
+)	O	O
+and	O	O
+ethyl	B-Reactants	O
+4-methoxybenzoate6	I-Reactants	O
+to	O	O
+obtain	O	O
+dicarbonyl	O	O
+4a	B-Prod	O
+in	O	O
+good	B-Yield	O
+yield.7	O	O
+There	O	O
+are	O	O
+a	O	O
+few	O	O
+isolated	O	O
+examples	O	O
+in	O	O
+the	O	O
+literature	O	O
+for	O	O
+the	O	O
+transformation	O	O
+of	O	O
+similar	O	O
+1,3-	O	O
+dicarbonyls	O	O
+into	O	O
+ring	O	O
+-	O	O
+opened	O	O
+derivatives	O	O
+such	O	O
+as	O	O
+1.8	O	O
+Gratify-	O	O
+ingly	O	O
+,	O	O
+the	O	O
+reaction	O	O
+of	O	O
+4a	O	B-Reactants
+with	O	O
+benzylhydrazine	O	B-Reactants
+provided	O	O
+1a	O	B-Prod
+in	O	O
+71	O	B-Yield
+%	O	I-Yield
+yield	O	O
+on	O	O
+a	O	O
+2	O	O
+g	O	O
+scale	O	O
+(	O	O
+Scheme	O	O
+2	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00141-1	segment=2
+Fortunately	O
+,	O
+in	O
+the	O
+presence	O
+of	O
+a	O
+base	O
+(	O
+K2CO3	B-Catalyst_Reagents
+)	O
+,	O
+the	O
+reaction	O
+in	O
+reﬂuxing	B-Temperature
+CH3CN	B-Solvent
+gave	O
+imidazole	O
+6a	B-Prod
+in	O
+39	B-Yield
+%	I-Yield
+yield	O
+(	O
+entry	O
+2	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00141-1	segment=5
+Thus	O
+,	O
+we	O
+concluded	O
+that	O
+K2CO3	B-Catalyst_Reagents
+as	O
+base	O
+in	O
+DMF	B-Solvent
+at	O
+100	B-Temperature
+°	I-Temperature
+C	I-Temperature
+under	O
+air	O
+provided	O
+the	O
+sole	O
+product	O
+imidazole	O
+6a	B-Prod
+in	O
+the	O
+highest	O
+yield	O
+(	O
+87	B-Yield
+%	I-Yield
+,	O
+entry	O
+5	O
+)	O
+.	O
+
+#	passage=10.1021/ja00021a024-16	segment=4
+The	O	O
+infrared	O	O
+spectrum	O	O
+of	O	O
+the	O	O
+argon	B-Solvent	B-Solvent
+matrix	O	O
+showed	O	O
+norcarane	B-Prod	O
+,	O	O
+the	O	O
+reduction	B-Reaction	B-Reaction
+product	O	O
+from	O	O
+13	O	O
+,	O	O
+and	O	O
+a	O	O
+small	O	O
+amount	O	O
+of	O	O
+methylenecyclohexene.	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00380-19	segment=3
+Monitoring	O
+the	O
+reaction	O
+in	O
+toluene	B-Solvent
+,	O
+we	O
+observed	O
+the	O
+presence	O
+of	O
+equilibrium	B-Reaction
+between	O
+the	O
+open	O
+and	O
+closed	O
+forms	O
+,	O
+lactol	O
+15	B-Reactants
+and	O
+hydroxy	O
+aldehyde	O
+27	B-Prod
+,	O
+in	O
+favor	O
+of	O
+the	O
+closed	O
+form	O
+15	O
+(	O
+15	O
+:	O
+27	O
+ratio	O
+3	O
+:	O
+1	O
+)	O
+as	O
+shown	O
+in	O
+Scheme	O
+6.	O
+
+#	passage=10.1021/ja00135a002-14	segment=0
+a-Methoxybenzyl	O
+cation	O
+[	B-Prod
+la-BF30Me-1.	I-Prod
+
+#	passage=10.1021/acs.joc.5b00164-5	segment=1
+Transformations	O	O
+of	O	O
+other	O	O
+arylalkynes	O	O
+,	O	O
+such	O	O
+as	O	O
+2-ethynylnaphthalene	B-Reactants	O
+(	O	O
+1p	B-Reactants	O
+)	O	O
+and	O	O
+2-ethynylthiophene	O	B-Reactants
+(	O	O
+1q	O	B-Reactants
+)	O	O
+,	O	O
+also	O	O
+aﬀorded	O	O
+the	O	O
+desired	O	O
+products	O	O
+2p	B-Prod	O
+and	O	O
+2q	O	B-Prod
+in	O	O
+94	B-Yield	O
+%	I-Yield	O
+and	O	O
+93	O	B-Yield
+%	O	I-Yield
+yields	O	O
+,	O	O
+respectively	O	O
+(	O	O
+Table	O	O
+1	O	O
+,	O	O
+entries	O	O
+15	O	O
+and	O	O
+16	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00164-5	segment=2
+In	O	O
+the	O	O
+case	O	O
+of	O	O
+bisalkyne	O	O
+,	O	O
+such	O	O
+as	O	O
+1,3-diethynylbenzene	B-Reactants	O
+(	O	O
+1r	B-Reactants	O
+)	O	O
+and	O	O
+1,4-	O	B-Reactants
+diethynylbenzene	O	I-Reactants
+(	O	O
+1s	O	B-Reactants
+)	O	O
+,	O	O
+the	O	O
+corresponding	O	O
+bisketones	O	O
+2r	B-Prod	O
+and	O	O
+2s	O	B-Prod
+were	O	O
+isolated	O	O
+in	O	O
+90	B-Yield	O
+%	I-Yield	O
+and	O	O
+92	O	B-Yield
+%	O	I-Yield
+yields	O	O
+,	O	O
+respectively	O	O
+(	O	O
+Table	O	O
+1	O	O
+,	O	O
+entries	O	O
+17	O	O
+and	O	O
+18	O	O
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00164-5	segment=3
+Aliphatic	O
+alkynes	O
+,	O
+such	O
+as	O
+3,3-dimethyl-1-	B-Reactants
+butyne	I-Reactants
+(	O
+1t	B-Reactants
+)	O
+,	O
+ethynylcyclopropane	O
+(	O
+1u	O
+)	O
+,	O
+1-hexyne	O
+(	O
+1v	O
+)	O
+,	O
+3-	O
+butynol	O
+(	O
+1w	O
+)	O
+,	O
+and	O
+propargyl	O
+acetate	O
+(	O
+1x	O
+)	O
+,	O
+were	O
+proven	O
+to	O
+be	O
+suitable	O
+substrates	O
+,	O
+and	O
+reactions	O
+gave	O
+the	O
+corresponding	O
+products	O
+2t	B-Prod
+−	O
+x	O
+in	O
+>	O
+99	B-Yield
+%	I-Yield
+NMR	O
+yields	O
+(	O
+Table	O
+1	O
+,	O
+entries	O
+19−	O
+23	O
+).	O
+
+#	passage=10.1021/ja00025a066-2	segment=1
+~	O	O
+~	O	O
+~	O	O
+Asymmetric	B-Reaction	B-Reaction
+deprotonation	I-Reaction	I-Reaction
+of	O	O
+Boc-pyrrolidine	B-Reactants	B-Reactants
+(	O	O
+1	B-Reactants	B-Reactants
+)	O	O
+with	O	O
+sec-bu-	B-Reactants	B-Reactants
+(	O	O
+2	B-Reactants	B-Reactants
+)	O	O
+gives	O	O
+the	O	O
+chiral	O	O
+organolithium	B-Prod	O
+reagent	I-Prod	O
+tyllithium	I-Prod	O
+/	I-Prod	O
+(-)-sparteine	I-Prod	O
+3	O	B-Prod
+,	O	O
+which	O	O
+undergoes	O	O
+reaction	O	O
+with	O	O
+electrophiles	O	O
+to	O	O
+give	O	O
+the	O	O
+enan-	O	O
+tiomerically	O	O
+enriched	O	O
+products	O	O
+4a-e.1	O	O
+°	O	O
+The	O	O
+yields	O	O
+range	O	O
+from	O	O
+55	O	O
+to	O	O
+76	O	O
+%	O	O
+with	O	O
+ee	O	O
+'s	O	O
+from	O	O
+88	O	O
+to	O	O
+96	O	O
+%	O	O
+.	O	O
+
+#	passage=10.1021/ja00028a036-5	segment=0
+The	O
+acetonide	O
+linkage	O
+of	O
+12	B-Reactants
+was	O
+cleaved	O
+with	O
+methanolic	B-Catalyst_Reagents
+HCl	I-Catalyst_Reagents
+to	O
+give	O
+diol	O
+13	B-Prod
+(	O
+84	B-Yield
+%	I-Yield
+).	O
+
+#	passage=10.1021/ja00028a036-5	segment=1
+Reaction	O	O
+of	O	O
+13	B-Reactants	B-Reactants
+with	O	O
+linolenic	B-Reactants	B-Reactants
+acid	I-Reactants	I-Reactants
+(	O	O
+DMAP	B-Catalyst_Reagents	B-Catalyst_Reagents
+,	O	O
+EDCI	B-Catalyst_Reagents	B-Catalyst_Reagents
+,	O	O
+methylene	B-Solvent	B-Solvent
+chloride	I-Solvent	I-Solvent
+,	O	O
+rmm	B-Temperature	B-Temperature
+temperature	O	O
+)	O	O
+afforded	O	O
+14	B-Prod	O
+in	O	O
+61	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+along	O	O
+with	O	O
+10-15	B-Yield	B-Yield
+%	I-Yield	I-Yield
+each	O	O
+of	O	O
+13	O	B-Prod
+and	O	O
+the	O	O
+bis-linolenoyl	O	O
+product.	O	O
+
+#	passage=10.1021/ja00028a036-5	segment=2
+Palmitoylation	B-Reaction
+of	O
+the	O
+secondary	O
+alcohol	O
+of	O
+14	B-Reactants
+under	O
+similar	O
+conditions	O
+,	O
+using	O
+palmitic	B-Reactants
+acid	I-Reactants
+,	O
+led	O
+to	O
+15	B-Prod
+(	O
+91	B-Yield
+%	I-Yield
+yield	O
+)	O
+(	O
+Scheme	O
+11	O
+)	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00191-9	segment=1
+When	O
+2-(methylamino)-N-phenylbenzamide	B-Reactants
+4	B-Reactants
+and	O
+2-amino-N-methyl-N-phenylbenzamide	B-Reactants
+5	B-Reactants
+were	O
+carried	O
+out	O
+under	O
+the	O
+standard	O
+reaction	O
+conditions	O
+,	O
+the	O
+desired	O
+product	O
+2a	B-Prod
+was	O
+obtained	O
+in	O
+50	B-Yield
+and	O
+15	B-Yield
+%	I-Yield
+yield	O
+,	O
+respectively.	O
+
+#	passage=10.1021/acs.joc.5b00769-5	segment=2
+For	O
+diketone	B-Reactants
+4c	B-Reactants
+,	O
+with	O
+the	O
+electron	O
+-	O
+donating	O
+methoxy	O
+group	O
+in	O
+the	O
+phenyl	O
+ring	O
+,	O
+a	O
+higher	O
+temperature	O
+was	O
+needed	O
+,	O
+and	O
+the	O
+reaction	O
+was	O
+run	O
+at	O
+room	B-Temperature
+temperature	O
+,	O
+aﬀording	O
+product	O
+5c	B-Prod
+in	O
+high	B-Yield
+yield	O
+and	O
+ee	O
+(	O
+Table	O
+4	O
+,	O
+entry	O
+3	O
+).	O
+
+#	passage=10.1021/ja00139a004-0	segment=1
+,	O	O
+COHED	O	O
+)	O	O
+from	O	O
+Escherichia	O	O
+coli	O	O
+C	O	O
+catalyze	O	O
+two	O	O
+successive	O	O
+reactions	O	O
+in	O	O
+the	O	O
+homoprotocatechuate	O	O
+meta-fission	O	O
+pathway	O	O
+resulting	O	O
+in	O	O
+the	O	O
+conversion	O	O
+of	O	O
+5-(carboxymethyl)-2-hydroxymuconate	B-Reactants	B-Reactants
+(	O	O
+1	B-Reactants	B-Reactants
+)	O	O
+to	O	O
+2-0	B-Prod	O
+~	I-Prod	O
+0-4-heptene-l,7-dioate	I-Prod	O
+(	O	O
+5	O	B-Prod
+).	O	O
+
+#	passage=10.1021/ja00141a036-2	segment=3
+Treatment	O	O	O	O	O
+of	O	O	O	O	O
+sulfone	O	O	O	O	O
+18	B-Reactants	O	O	O	O
+with	O	O	O	O	O
+n-butyllithium	B-Reactants	O	O	O	O
+in	O	O	O	O	O
+glyme	B-Solvent	O	O	O	O
+,	O	O	O	O	O
+followed	O	O	O	O	O
+by	O	O	O	O	O
+addition	O	O	O	O	O
+of	O	O	O	O	O
+aldehyde	O	O	O	O	O
+23	B-Reactants	O	O	O	O
+,	O	O	O	O	O
+afforded	O	O	O	O	O
+a	O	O	O	O	O
+mixture	O	O	O	O	O
+of	O	O	O	O	O
+diastereomeric	O	O	O	O	O
+,	O	O	O	O	O
+&	O	O	O	O	O
+hydroxy	O	O	O	O	O
+sulfones	O	O	O	O	O
+which	O	O	O	O	O
+,	O	O	O	O	O
+upon	O	O	O	O	O
+treatment	O	O	O	O	O
+with	O	O	O	O	O
+sodium	B-Reactants	O	O	O	O
+amal-	I-Reactants	O	O	O	O
+gam	I-Reactants	O	O	O	O
+,	O	O	O	O	O
+gave	O	O	O	O	O
+24	B-Prod	O	O	O	O
+in	O	O	O	O	O
+46	B-Yield	O	O	O	O
+%	I-Yield	O	O	O	O
+overall	O	O	O	O	O
+yield.'*	O	O	O	O	O
+Oxidation	O	O	O	O	O
+of	O	O	O	O	O
+the	O	O	O	O	O
+acetal	O	O	O	O	O
+to	O	O	O	O	O
+lactone	O	O	O	O	O
+25	O	O	O	O	O
+was	O	O	O	O	O
+accomplished	O	O	O	O	O
+in	O	O	O	O	O
+95	O	O	O	O	O
+%	O	O	O	O	O
+yield	O	O	O	O	O
+using	O	O	O	O	O
+Jones	O	O	O	O	O
+'	O	O	O	O	O
+reagent.26	O	O	O	O	O
+Treatment	O	O	O	O	O
+of	O	O	O	O	O
+25	O	B-Reactants	B-Reactants	O	O
+with	O	O	O	O	O
+trifluoroacetic	O	B-Reactants	B-Reactants	O	O
+acid	O	I-Reactants	I-Reactants	O	O
+gave	O	O	O	O	O
+(+)-	O	B-Prod	O	B-Reactants	B-Reactants
+himbeline	O	I-Prod	O	I-Reactants	I-Reactants
+(2),27	O	O	B-Prod	B-Reactants	B-Reactants
+and	O	O	O	O	O
+methylation	O	O	O	B-Reaction	B-Reaction
+of	O	O	O	O	O
+himbeline	O	O	O	O	O
+completed	O	O	O	O	O
+the	O	O	O	O	O
+synthesis	O	O	O	O	O
+of	O	O	O	O	O
+(+)-himbacine	O	O	O	B-Prod	O
+(	O	O	O	O	O
+1	O	O	O	O	B-Prod
+).	O	O	O	O	O
+
+#	passage=10.1021/ja00024a068-2	segment=7
+As	O	O
+shown	O	O
+in	O	O
+Chart	O	O
+I	O	O
+,	O	O
+the	O	O
+reduction	O	O
+product	O	O
+was	O	O
+5-[(dansylamino)methyl]-2-oxotetrahydrofuran	B-Prod	O
+(	O	O
+5	O	B-Prod
+).	O	O
+
+#	passage=10.1021/ja00022a061-2	segment=0
+Reduction	B-Reaction	B-Reaction	O	O
+of	O	O	O	O
+Fe,(CO)	B-Reactants	B-Reactants	O	O
+,	O	O	O	O
+,	O	O	O	O
+by	O	O	O	O
+3	O	O	O	O
+equiv	O	O	O	O
+of	O	O	O	O
+Yb	B-Reactants	B-Reactants	O	O
+metal	O	O	O	O
+in	O	O	O	O
+liquid	O	O	O	O
+NH3	B-Solvent	B-Solvent	O	O
+results	O	O	O	O
+in	O	O	O	O
+the	O	O	O	O
+formation	O	O	O	O
+of	O	O	O	O
+(NH3),YbFe(C0)4	B-Prod	O	O	O
+(	O	O	O	O
+1	O	B-Prod	O	O
+)	O	O	O	O
+(	O	O	O	O
+eq	O	O	O	O
+l	O	O	O	O
+)	O	O	O	O
+,	O	O	O	O
+an	O	O	O	O
+extremely	O	O	O	O
+air	O	O	O	O
+sensitive	O	O	O	O
+yellow	O	O	O	O
+solid.8	O	O	O	O
+Crystals	O	O	O	O
+of	O	O	O	O
+{	O	O	O	O
+[	O	O	O	O
+(CH3CN),-	O	O	B-Prod	O
+YbFe(C0)4]2CH3CN)2	O	O	I-Prod	O
+(	O	O	O	O
+2	O	O	O	B-Prod
+)	O	O	O	O
+were	O	O	O	O
+obtained	O	O	O	O
+by	O	O	O	O
+keeping	O	O	O	O
+a	O	O	O	O
+saturated	O	O	O	O
+CH3CN	O	O	B-Solvent	B-Solvent
+solution	O	O	O	O
+of	O	O	O	O
+1	O	O	B-Reactants	B-Reactants
+at	O	O	O	O
+-40	O	O	B-Temperature	B-Temperature
+OC	O	O	I-Temperature	I-Temperature
+for	O	O	O	O
+more	O	O	O	O
+than	O	O	O	O
+2	O	O	B-Time	B-Time
+weeks	O	O	I-Time	I-Time
+(	O	O	O	O
+eq	O	O	O	O
+2	O	O	O	O
+).	O	O	O	O
+
+#	passage=10.1021/acs.joc.5b00034-2	segment=2
+The	O
+resulting	O
+acid	O
+chloride	O
+7	B-Prod
+was	O
+then	O
+condensed	O
+in	O
+situ	O
+with	O
+the	O
+substituted	O
+trimethylsilyl	O
+acetylenes	O
+to	O
+furnish	O
+the	O
+corresponding	O
+α,β-acetylenic	O
+ketones	O
+8	O
+(	O
+Scheme	O
+2	O
+)	O
+.	O
+
+#	passage=10.1021/ja00142a047-0	segment=2
+A	O	O	O	O
+synthetic	O	O	O	O
+application	O	O	O	O
+of	O	O	O	O
+the	O	O	O	O
+bis-silylation	B-Reaction	B-Reaction	O	O
+reaction	O	O	O	O
+is	O	O	O	O
+demonstrated	O	O	O	O
+by	O	O	O	O
+total	O	O	O	O
+synthesis	O	O	O	O
+of	O	O	O	O
+(-)-avenaciolide	B-Prod	O	O	O
+(	O	O	O	O
+2	O	B-Prod	O	O
+)	O	O	O	O
+from	O	O	O	O
+optically	O	O	O	O
+pure	O	O	O	O
+dienol	O	O	O	O
+1	B-Reactants	B-Reactants	B-Prod	O
+(	O	O	O	O
+R	O	O	O	B-Prod
+=	O	O	O	I-Prod
+n-CxH17	O	O	O	I-Prod
+)	O	O	O	O
+prepared	O	O	O	O
+by	O	O	O	O
+enantiose-	O	O	O	O
+lective	O	O	O	O
+y-pentadienylation	O	O	B-Reaction	B-Reaction
+of	O	O	O	O
+nonanal	O	O	B-Reactants	B-Reactants
+(	O	O	O	O
+Scheme	O	O	O	O
+1	O	O	O	O
+).	O	O	O	O
+
+#	passage=10.1021/ja00142a047-0	segment=3
+Disilanyl	O
+ethers	O
+3a-e	B-Prod
+derived	O
+from	O
+1-phenyl-2-vinyl-3-buten-	B-Reactants
+1-01	I-Reactants
+(	O
+1	B-Reactants
+,	O
+R	O
+=	O
+Ph	O
+)	O
+were	O
+subjected	O
+to	O
+intramolecular	O
+bis-silylation	O
+in	O
+the	O
+presence	O
+of	O
+0.02	O
+equiv	O
+of	O
+Pd(OAc)2	O
+and	O
+0.3	O
+equiv	O
+of	O
+1,1,3,3-tetramethylbutyl	O
+isocyanide	O
+in	O
+toluene	O
+(	O
+eq	O
+1	O
+;	O
+Table	O
+1	O
+,	O
+entries	O
+1-5	O
+).	O
+
+#	passage=10.1021/ja00146a010-2	segment=1
+Thus	O	O
+,	O	O
+DIBALH	B-Reaction	B-Reaction
+reduction	I-Reaction	I-Reaction
+of	O	O
+ester	B-Reactants	B-Reactants
+13	B-Reactants	B-Reactants
+fumished	O	O
+aldehyde	O	O
+14	B-Prod	O
+in	O	O
+80	B-Yield	O
+%	I-Yield	O
+yield	O	O
+,	O	O
+together	O	O
+with	O	O
+the	O	O
+over-reduced	O	O
+product	O	O
+15	O	B-Prod
+(	O	O
+18	O	B-Yield
+%	O	I-Yield
+)	O	O
+(	O	O
+Scheme	O	O
+3	O	O
+)	O	O
+in	O	O
+which	O	O
+the	O	O
+silyl	O	O
+group	O	O
+had	O	O
+
+#	passage=10.1021/ja001457b-4	segment=9
+(	O	O
+13	O	O
+)	O	O
+HNNNSCdS	O	O
+(	O	O
+2	O	O
+)	O	O
+:	O	O
+HNNNSCdS	B-Prod	O
+(	O	O
+2	O	B-Prod
+)	O	O
+was	O	O
+prepared	O	O
+at	O	O
+0	B-Temperature	B-Temperature
+(	O	O
+cid	O	O
+:	O	O
+176	O	O
+)	O	O
+C	B-Temperature	B-Temperature
+from	O	O
+the	O	O
+reaction	O	O
+of	O	O
+[Na][CS2N3](cid	B-Reactants	B-Reactants
+:	I-Reactants	I-Reactants
+226)4	I-Reactants	I-Reactants
+H2O	I-Reactants	I-Reactants
+dissolved	O	O
+in	O	O
+water	B-Solvent	B-Solvent
+and	O	O
+concentrated	O	O
+hydro-	B-Catalyst_Reagents	B-Catalyst_Reagents
+chloric	I-Catalyst_Reagents	I-Catalyst_Reagents
+acid	I-Catalyst_Reagents	I-Catalyst_Reagents
+,	O	O
+with	O	O
+the	O	O
+resultant	O	O
+HNNNSCdS	O	O
+precipitating	O	O
+as	O	O
+a	O	O
+white	O	O
+solid	O	O
+which	O	O
+was	O	O
+found	O	O
+to	O	O
+be	O	O
+stable	O	O
+at	O	O
+e-	O	O
+25	O	O
+(	O	O
+cid	O	O
+:	O	O
+176	O	O
+)	O	O
+C	O	O
+but	O	O
+to	O	O
+decompose	O	O
+at	O	O
+rt	O	O
+within	O	O
+less	O	O
+than	O	O
+1	O	O
+h.	O	O
+
+#	passage=10.1021/acs.joc.5b00246-4	segment=1
+After	O
+6	B-Time
+h	I-Time
+in	O
+acetonitrile	B-Solvent
+at	O
+50	B-Temperature
+°	I-Temperature
+C	I-Temperature
+,	O
+the	O
+corresponding	O
+dipeptide	O
+13	B-Prod
+was	O
+obtained	O
+in	O
+61	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/acs.joc.5b00246-4	segment=2
+The	O	O
+ﬂuorination	B-Reaction	B-Reaction
+reaction	O	O
+of	O	O
+the	O	O
+compound	O	O
+13	B-Reactants	B-Reactants
+was	O	O
+then	O	O
+achieved	O	O
+in	O	O
+30	B-Time	B-Time
+min	I-Time	I-Time
+by	O	O
+reaction	O	O
+KHF2	B-Catalyst_Reagents	B-Catalyst_Reagents
+to	O	O
+aﬀord	O	O
+the	O	O
+triﬂuoroborato	B-Prod	O
+−	I-Prod	O
+phosphonium	I-Prod	O
+dipeptide	I-Prod	O
+14	O	B-Prod
+in	O	O
+78	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+(	O	O
+Scheme	O	O
+3	O	O
+).	O	O
+
+#	passage=10.1021/ja00019a030-1	segment=6
+Irradiation	B-Reaction	O
+of	O	O
+the	O	O
+phenyl	O	O
+thioether	O	O
+21b	B-Reactants	O
+on	O	O
+silica	O	O
+gel	O	O
+resulted	O	O
+in	O	O
+nucleophilic	O	O
+trapping	O	O
+by	O	O
+surface	O	O
+silanol	O	O
+groups	O	O
+to	O	O
+afford	O	O
+covalently	O	O
+bound	O	O
+material	O	O
+(	O	O
+3	B-Prod	B-Reactants
+3	I-Prod	I-Reactants
+,	O	O
+which	O	O
+afforded	O	O
+chloride	O	O
+34	O	B-Prod
+on	O	O
+treatment	O	O
+with	O	O
+S0Cl2.	O	B-Catalyst_Reagents
+
+#	passage=10.1021/acs.joc.5b00456-15	segment=3
+We	O	O
+are	O	O
+thus	O	O
+left	O	O
+with	O	O
+two	O	O
+mechanistic	O	O
+possibilities	O	O
+:	O	O
+path	O	O
+B	O	O
+/	O	O
+B′	O	O
+via	O	O
+stepwise	B-Reaction	B-Reaction
+addition	I-Reaction	I-Reaction
+of	O	O
+PhCCl	B-Reactants	B-Reactants
+to	O	O
+bridgehead	O	O
+alkene	O	O
+3a	B-Reactants	B-Reactants
+or	O	O
+3b	B-Reactants	B-Reactants
+to	O	O
+yield	O	O
+singlet	O	O
+diradical	O	O
+10a-Ph	B-Prod	O
+or	O	O
+10b-Ph	O	B-Prod
+and	O	O
+/	O	O
+or	O	O
+path	O	O
+F	O	O
+/	O	O
+F′	O	O
+via	O	O
+PhCCl	O	O
+addition	O	O
+to	O	O
+diazo	O	O
+compound	O	O
+6a	O	O
+or	O	O
+6b.	O	O
+
+#	passage=10.1021/acs.joc.5b00725-8	segment=4
+The	O
+optimized	O
+lithiation	B-Reaction
+conditions	O
+were	O
+used	O
+to	O
+prepare	O
+a	O
+selection	O
+of	O
+1-substituted	O
+tetrahydro-β-carboline	O
+products	O
+3a	B-Prod
+−	O
+f	O
+after	O
+electrophilic	O
+quenching	O
+(	O
+Scheme	O
+2	O
+,	O
+Figure	O
+3	O
+).	O
+
+#	passage=10.1021/ja00019a035-1	segment=4
+Evaporation	O
+of	O
+solvent	O
+in	O
+vacuo	O
+and	O
+recrys-	O
+tallization	O
+from	O
+acetone	B-Workup_reagents
+gave	O
+the	O
+white	O
+powder	O
+of	O
+3-(octadecyloxy)-	B-Prod
+acetanilide	I-Prod
+(	O
+23.5	O
+g	O
+,	O
+88.1	B-Yield
+%	I-Yield
+)	O
+:	O
+mp	O
+89-90	O
+OC	O
+;	O
+IR	O
+(	O
+KBr	O
+,	O
+cm-I	O
+)	O
+3292	O
+'H	O
+NMR	O
+(	O
+60	O
+(	O
+Y	O
+N	O
+H	O
+a	O
+m	O
+i	O
+d	O
+,	O
+2916	O
+(	O
+u	O
+a	O
+s	O
+~	O
+~	O
+2	O
+)	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00146-7	segment=1
+As	O
+expected	O
+,	O
+the	O
+desired	O
+product	O
+3ab	B-Prod
+was	O
+formed	O
+in	O
+30	B-Yield
+%	I-Yield
+yield	O
+(	O
+Table	O
+4	O
+,	O
+entry	O
+1	O
+)	O
+under	O
+the	O
+standard	O
+conditions	O
+(	O
+I2	O
+10	O
+
+#	passage=10.1021/acs.joc.5b00800-6	segment=3
+This	O
+reaction	O
+gave	O
+a	O
+65	B-Yield
+%	I-Yield
+yield	O
+of	O
+product	O
+5a	B-Prod
+(	O
+Table	O
+3	O
+,	O
+entry	O
+1	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00800-6	segment=5
+CuBr2	B-Catalyst_Reagents
+and	O
+CuCl2	O
+were	O
+used	O
+with	O
+the	O
+combination	O
+of	O
+TBHP	B-Catalyst_Reagents
+/	O
+DABCO	B-Catalyst_Reagents
+,	O
+but	O
+5a	B-Prod
+was	O
+not	B-Yield
+observed	I-Yield
+in	O
+either	O
+case	O
+(	O
+entries	O
+3	O
+and	O
+4	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00800-6	segment=6
+When	O
+CuI	B-Catalyst_Reagents
+,	O
+Cu(OAc)2	B-Catalyst_Reagents
+,	O
+CuBr	B-Catalyst_Reagents
+,	O
+or	O
+Cu2O	B-Catalyst_Reagents
+was	O
+used	O
+with	O
+TBHP	B-Catalyst_Reagents
+/	O
+DABCO	B-Catalyst_Reagents
+,	O
+only	O
+20	B-Yield
+,	O
+10	B-Yield
+,	O
+30	B-Yield
+,	O
+or	O
+10	B-Yield
+%	I-Yield
+yields	O
+of	O
+5a	B-Prod
+were	O
+produced	O
+(	O
+entries	O
+5	O
+,	O
+6	O
+,	O
+7	O
+,	O
+and	O
+8	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00800-6	segment=7
+Surprisingly	O
+,	O
+using	O
+CuO	B-Catalyst_Reagents
+as	O
+the	O
+catalyst	O
+succeeded	O
+,	O
+aﬀording	O
+a	O
+68	B-Yield
+%	I-Yield
+yield	O
+of	O
+product	O
+5a	B-Prod
+(	O
+entry	O
+9	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00800-6	segment=8
+In	O
+addition	O
+,	O
+a	O
+moderate	B-Yield
+yield	O
+of	O
+5a	B-Prod
+was	O
+obtained	O
+with	O
+FeCl3	B-Catalyst_Reagents
+in	O
+EtOAc	B-Solvent
+and	O
+DCE	B-Solvent
+(	O
+entries	O
+10	O
+and	O
+11	O
+).	O
+
+#	passage=10.1021/acs.joc.5b00800-6	segment=9
+When	O
+TBHP	B-Catalyst_Reagents
+or	O
+DABCO	B-Catalyst_Reagents
+was	O
+used	O
+separately	O
+,	O
+both	O
+reactions	O
+gave	O
+the	O
+trace	B-Yield
+amount	O
+of	O
+expected	O
+product	O
+5a	B-Prod
+in	O
+the	O
+presence	O
+of	O
+CuO	B-Catalyst_Reagents
+catalyst	O
+(	O
+entries	O
+12	O
+and	O
+13	O
+).	O
+
+#	passage=10.1021/ja00024a053-4	segment=1
+I2	O
+Notice	O
+the	O
+compatibility	O
+of	O
+ester	O
+,	O
+hydroxyl	O
+,	O
+sulfide	O
+,	O
+and	O
+lactone	O
+functionalities	O
+with	O
+this	O
+carbon-arbon	B-Reaction
+bond	O
+forming	O
+event	O
+which	O
+produced	O
+9	B-Prod
+in	O
+86	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/ja00024a038-6	segment=9
+The	O
+homologated	O
+oxazinone	O
+7s	B-Prod
+(	O
+R	O
+,	O
+=	O
+Me	O
+,	O
+R2	O
+=	O
+allyl	O
+)	O
+was	O
+detected	O
+only	O
+in	O
+trace	B-Yield
+amounts	I-Yield
+by	O
+TLC.	O
+
+#	passage=10.1021/acs.joc.5b00572-1	segment=9
+Initial	O
+screening	O
+results	O
+indicated	O
+that	O
+a	O
+combina-	O
+tion	O
+of	O
+KOAc	B-Reactants
+/	O
+Pd(OAc)2	B-Reactants
+/	O
+Cy3P	B-Reactants
+in	O
+toluene	B-Solvent
+was	O
+capable	O
+of	O
+giving	O
+high	O
+yields	O
+of	O
+the	O
+desired	O
+boronate	O
+6	B-Prod
+(	O
+>	O
+95	O
+%	O
+conversion	O
+with	O
+∼	O
+99	O
+:	O
+1	O
+selectivity	O
+for	O
+Miyaura	O
+borylation	O
+over	O
+proto-dehaloge-	O
+nation	O
+).	O
+
+#	passage=10.1021/ja00143a008-0	segment=1
+The	O
+1,4,2-0xathiazolidines	O
+were	O
+characterized	O
+and	O
+their	O
+dissociation	O
+of	O
+the	O
+adduct	O
+28	B-Prod
+from	O
+16	B-Reactants
+and	O
+constants	O
+measured	O
+by	O
+'H	O
+NMR	O
+analysis	O
+and	O
+by	O
+visible	O
+spectrophotometry.	O
+
+#	passage=10.1021/ja00021a051-0	segment=0
+Department	O
+of	O
+Chemistry	O
+,	O
+University	O
+of	O
+Wisconsin	O
+Madison	O
+,	O
+Wisconsin	O
+53706	O
+Received	O
+April	O
+1	O
+,	O
+I991	O
+While	O
+metal	O
+-	O
+metal	O
+double	O
+bonded	O
+compounds	O
+are	O
+quite	O
+com-	O
+mon,'	O
+examples	O
+which	O
+are	O
+the	O
+formal	O
+dimers	O
+of	O
+16e	O
+d6	O
+fragments	O
+are	O
+very	O
+rare.24	O
+Here	O
+we	O
+report	O
+that	O
+Cp*Re(CO),(THF)	B-Reactants
+(	I-Reactants
+1	I-Reactants
+,	I-Reactants
+Cp*	I-Reactants
+=	I-Reactants
+CsMeS	I-Reactants
+)	I-Reactants
+loses	O
+T	O
+H	O
+F	O
+to	O
+form	O
+the	O
+stable	O
+isolable	O
+diamagnetic	O
+rhenium	O
+-	O
+rhenium	O
+double	O
+bonded	O
+compound	O
+Cp*(CO)2Re	B-Prod
+=	I-Prod
+Re-	I-Prod
+(	I-Prod
+CO	I-Prod
+)	I-Prod
+$	I-Prod
+p*	I-Prod
+(	I-Prod
+2	I-Prod
+).	I-Prod
+
+#	passage=10.1021/ja00021a051-0	segment=1
+The	O	O	O
+kinetic	O	O	O
+reactivity	O	O	O
+of	O	O	O
+2	B-Reactants	B-Reactants	B-Reactants
+is	O	O	O
+extremely	O	O	O
+high	O	O	O
+:	O	O	O
+reaction	O	O	O
+with	O	O	O
+CO	B-Reactants	O	O
+occurs	O	O	O
+within	O	O	O
+seconds	B-Time	O	O
+at	O	O	O
+-80	B-Temperature	O	O
+"	I-Temperature	O	O
+C	I-Temperature	O	O
+to	O	O	O
+produce	O	O	O
+the	O	O	O
+known	O	O	O
+Cp*(CO)zRe(r-CO)Re(CO)zCp*	B-Prod	O	O
+(	I-Prod	O	O
+3	I-Prod	O	O
+)	I-Prod	O	O
+,	O	O	O
+and	O	O	O
+reaction	O	O	O
+with	O	O	O
+H2	O	B-Reactants	B-Reactants
+also	O	O	O
+occurs	O	O	O
+within	O	O	O
+seconds	O	O	O
+at	O	O	O
+-80	O	B-Temperature	B-Temperature
+OC	O	I-Temperature	I-Temperature
+to	O	O	O
+produce	O	O	O
+the	O	O	O
+new	O	O	O
+dirhenium	O	O	O
+dihydride	O	O	O
+Cp*(CO)2Re(p-H)2Re(CO)2Cp*	O	B-Prod	O
+(	O	O	O
+4	O	O	B-Prod
+)	O	O	O
+.	O	O	O
+
+#	passage=10.1021/acs.joc.5b00767-2	segment=2
+The	O
+electron	O
+-	O
+rich	O
+aryl-substituted	O
+alanes	O
+were	O
+eﬀective	O
+,	O
+aﬀording	O
+the	O
+corresponding	O
+products	O
+3aa	B-Prod
+−	O
+ad	O
+in	O
+high	O
+yields.	O
+
+#	passage=10.1021/ja00026a033-6	segment=2
+In	O	O
+the	O	O
+reactions	O	O
+with	O	O
+a-benzyloxy	B-Reactants	B-Reactants
+acetaldehyde	I-Reactants	I-Reactants
+(	O	O
+2a	B-Reactants	B-Reactants
+)	O	O
+both	O	O
+syn	O	O
+and	O	O
+anti	O	O
+a-methyl	O	O
+(E)-crotylsilanes	O	O
+l	B-Reactants	O
+a	I-Reactants	O
+and	O	O
+IC	O	B-Reactants
+exhibited	O	O
+excellent	O	O
+levels	O	O
+of	O	O
+diastereoselection	O	O
+producing	O	O
+the	O	O
+tetrahydrofurans	O	O
+3a	B-Prod	O
+and	O	O
+3c	O	B-Prod
+with	O	O
+de	O	O
+'s	O	O
+reaching	O	O
+96	O	O
+%	O	O
+as	O	O
+determined	O	O
+by	O	O
+NMR	O	O
+analysis.	O	O
+
+#	passage=10.1021/ja00136a008-27	segment=5
+Selective	O
+hydrolysis	B-Reaction
+of	O
+the	O
+C(6)	O
+and	O
+C(7)	O
+acetates	O
+with	O
+0.2	O
+%	O
+K2C03	B-Reactants
+in	O
+MeOH	B-Solvent
+(	O
+0.5	B-Time
+h	I-Time
+)	O
+yielded	O
+81	B-Prod
+.	O
+
+#	passage=10.1021/ja00027a016-0	segment=0
+Abstract	O
+:	O
+Difluorocyclopropenone	B-Prod
+was	O
+prepared	O
+by	O
+gas	B-Reaction
+-	I-Reaction
+phase	I-Reaction
+photolysis	I-Reaction
+of	O
+difluoromaleic	B-Reactants
+anhydride	I-Reactants
+and	O
+was	O
+characterized	O
+spectroscopically.	O
+
+#	passage=10.1021/acs.joc.5b00445-19	segment=1
+Careful	O
+analysis	O
+revealed	O
+that	O
+the	O
+monomeric	O
+cyclopeptoid	O
+6b	B-Prod
+was	O
+selectively	O
+formed	O
+instead	O
+of	O
+the	O
+dimeric	O
+derivative.	O
+
+#	passage=10.1021/ja00028a058-4	segment=3
+Par-	O
+ticularly	O
+noteworthy	O
+is	O
+the	O
+conversion	O
+of	O
+13	B-Reactants
+into	O
+the	O
+anomeric	O
+azide	O
+14	B-Prod
+(	O
+entry	O
+6	O
+).	O
+
+#	passage=10.1021/ja00026a043-5	segment=0
+Condensation	B-Reaction
+of	O
+the	O
+alcohol	O
+8	B-Reactants
+with	O
+(benzyloxy)[(3-(N-carbo-	B-Reactants
+benzoxyamino)propyl)oxy	I-Reactants
+]	I-Reactants
+(diisopropy1amino)phosphine	I-Reactants
+"	O
+in	O
+the	O
+presence	O
+of	O
+tetrazole	O
+and	O
+subsequent	O
+oxidation	O
+with	O
+MCPBA	B-Reactants
+furnished	O
+the	O
+fully	O
+protected	O
+aminopropyl-tethered	O
+inositol	O
+9	B-Prod
+in	O
+85	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/ja00026a043-5	segment=1
+Removal	O
+of	O
+the	O
+PMB	O
+groups	O
+with	O
+DDQ	B-Reactants
+in	O
+wet	O
+CH2CI2	B-Solvent
+gave	O
+the	O
+triol	O
+10	B-Prod
+in	O
+78	B-Yield
+%	I-Yield
+yield	O
+after	O
+SiOz	O
+chromatography.	O
+
+#	passage=10.1021/ja00026a043-5	segment=2
+Phosphitylation	B-Reaction
+of	O
+the	O
+triol	O
+followed	O
+by	O
+MCPBA	B-Reaction
+oxidation	I-Reaction
+(	O
+as	O
+for	O
+8	O
+)	O
+gave	O
+the	O
+fully	O
+protected	O
+IP	O
+,	O
+derivative	O
+11	B-Prod
+(	O
+73	B-Yield
+%	I-Yield
+yield	O
+).	O
+
+#	passage=10.1021/ja00026a043-5	segment=3
+Hydrogenolysis	B-Reaction	B-Reaction
+removed	O	O
+the	O	O
+benzyl	O	O
+and	O	O
+BOM	O	O
+groups	O	O
+to	O	O
+provide	O	O
+the	O	O
+optically	O	O
+active	O	O
+,	O	O
+P-1	B-Prod	O
+aminopropyl	I-Prod	O
+tethered	I-Prod	O
+Pmyc+Ins(	I-Prod	O
+1	I-Prod	O
+,3,4,5)P4	I-Prod	O
+(	O	O
+3	O	B-Prod
+)	O	O
+in	O	O
+quantitative	B-Yield	B-Yield
+yield	O	O
+after	O	O
+ion	O	O
+-	O	O
+exchange	O	O
+chromatography	O	O
+(	O	O
+Chelex	O	O
+,	O	O
+sodium	O	O
+form	O	O
+).	O	O
+
+#	passage=10.1021/ja00026a022-0	segment=0
+Key	O
+intermediate	O
+7	B-Prod
+was	O
+synthesized	O
+from	O
+readily	O
+available	O
+optically	O
+pure	O
+3(S)-	B-Reactants
+[	I-Reactants
+(tert-butyldimethylsilyl)oxy]-5(R)-	I-Reactants
+hydroxycyclopent-1-ene	I-Reactants
+(6)13	I-Reactants
+by	O
+the	O
+standard	O
+procedure	O
+(	O
+85	B-Yield
+%	I-Yield
+,	O
+Scheme	O
+I	O
+).	O
+
+#	passage=10.1021/ja00026a022-0	segment=1
+Conversion	O	O
+of	O	O
+7	B-Reactants	B-Reactants
+to	O	O
+2	B-Prod	O
+and	O	O
+3	O	B-Prod
+essentially	O	O
+followed	O	O
+the	O	O
+synthetic	O	O
+scheme	O	O
+employed	O	O
+in	O	O
+the	O	O
+synthesis	O	O
+of	O	O
+4.8a	O	O
+Addition	O	O
+of	O	O
+propargylmagnesium	O	O
+bromide	O	O
+to	O	O
+7	O	O
+(	O	O
+91	O	O
+%	O	O
+yield	O	O
+)	O	O
+and	O	O
+condensation	O	O
+with	O	O
+3,3-dimethylpent-4-yn-	O	O
+1	O	O
+-a1	O	O
+by	O	O
+using	O	O
+BuLi	O	O
+at	O	O
+low	O	O
+temperature	O	O
+
+#	passage=10.1021/ja00131a027-2	segment=8
+Deprotection	B-Reaction	B-Reaction
+of	O	O
+12	B-Reactants	B-Reactants
+with	O	O
+1	B-Reactants	B-Reactants
+N	I-Reactants	I-Reactants
+sodium	I-Reactants	I-Reactants
+hydroxide	I-Reactants	I-Reactants
+gave	O	O
+synthetic	O	O
+griseolic	B-Prod	O
+acid	I-Prod	O
+A	I-Prod	O
+(	O	O
+1	O	B-Prod
+)	O	O
+(	O	O
+65	B-Yield	B-Yield
+%	I-Yield	I-Yield
+).	O	O
+
+#	passage=10.1021/acs.joc.5b00051-15	segment=0
+extensive	O
+screening	O
+of	O
+reaction	O
+conditions	O
+,	O
+we	O
+learned	O
+that	O
+treatment	O
+of	O
+19	B-Reactants
+with	O
+TFAA	B-Catalyst_Reagents
+(	O
+1.2	O
+equiv	O
+)	O
+and	O
+pyridine	B-Catalyst_Reagents
+at	O
+0	B-Temperature
+°	I-Temperature
+C	I-Temperature
+readily	O
+activated	O
+the	O
+hydroxyl	O
+lactam	O
+to	O
+an	O
+intermediate	O
+acyl	O
+iminium	O
+ion	O
+,	O
+and	O
+subsequent	O
+addition	O
+of	O
+a	O
+solution	O
+of	O
+the	O
+indole	O
+(	O
+5.0	O
+equiv	O
+)	O
+in	O
+CH2Cl2	B-Solvent
+produced	O
+the	O
+desired	O
+adduct	O
+28	B-Prod
+in	O
+82	B-Yield
+%	I-Yield
+yield	O
+as	O
+a	O
+single	O
+diastereomer.	O
+
+#	passage=10.1021/ja00021a053-0	segment=0
+In	O
+addition	O
+,	O
+although	O
+ozonides	O
+are	O
+more	O
+robust	O
+than	O
+is	O
+commonly	O
+perceived	O
+,	O
+they	O
+are	O
+known	O
+to	O
+be	O
+sensitive	O
+to	O
+solvolysis	O
+condition^.^	O
+Nevertheless	O
+,	O
+we	O
+have	O
+found	O
+that	O
+these	O
+potential	O
+problems	O
+can	O
+be	O
+overcome	O
+through	O
+suitable	O
+design	O
+of	O
+the	O
+substrate	O
+,	O
+and	O
+we	O
+report	O
+here	O
+the	O
+first	O
+cationic	B-Reaction
+ring	I-Reaction
+expansion	I-Reaction
+of	O
+a	O
+1,2,4-trioxolane	B-Reactants
+to	O
+a	O
+1,2,4-trioxane.	B-Prod
+
+#	passage=10.1021/acs.joc.5b00418-5	segment=1
+We	O	O
+were	O	O
+gratiﬁed	O	O
+by	O	O
+successful	O	O
+reactions	O	O
+with	O	O
+indoles	O	O
+2a	B-Reactants	O
+and	O	O
+2b	B-Reactants	B-Reactants
+:	O	O
+salts	O	O
+3f	B-Prod	O
+and	O	O
+3g	O	B-Prod
+were	O	O
+isolated	O	O
+in	O	O
+high	B-Yield	B-Yield
+yield	O	O
+and	O	O
+purity.	O	O
+
+#	passage=10.1021/acs.joc.5b00418-5	segment=3
+With	O	O
+the	O	O
+aim	O	O
+of	O	O
+conﬁrming	O	O
+the	O	O
+synthetic	O	O
+procedure	O	O
+relevance	O	O
+and	O	O
+of	O	O
+understanding	O	O
+the	O	O
+need	O	O
+for	O	O
+the	O	O
+indole	O	O
+,	O	O
+we	O	O
+took	O	O
+the	O	O
+4-	O	O
+(N,N-dimethylamino)phenyl	O	O
+scaﬀold	O	O
+into	O	O
+consideration	O	O
+,	O	O
+as	O	O
+it	O	O
+is	O	O
+a	O	O
+well	O	O
+-	O	O
+known	O	O
+stabilizing	O	O
+group	O	O
+in	O	O
+benzhydrylium	O	O
+ions.9	O	O
+First	O	O
+,	O	O
+we	O	O
+reacted	O	O
+4-(N,N-dimethylamino)benzaldehyde	B-Reactants	B-Reactants
+(	O	O
+1g	B-Reactants	B-Reactants
+)	O	O
+with	O	O
+1,2-	B-Reactants	B-Reactants
+dimethylindole	I-Reactants	I-Reactants
+(	O	O
+2b	B-Reactants	B-Reactants
+)	O	O
+:	O	O
+tetraﬂuoroborate	B-Prod	O
+3h	O	B-Prod
+was	O	O
+isolated	O	O
+in	O	O
+a	O	O
+97	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield.	O	O
+
+#	passage=10.1021/ja00137a023-0	segment=0
+The	O
+azobenzene	O
+-	O
+containing	O
+amino	O
+acid	O
+was	O
+incorporated	O
+into	O
+linear	O
+peptide	O
+2	O
+by	O
+a	O
+solid	O
+phase	O
+methodology	O
+on	O
+a	O
+p	O
+-	O
+alkoxybenzyl	O
+alcohol	O
+resin5	O
+with	O
+Fmoc	O
+as	O
+the	O
+semipermanent	O
+protecting	O
+group.6	O
+Cyclization	B-Reaction
+of	O
+peptide	O
+2	B-Reactants
+(	O
+0.5	O
+mM	O
+)	O
+with	O
+BOP	B-Reactants
+(	O
+1.1	O
+equiv	O
+)	O
+and	O
+DIEA	B-Reactants
+(	O
+2	O
+equiv	O
+)	O
+at	O
+room	B-Temperature
+temperature	O
+in	O
+DMSO	B-Solvent
+afforded	O
+cyclic	O
+peptide	O
+lt	B-Prod
+,	O
+,	O
+,	O
+,	O
+in	O
+a	O
+48	B-Yield
+%	I-Yield
+yield	O
+after	O
+HPLC	O
+purification	O
+(	O
+Scheme	O
+1	O
+)	O
+.	O
+
+#	passage=10.1021/ja001316+-3	segment=1
+Recently	O
+,	O
+a	O
+straightforward	O
+synthesis	O
+of	O
+[n]por-	O
+phyracene	O
+containing	O
+doubly	O
+meso-(cid	O
+:	O
+226	O
+)	O
+-linkages	O
+has	O
+been	O
+reported	O
+independently	O
+by	O
+two	O
+Japanese	O
+groups.9,10	O
+Oxidation	B-Reaction
+of	O
+nickel-	O
+(	O
+II	O
+)	O
+or	O
+palladium(II)	B-Reactants
+5,10,15-triarylporphyrins	I-Reactants
+with	O
+1	O
+equiv	O
+of	O
+hexachloroantimonate	B-Reactants
+gave	O
+the	O
+dimeric	O
+species	O
+4	B-Prod
+,	O
+whose	O
+visible	O
+spectra	O
+are	O
+broader	O
+and	O
+shifted	O
+to	O
+longer	O
+wavelength	O
+compared	O
+with	O
+those	O
+of	O
+the	O
+corresponding	O
+monomers.	O
+
+#	passage=10.1021/ja00027a067-0	segment=1
+In	O
+the	O
+second	O
+step	O
+,	O
+the	O
+intermediate	O
+4	B-Reactants
+would	O
+decarboxylate	B-Reaction
+,	O
+thus	O
+driving	O
+the	O
+reaction	O
+toward	O
+5.	B-Prod
+
+#	passage=10.1021/acs.joc.5b00211-10	segment=2
+Conversion	O
+of	O
+cyclooctene	B-Reactants
+was	O
+also	O
+complete	O
+at	O
+room	B-Temperature
+temperature	O
+in	O
+24	B-Time
+h	I-Time
+to	O
+give	O
+20	B-Prod
+in	O
+99	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/acs.joc.5b00211-10	segment=4
+In	O	O
+these	O	O
+cases	O	O
+,	O	O
+the	O	O
+desired	O	O
+dibromoalkanes	O	O
+21	B-Prod	O
+and	O	O
+22	O	B-Prod
+were	O	O
+obtained	O	O
+in	O	O
+67	B-Yield	O
+%	I-Yield	O
+and	O	O
+50	O	B-Yield
+%	O	I-Yield
+yield	O	O
+after	O	O
+32	B-Time	O
+and	O	O
+24	O	B-Time
+h	B-Time	I-Time
+,	O	O
+respectively.	O	O
+
+#	passage=10.1021/acs.joc.5b00211-10	segment=5
+A	O
+reaction	O
+time	O
+of	O
+40	B-Time
+h	I-Time
+at	O
+65	B-Temperature
+°	I-Temperature
+C	I-Temperature
+was	O
+required	O
+for	O
+complete	O
+conversion	O
+of	O
+trans-stilbene	B-Reactants
+to	O
+the	O
+corresponding	O
+product	O
+(	O
+23	B-Prod
+)	O
+,	O
+which	O
+was	O
+obtained	O
+in	O
+87	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/acs.joc.5b00211-10	segment=8
+Finally	O
+,	O
+3-	B-Reactants
+methylbut-2-en-1-ol	I-Reactants
+reacted	O
+rapidly	O
+to	O
+give	O
+the	O
+dibromo	O
+alcohol	O
+26	B-Prod
+in	O
+66	B-Yield
+%	I-Yield
+yield	O
+.	O
+
+#	passage=10.1021/ja00132a047-4	segment=4
+Thus	O
+,	O
+intermediate	O
+i	B-Reactants
+below	O
+yields	O
+U	B-Prod
+as	O
+the	O
+major	O
+product	O
+upon	O
+free	B-Reaction
+radical	I-Reaction
+cyclization	I-Reaction
+as	O
+described	O
+fok	O
+13	O
+and	O
+16.	O
+
+#	passage=10.1021/ja00020a029-18	segment=3
+Therefore	O
+,	O
+the	O
+ester	O
+products	O
+3a,b	B-Prod
+may	O
+arise	O
+either	O
+by	O
+rear-	O
+rangement	O
+of	O
+the	O
+dioxyl	O
+diradical	O
+2	B-Reactants
+(	O
+eq	O
+1	O
+)	O
+or	O
+by	O
+@	O
+-scission	O
+followed	O
+by	O
+in-cage	O
+coupling	O
+of	O
+the	O
+resulting	O
+acetyloxy	O
+and	O
+methyl	O
+radical	O
+pairs	O
+(	O
+eq	O
+2	O
+)	O
+.	O
+
+#	passage=10.1021/ja00020a042-1	segment=4
+For	O
+instance	O
+,	O
+re-	B-Reaction
+duction	I-Reaction
+of	O
+permanganate	B-Reactants
+in	O
+neutral	B-Solvent
+solution	I-Solvent
+yields	O
+manganese	B-Prod
+dioxide	I-Prod
+,	O
+an	O
+insoluble	O
+material	O
+with	O
+bridging	O
+oxide	O
+ions.I2	O
+The	O
+rhenium-oxo-acetylene	O
+compounds	O
+Re(O)X(RC	O
+=	O
+CR')2	O
+have	O
+
+#	passage=10.1021/ja00020a084-0	segment=1
+Enone	O
+5	B-Reactants
+is	O
+also	O
+readily	O
+converted	O
+to	O
+a	O
+mixture	O
+of	O
+diastereomeric	O
+dienones	O
+7	B-Prod
+in	O
+77	B-Yield
+%	I-Yield
+yield	O
+when	O
+treated	O
+with	O
+HCl	B-Reactants
+in	O
+methanol	B-Solvent
+for	O
+3	B-Time
+days	I-Time
+(	O
+eq	O
+6	O
+).	O
+
+#	passage=10.1021/ja00020a084-0	segment=2
+Enone	O
+6	B-Reactants
+also	O
+gives	O
+dienone	O
+7	B-Prod
+in	O
+over	O
+90	B-Yield
+%	I-Yield
+yield	O
+
+#	passage=10.1021/ja00023a029-3	segment=0
+Racemic	O
+aldehyde	O
+714	B-Reactants
+was	O
+converted	O
+by	O
+chromium	B-Catalyst_Reagents
+-	O
+mediated	O
+crotyl	B-Reaction
+coupling	I-Reaction
+”	O
+to	O
+a	O
+1	O
+:	O
+l	O
+mixture	O
+of	O
+anti	O
+alcohols	O
+8	B-Prod
+in	O
+77	B-Yield
+%	I-Yield
+yield.	O
+
+#	passage=10.1021/ja00023a029-3	segment=1
+The	O
+extremely	O
+sensitive	O
+aldehyde	O
+10	B-Prod
+was	O
+prepared	O
+by	O
+ozonolysis	B-Reaction
+of	O
+homoallylic	O
+ether	O
+9	B-Reactants
+(	O
+95	B-Yield
+%	I-Yield
+).	O
+
+#	passage=10.1021/ja00023a029-3	segment=2
+Metalation	B-Reaction	O	O
+of	O	O	O
+furan	O	O	O
+11’8*’9920	B-Reactants	O	O
+and	O	O	O
+addition	O	O	O
+of	O	O	O
+the	O	O	O
+resulting	O	O	O
+furyllithium	O	O	O
+12	B-Prod	B-Reactants	B-Reactants
+to	O	O	O
+aldehyde	O	O	O
+10	O	B-Reactants	B-Reactants
+provided	O	O	O
+furfuryl	O	O	O
+alcohols	O	O	O
+6	O	B-Prod	O
+and	O	O	O
+13	O	O	B-Prod
+in	O	O	O
+a	O	O	O
+ca.	O	O	O
+
+#	passage=10.1021/ja00145a009-0	segment=0
+Abstract	O
+:	O
+The	O
+series	O
+of	O
+new	O
+bis(tetrathiafulva1ene)	O
+[bis(TTF)]	O
+compounds	O
+10-12a,b	B-Prod
+have	O
+been	O
+synthetized	O
+with	O
+the	O
+TTF	O
+-	O
+like	O
+synthon	O
+8a,b	B-Reactants
+,	O
+previously	O
+used	O
+to	O
+prepare	O
+the	O
+pyrazine	O
+-	O
+fused	O
+bis(	O
+"	O
+F	O
+)	O
+7a,b.	O
+
+#	passage=10.1021/acs.joc.5b00399-2	segment=0
+The	O
+keystone	O
+to	O
+developing	O
+a	O
+synthesis	O
+strategy	O
+came	O
+with	O
+recognition	O
+that	O
+the	O
+central	O
+THF	O
+motif	O
+could	O
+be	O
+constructed	O
+by	O
+diastereoselective	B-Reaction
+rhodium	B-Catalyst_Reagents
+-	O
+catalyzed	O
+denitrogenation	B-Reaction
+and	O
+re-	O
+the	O
+β-allyloxy-1-ST	O
+7	B-Reactants
+into	O
+a	O
+trans-2,5-	O
+arrangement	O
+of	O
+disubstituted	O
+dihydrofuran-3-one	O
+8	B-Prod
+(	O
+Scheme	O
+2	O
+).	O
+
+#	passage=10.1021/ja00028a034-8	segment=0
+When	O	O
+in	O	O
+the	O	O
+formation	O	O
+of	O	O
+hydroxy	O	O
+sulfones	O	O
+27a	B-Prod	O
+and	O	O
+27b	O	B-Prod
+(	O	O
+or	O	O
+,	O	O
+earlier	O	O
+,	O	O
+hydroxy	O	O
+sulfones	O	O
+16a	O	O
+and	O	O
+16b	O	O
+)	O	O
+an	O	O
+excess	O	O
+of	O	O
+n-butyllithium	B-Reactants	B-Reactants
+had	O	O
+been	O	O
+used	O	O
+for	O	O
+the	O	O
+preparation	O	O
+of	O	O
+the	O	O
+organolithium	O	O
+reagent	O	O
+15	B-Reactants	B-Reactants
+,	O	O
+the	O	O
+sulfones	O	O
+underwent	O	O
+p-toluenesulfinate	O	O
+elimination	O	O
+leading	O	O
+to	O	O
+enynes	O	O
+31	O	O
+.32,33	O	O
+The	O	O
+conjugated	O	O
+olefinic	O	O
+acetylenes	O	O
+possessed	O	O
+a	O	O
+trans	O	O
+double	O	O
+bond	O	O
+,	O	O
+as	O	O
+illustrated	O	O
+by	O	O
+the	O	O
+17	O	O
+Hz	O	O
+coupling	O	O
+of	O	O
+the	O	O
+olefinic	O	O
+hydrogens	O	O
+in	O	O
+their	O	O
+'H	O	O
+N	O	O
+M	O	O
+R	O	O
+spectra.	O	O
+
+#	passage=10.1021/ja00028a034-8	segment=1
+The	O
+formation	O
+of	O
+enyne	O
+28	B-Prod
+in	O
+the	O
+tin	B-Catalyst_Reagents
+hydride	I-Catalyst_Reagents
+reduction	B-Reaction
+of	O
+sulfones	O
+16a	B-Reactants
+and	O
+27a	B-Reactants
+is	O
+in	O
+accord	O
+with	O
+the	O
+intermediacy	O
+of	O
+a	O
+1,5-hydrogen	O
+shift	O
+(	O
+eq	O
+3	O
+)	O
+and	O
+final	O
+arylsulfinyl	O
+radical	O
+extrusion.33	O
+The	O
+cyclization-desi-	O
+lylation	O
+sequence	O
+of	O
+Scheme	O
+XI	O
+could	O
+be	O
+inverted.	O
+
+#	passage=10.1021/ja00028a034-8	segment=2
+Thus	O	O
+,	O	O
+treatment	O	O
+of	O	O
+sulfone	O	O
+27a	B-Reactants	O
+with	O	O
+tetrabutylammonium	B-Reactants	O
+fluoride	I-Reactants	O
+gave	O	O
+sulfone	O	O
+32	B-Prod	B-Reactants
+,	O	O
+whose	O	O
+tin	O	B-Catalyst_Reagents
+hydride	O	B-Catalyst_Reagents
+reduction	O	B-Reaction
+afforded	O	O
+sulfone	O	O
+30	O	B-Prod
+(	O	O
+17	O	B-Yield
+%	O	I-Yield
+two	O	O
+-	O	O
+step	O	O
+The	O	O
+stereochemistry	O	O
+of	O	O
+the	O	O
+sulfone	O	O
+side	O	O
+chain	O	O
+in	O	O
+tricycle	O	O
+30	O	O
+was	O	O
+reflected	O	O
+by	O	O
+deshielding	O	O
+of	O	O
+H-7	O	O
+(	O	O
+2.74	O	O
+ppm	O	O
+)	O	O
+by	O	O
+the	O	O
+sulfonyl	O	O
+group	O	O
+(	O	O
+compared	O	O
+with	O	O
+bH.	O	O
+
+#	passage=10.1021/acs.joc.5b00316-6	segment=2
+The	O
+key	O
+step	O
+should	O
+be	O
+the	O
+unique	O
+enol	B-Reaction
+-	I-Reaction
+keto	I-Reaction
+tautomerization	I-Reaction
+of	O
+phenolic	O
+ring	O
+in	O
+6	B-Reactants
+to	O
+provide	O
+a	O
+dearomatized	O
+intermediate	O
+7	B-Prod
+,	O
+which	O
+is	O
+the	O
+less	O
+strained	O
+tautomer.	O
+
+#	passage=10.1021/acs.joc.5b00316-6	segment=3
+Finally	O
+,	O
+a	O
+C	O
+−	O
+C	O
+bond	O
+-	O
+forming	O
+reductive	B-Reaction
+elimination	I-Reaction
+of	O
+the	O
+ring	O
+contracted	O
+ruthenacycle	O
+7	B-Reactants
+delivers	O
+the	O
+spirocyclic	O
+product	O
+3	B-Prod
+and	O
+Ru0	B-Catalyst_Reagents
+,	O
+which	O
+can	O
+be	O
+reoxidized	O
+by	O
+Cu(OAc)2	O
+to	O
+regenerate	O
+Ru(II)	O
+for	O
+the	O
+next	O
+catalytic	O
+cycle	O
+.	O
+
+#	passage=10.1021/ja00140a025-4	segment=1
+Boc-amine	B-Reaction
+deprotection	I-Reaction
+of	O
+tripeptide	O
+3	B-Reactants
+,	O
+followed	O
+by	O
+neutralization	O
+and	O
+treatment	O
+with	O
+the	O
+dipeptide	O
+,	O
+activated	O
+ester	O
+14	B-Reactants
+,	O
+provided	O
+the	O
+desired	O
+protected	O
+pentapeptide	O
+15.	B-Prod
+
+#	passage=10.1021/acs.joc.5b00759-0	segment=1
+The	O
+synthesis	O
+of	O
+2	B-Prod
+was	O
+achieved	O
+by	O
+regioselective	B-Reaction
+oxidation	I-Reaction
+using	O
+o-iodoxybenzoic	B-Reactants
+acid.	I-Reactants
+
+#	passage=10.1021/acs.joc.5b00738-6	segment=1
+The	O
+reaction	O
+of	O
+aldehydes	O
+1e	B-Reactants
+−	O
+g	O
+bearing	O
+alkoxy	O
+groups	O
+at	O
+the	O
+4-position	O
+furnished	O
+7e	B-Prod
+−	O
+g	O
+in	O
+25	B-Yield
+−	O
+67	O
+%	B-Yield
+yields.	O
+
+#	passage=10.1021/acs.joc.5b00738-6	segment=2
+Likewise	O
+,	O
+aldehydes	O
+1h	B-Reactants
+−	O
+j	O
+and	O
+1l	O
+−	O
+n	O
+having	O
+bromo	O
+,	O
+chloro	O
+,	O
+ﬂuoro	O
+,	O
+methoxy	O
+,	O
+and	O
+methyl	O
+substituents	O
+at	O
+the	O
+5-position	O
+readily	O
+reacted	O
+to	O
+give	O
+coumarin	O
+derivatives	O
+7h	B-Prod
+−	O
+j	O
+and	O
+7l	O
+−	O
+n	O
+in	O
+65	B-Yield
+−	O
+78	O
+%	B-Yield
+yields	O
+,	O
+while	O
+the	O
+reaction	O
+of	O
+aldehydes	O
+1k	O
+and	O
+1o	O
+with	O
+strong	O
+electron	O
+-	O
+withdrawing	O
+groups	O
+5-CHO	O
+and	O
+5-NO2	O
+was	O
+less-	O
+successful.	O
+
+#	passage=10.1021/acs.joc.5b00738-6	segment=4
+In	O
+addition	O
+,	O
+2-naphthaldehyde	B-Reactants
+reacted	O
+to	O
+furnish	O
+7r	B-Prod
+in	O
+good	B-Yield
+yield	O
+,	O
+which	O
+upon	O
+recrystallization	O
+in	O
+MeOH	B-Workup_reagents
+−	I-Workup_reagents
+CH2Cl2	I-Workup_reagents
+(	O
+1	O
+:	O
+1	O
+)	O
+gave	O
+single	O
+crystals	O
+whose	O
+structure	O
+was	O
+conﬁrmed	O
+by	O
+X-ray	O
+analysis	O
+(	O
+see	O
+Supporting	O
+Information	O
+).	O
+
+#	passage=10.1021/ja00142a001-0	segment=0
+Abstract	O	O	O	O
+:	O	O	O	O
+The	O	O	O	O
+intramolecular	B-Reaction	B-Reaction	B-Reaction	B-Reaction
+aldol	I-Reaction	I-Reaction	I-Reaction	I-Reaction
+condensation	I-Reaction	I-Reaction	I-Reaction	I-Reaction
+of	O	O	O	O
+keto-aldehyde	O	O	O	O
+1	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+yields	O	O	O	O
+a	O	O	O	O
+substituted	O	O	O	O
+2-benzyl-3-hydroxy-	B-Prod	O	O	O
+cyclohexanone	I-Prod	O	O	O
+2	O	B-Prod	O	O
+and	O	O	O	O
+subsequently	O	O	O	O
+2-benzyl-2-cyclohexenone	O	O	B-Prod	O
+(	O	O	O	O
+3	O	O	O	B-Prod
+).	O	O	O	O
+
+#	passage=10.1021/acs.joc.5b00601-1	segment=1
+Despite	O	O
+the	O	O
+presence	O	O
+of	O	O
+the	O	O
+unprotected	O	O
+C3	O	O
+hydroxyl	O	O
+group	O	O
+in	O	O
+2a	B-Reactants	O
+,	O	O
+pretreatment	O	O
+with	O	O
+1	O	O
+equiv	O	O
+of	O	O
+Me3Al	B-Reactants	O
+or	O	O
+i-	B-Reactants	O
+Bu2AlH	I-Reactants	O
+to	O	O
+form	O	O
+alkoxy(dialkyl)alanes	O	O
+2b	B-Prod	B-Reactants
+allowed	O	O
+eﬃcient	O	O
+phenylation	O	B-Reaction
+giving	O	O
+3a	O	B-Prod
+in	O	O
+high	O	B-Yield
+yield	O	O
+with	O	O
+1	O	O
+equiv	O	O
+of	O	O
+Ph3Al.	O	B-Reactants
+
+#	passage=10.1021/ja00023a021-7	segment=1
+Reaction	O	O	O	O
+of	O	O	O	O
+cyclopentenoyl	O	O	O	O
+complexes	O	O	O	O
+4c	B-Reactants	B-Reactants	O	O
+and	O	O	O	O
+4d	O	O	B-Reactants	B-Reactants
+with	O	O	O	O
+IOCOCF	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+,	O	O	O	O
+in	O	O	O	O
+CH2CI2	B-Solvent	B-Solvent	B-Solvent	B-Solvent
+at	O	O	O	O
+-78	B-Temperature	B-Temperature	B-Temperature	B-Temperature
+'C	I-Temperature	I-Temperature	I-Temperature	I-Temperature
+gave	O	O	O	O
+cis-5-	B-Prod	O	O	O
+methyl-4-(trifluoroacetoxy)-2-cyclopentenone	I-Prod	O	O	O
+,	O	O	O	O
+8	O	B-Prod	O	O
+(	O	O	O	O
+R	O	O	O	O
+=	O	O	O	O
+Me	O	O	O	O
+,	O	O	O	O
+50	B-Yield	B-Yield	O	O
+%	I-Yield	I-Yield	O	O
+)	O	O	O	O
+,	O	O	O	O
+and	O	O	O	O
+cis-5-n-butyl-4-trifluoroacetoxy-2-cyclopentenone	O	O	B-Prod	O
+,	O	O	O	O
+8	O	O	O	B-Prod
+(	O	O	O	O
+R	O	O	O	O
+=	O	O	O	O
+n-Bu	O	O	O	O
+,	O	O	O	O
+75	O	O	B-Yield	B-Yield
+%	O	O	I-Yield	I-Yield
+)	O	O	O	O
+,	O	O	O	O
+respectively.	O	O	O	O
+
+#	passage=10.1021/ja00131a001-3	segment=1
+All	O	O	O	O	O	O
+of	O	O	O	O	O	O
+the	O	O	O	O	O	O
+polyketides	O	O	O	O	O	O
+isolated	O	O	O	O	O	O
+have	O	O	O	O	O	O
+been	O	O	O	O	O	O
+previously	O	O	O	O	O	O
+structurally	O	O	O	O	O	O
+characterized	O	O	O	O	O	O
+with	O	O	O	O	O	O
+the	O	O	O	O	O	O
+exception	O	O	O	O	O	O
+of	O	O	O	O	O	O
+the	O	O	O	O	O	O
+novel	O	O	O	O	O	O
+polyketides	O	O	O	O	O	O
+RM77	B-Prod	O	O	O	O	O
+(	O	O	O	O	O	O
+3	O	B-Prod	O	O	O	O
+)	O	O	O	O	O	O
+,	O	O	O	O	O	O
+RM80	O	O	B-Prod	O	O	O
+(	O	O	O	O	O	O
+4	O	O	O	B-Prod	O	O
+)	O	O	O	O	O	O
+,	O	O	O	O	O	O
+and	O	O	O	O	O	O
+RM8Ob	O	O	O	O	B-Prod	O
+(	O	O	O	O	O	O
+5	O	O	O	O	O	B-Prod
+).	O	O	O	O	O	O
+
+#	passage=10.1021/ja00131a001-3	segment=2
+Structure	O	O
+Elucidation	O	O
+of	O	O
+IW77	B-Prod	O
+(	O	O
+3	O	B-Prod
+).	O	O
+
+#	passage=10.1021/ja00131a001-3	segment=3
+RM77	B-Prod	O
+(	O	O
+3	O	B-Prod
+)	O	O
+precipitated	O	O
+as	O	O
+a	O	O
+yellow	O	O
+powder	O	O
+from	O	O
+HPLC	O	O
+fractions.	O	O
+
+#	passage=10.1021/ja0002870-1	segment=0
+Compound	O	O	O
+1	B-Prod	O	O
+was	O	O	O
+prepared	O	O	O
+in	O	O	O
+a	O	O	O
+straightforward	O	O	O
+fashion	O	O	O
+from	O	O	O
+the	O	O	O
+known	O	O	O
+lactam	O	O	O
+6.13	B-Reactants	O	O
+Benzoylation	O	B-Reaction	O
+of	O	O	O
+6	O	B-Reactants	O
+afforded	O	O	O
+the	O	O	O
+monobenz-	O	O	O
+oate	O	O	O
+7	O	B-Prod	B-Reactants
+that	O	O	O
+was	O	O	O
+subsequently	O	O	O
+xylosylated	O	O	B-Reaction
+with	O	O	O
+tri-O-acetyl-R-D-	O	O	B-Reactants
+xylopyranosyl	O	O	I-Reactants
+trichloroacetimidate	O	O	I-Reactants
+to	O	O	O
+afford	O	O	O
+the	O	O	O
+disaccharide	O	O	O
+8.	O	O	B-Prod
+
+#	passage=10.1021/ja0002870-1	segment=1
+Deacetylation	B-Reaction
+was	O
+achieved	O
+under	O
+standard	O
+conditions	O
+to	O
+give	O
+1	B-Prod
+which	O
+was	O
+purified	O
+by	O
+flash	O
+chromatography	O
+and	O
+assayed	O
+as	O
+an	O
+inhibitor	O
+of	O
+Cex	O
+(	O
+Scheme	O
+1	O
+).	O
+
+#	passage=10.1021/ja00140a036-5	segment=1
+"	O	O	O
+Initial	O	O	O
+complexation	O	O	O
+of	O	O	O
+methyl	B-Reactants	O	O
+a-naphthyl	I-Reactants	O	O
+ketone	I-Reactants	O	O
+in	O	O	O
+CHzCl2	B-Solvent	O	O
+with	O	O	O
+ATPH	B-Reactants	O	O
+(	O	O	O
+1.5	O	O	O
+equiv	O	O	O
+)	O	O	O
+,	O	O	O
+followed	O	O	O
+by	O	O	O
+treatment	O	O	O
+of	O	O	O
+the	O	O	O
+resulting	O	O	O
+complex	O	O	O
+9	B-Prod	B-Reactants	B-Reactants
+with	O	O	O
+BuLi	O	B-Reactants	B-Reactants
+(	O	O	O
+1.5	O	O	O
+equiv	O	O	O
+)	O	O	O
+in	O	O	O
+hexane	O	B-Solvent	B-Solvent
+at	O	O	O
+-78	O	B-Temperature	B-Temperature
+"	O	I-Temperature	I-Temperature
+C	O	I-Temperature	I-Temperature
+,	O	O	O
+gave	O	O	O
+a	O	O	O
+mixture	O	O	O
+of	O	O	O
+the	O	O	O
+1,6-	O	O	O
+and	O	O	O
+1,4-adducts	O	O	O
+10	O	B-Prod	O
+and	O	O	O
+11	O	O	B-Prod
+(	O	O	O
+55	O	O	O
+:	O	O	O
+45	O	O	O
+)	O	O	O
+in	O	O	O
+a	O	O	O
+yield	O	O	O
+of	O	O	O
+86	O	B-Yield	B-Yield
+%	O	I-Yield	I-Yield
+.	O	O	O
+
+#	passage=10.1021/acs.joc.5b00608-2	segment=7
+With	O	O
+equal	O	O
+concentrations	O	O
+of	O	O
+Na2S	B-Reactants	B-Reactants
+and	O	O
+3	B-Reactants	B-Reactants
+we	O	O
+observed	O	O
+the	O	O
+formation	O	O
+of	O	O
+4	B-Prod	O
+along	O	O
+with	O	O
+a	O	O
+signiﬁcant	O	O
+amount	O	O
+of	O	O
+the	O	O
+side	O	O
+product	O	O
+5.	O	B-Prod
+
+#	passage=10.1021/ja00023a092-0	segment=0
+Hydrogen	O
+peroxide	O
+,	O
+essential	O
+for	O
+eliminating	O
+the	O
+interferants	O
+,	O
+can	O
+not	O
+be	O
+externally	O
+added	O
+in	O
+in	O
+vivo	O
+assays	O
+but	O
+can	O
+be	O
+produced	O
+in	O
+situ	O
+by	O
+oxidases	O
+;	O
+thus	O
+,	O
+lactate	B-Catalyst_Reagents
+oxidase	I-Catalyst_Reagents
+(	O
+LOD	O
+)	O
+generates	O
+hydrogen	B-Prod
+peroxide	I-Prod
+in	O
+the	O
+presence	O
+of	O
+lactate	B-Reactants
+and	O
+oxygen	B-Reactants
+(	O
+eq	O
+2	O
+).	O
+
+#	passage=10.1021/ja00020a082-2	segment=3
+For	O
+example	O
+,	O
+addition	O
+of	O
+phenylmagnesium	B-Reactants
+bromide	I-Reactants
+in	O
+ether	B-Solvent
+at	O
+-78	B-Temperature
+OC	I-Temperature
+to	O
+4	B-Reactants
+followed	O
+by	O
+heating	O
+with	O
+catalytic	O
+tosic	B-Catalyst_Reagents
+acid	I-Catalyst_Reagents
+in	O
+benzene	B-Catalyst_Reagents
+furnished	O
+the	O
+phenyl	O
+allenic	O
+lactone	O
+2b	B-Prod
+in	O
+55	B-Yield
+%	I-Yield
+yield.5	O
+Thus	O
+this	O
+is	O
+a	O
+good	O
+approach	O
+to	O
+allenic	O
+lactones	O
+of	O
+this	O
+sort	O
+.	O
+
+#	passage=10.1021/ja00025a035-1	segment=2
+'	O	O
+Transesterification	B-Reaction	B-Reaction
+"	O	O
+of	O	O
+acyl	B-Reactants	B-Reactants
+sultam	I-Reactants	I-Reactants
+6	B-Reactants	B-Reactants
+with	O	O
+lithium	B-Reactants	B-Reactants
+p-nitrobenzyl	I-Reactants	I-Reactants
+oxide	I-Reactants	I-Reactants
+and	O	O
+FC	B-Reactants	B-Reactants
+gave	O	O
+thep-nitrobenzyl	B-Prod	O
+ester	I-Prod	O
+78	O	B-Prod
+(	O	O
+55	B-Yield	B-Yield
+%	I-Yield	I-Yield
+,	O	O
+mp	O	O
+118-1	B-Temperature	B-Temperature
+19	I-Temperature	I-Temperature
+"	I-Temperature	I-Temperature
+C	I-Temperature	I-Temperature
+).	O	O
+
+#	passage=10.1021/ja00025a035-1	segment=3
+Starting	O	O	O
+from	O	O	O
+7	B-Reactants	O	O
+,	O	O	O
+successive	O	O	O
+cleavage	O	O	O
+of	O	O	O
+the	O	O	O
+sulfonamide	O	O	O
+(	O	O	O
+HF	O	O	O
+/	O	O	O
+pyridineI	O	O	O
+I	O	O	O
+)	O	O	O
+,	O	O	O
+N	B-Reaction	O	O
+-	I-Reaction	O	O
+alkylation	I-Reaction	O	O
+with	O	O	O
+tryptophyl	B-Reactants	O	O
+bromide	I-Reactants	O	O
+,	O	O	O
+and	O	O	O
+hydrogenolysis	B-Reaction	O	O
+furnished	O	O	O
+carboxylic	O	O	O
+acid	O	O	O
+tI8	B-Prod	B-Reactants	B-Reactants
+(	O	O	O
+62	B-Yield	O	O
+%	I-Yield	O	O
+from	O	O	O
+7	O	O	O
+)	O	O	O
+,	O	O	O
+which	O	O	O
+was	O	O	O
+subjected	O	O	O
+to	O	O	O
+a	O	O	O
+PhPOC1	O	O	O
+,	O	O	O
+-	O	O	O
+mediated	O	O	O
+Rapoport	O	O	O
+cyc1ization,I2	O	B-Reaction	B-Reaction
+giving	O	O	O
+pentacyclic	O	B-Prod	O
+lactone	O	I-Prod	O
+98	O	O	B-Prod
+(	O	O	O
+46	O	B-Yield	B-Yield
+%	O	I-Yield	I-Yield
+,	O	O	O
+mp	O	O	O
+268-271	O	O	O
+OC	O	O	O
+
+#	passage=10.1021/ja00143a006-13	segment=0
+4-Hydroxycyclobutenones	B-Prod	O	B-Reactants	B-Reactants
+5	O	B-Prod	B-Reactants	B-Reactants
+prepared	O	O	O	O
+from	O	O	O	O
+diethyl	B-Reactants	B-Reactants	O	O
+squarate	I-Reactants	I-Reactants	O	O
+and	O	O	O	O
+organolithium	B-Catalyst_Reagents	B-Catalyst_Reagents	O	O
+reagents	O	O	O	O
+were	O	O	O	O
+transformed	O	O	O	O
+to	O	O	O	O
+5-acetoxy-	O	O	B-Prod	O
+2(5H)-furanones	O	O	I-Prod	O
+and	O	O	O	O
+5-ylidene-2(5H)-furanones	O	O	O	B-Prod
+by	O	O	O	O
+treatment	O	O	O	O
+with	O	O	O	O
+LTA.	O	O	B-Reactants	B-Reactants
+
+#	passage=10.1021/ja00025a056-9	segment=0
+cuprate	O
+prepared	O
+from	O
+TMSC	B-Reactants
+=	I-Reactants
+CCH2CH2Li	I-Reactants
+and	O
+lithium	B-Reactants
+2-	I-Reactants
+thienylcyanocuprate	I-Reactants
+(	O
+Aldrich	O
+)	O
+,	O
+to	O
+yield	O
+the	O
+desired	O
+coupled	O
+product	O
+,	O
+which	O
+was	O
+isolated	O
+as	O
+its	O
+acetate	O
+12	B-Prod
+in	O
+78	B-Yield
+%	I-Yield
+overall	O
+yield.	O
+
+#	passage=10.1021/ja00025a056-9	segment=2
+Standard	O
+functional	O
+group	O
+transformations	O
+[	O
+(	O
+1	O
+)	O
+Ac20	O
+/	O
+Et,N	O
+/	O
+CH,C12	O
+/	O
+room	O
+temperature	O
+,	O
+(	O
+2	O
+)	O
+TBAF	O
+/	O
+THF	O
+/	O
+room	O
+temperature	O
+,	O
+(	O
+3	O
+)	O
+n-Bu,SnH	O
+/	O
+AIBN	O
+/	O
+C6H6	O
+/	O
+reflux	O
+]	O
+were	O
+then	O
+ap-	O
+plied	O
+to	O
+convert	O
+12	B-Reactants
+into	O
+13	B-Prod
+in	O
+76	B-Yield
+%	I-Yield
+overall	O
+yield	O
+.	O
+
+#	passage=10.1021/acs.joc.5b00678-25	segment=1
+20-TSM1-re	B-Reactants
+(	O
+Scheme	O
+12	O
+)	O
+has	O
+a	O
+structure	O
+very	O
+similar	O
+to	O
+that	O
+of	O
+14-TSM1-re	O
+(	O
+Figure	O
+S4	O
+in	O
+the	O
+SI	O
+)	O
+and	O
+leads	O
+directly	O
+to	O
+the	O
+intermediate	O
+20-Int-re	B-Prod
+,	O
+analogous	O
+to	O
+14-Int-re	O
+,	O
+from	O
+which	O
+the	O
+formation	O
+of	O
+20-[1,2]R	O
+and	O
+20-[2,3]R	O
+is	O
+possible.	O
+
+#	passage=10.1021/acs.joc.5b00505-4	segment=2
+To	O
+our	O
+delight	O
+,	O
+in	O
+the	O
+presence	O
+of	O
+Pd(OAc)2	B-Catalyst_Reagents
+as	O
+a	O
+catalyst	O
+,	O
+in	O
+DMF	O
+,	O
+the	O
+expected	O
+product	O
+6a	B-Prod
+was	O
+detected	O
+albeit	O
+in	O
+very	B-Yield
+low	I-Yield
+yield	O
+(	O
+entry	O
+1	O
+).	O
+
+#	passage=10.1021/ja00020a059-4	segment=0
+(	O	O
+18	O	O
+)	O	O
+The	O	O
+standard	O	O
+(S)-[2-2H,)H]acetate	B-Prod	O
+was	O	O
+synthesized	O	O
+chemically	O	O
+from	O	O
+pro-S-tritium	B-Reactants	B-Prod
+-	I-Reactants	I-Prod
+labeled	I-Reactants	I-Prod
+glycine	I-Reactants	I-Prod
+(	O	O
+Kajiwara	O	O
+,	O	O
+M.	O	O
+
+#	passage=10.1021/ja00134a045-1	segment=0
+Conversion	O
+of	O
+farnesyl	B-Reactants
+diphosphate	I-Reactants
+into	O
+squalene	B-Prod
+in	O
+the	O
+biosynthesis	O
+of	O
+cholesterol	O
+offers	O
+an	O
+attractive	O
+point	O
+for	O
+thera-	O
+peutic	O
+intervention	O
+for	O
+the	O
+treatment	O
+of	O
+hypercholesterolemia.	O
+
+#	passage=10.1021/ja00023a037-7	segment=1
+p-TsOH	B-Catalyst_Reagents	B-Catalyst_Reagents	B-Catalyst_Reagents
+,	O	O	O
+methanol	B-Solvent	B-Solvent	B-Solvent
+,	O	O	O
+reflux	B-Temperature	B-Temperature	B-Temperature
+,	O	O	O
+18	B-Time	B-Time	B-Time
+h	I-Time	I-Time	I-Time
+)	O	O	O
+,	O	O	O
+the	O	O	O
+trans	O	O	O
+isomer	O	O	O
+24	B-Reactants	B-Reactants	O
+gave	O	O	O
+a	O	O	O
+9	O	O	O
+:	O	O	O
+l	O	O	O
+mixture	O	O	O
+of	O	O	O
+the	O	O	O
+expected	O	O	O
+28	B-Prod	O	O
+and	O	O	O
+a	O	O	O
+rearrangement	O	O	O
+product	O	O	O
+,	O	O	O
+lactone	O	O	O
+29	O	B-Prod	O
+,	O	O	O
+in	O	O	O
+79	B-Yield	B-Yield	O
+%	I-Yield	I-Yield	O
+combined	O	O	O
+yield	O	O	O
+,	O	O	O
+while	O	O	O
+the	O	O	O
+cis	O	O	O
+isomer	O	O	O
+25	O	O	B-Reactants
+provided	O	O	O
+exclusively	O	O	O
+the	O	O	O
+expected	O	O	O
+keto	O	O	O
+ester	O	O	O
+30	O	O	B-Prod
+(	O	O	O
+82	O	O	B-Yield
+%	O	O	I-Yield
+yield	O	O	O
+).	O	O	O
+
+#	passage=10.1021/ja00028a003-1	segment=4
+13C	B-Prod
+,	O
+'	O
+Li	O
+,	O
+and	O
+3iP	O
+chemical	O
+shifts	O
+for	O
+the	O
+various	O
+H	O
+M	O
+P	O
+A	O
+solvates	O
+are	O
+reported.	O
+
+#	passage=10.1021/ja0014382-5	segment=2
+,	O	O
+in	O	O
+situ	O	O
+double	O	O
+conjugate	O	O
+addition	O	O
+,	O	O
+to	O	O
+give	O	O
+20a	B-Prod	O
+and	O	O
+20b	O	B-Prod
+in	O	O
+73	B-Yield	B-Yield
+%	I-Yield	I-Yield
+yield	O	O
+.	O	O
+
+#	passage=10.1021/ja00145a043-5	segment=2
+(	O
+i	O
+)	O
+Treatment	O
+of	O
+compound	O
+2	O
+with	O
+methyl	O
+triflate	O
+gave	O
+none	O
+of	O
+the	O
+products	O
+,	O
+while	O
+Martin	O
+and	O
+co-workers	O
+found	O
+that	O
+an	O
+anionic	B-Reactants
+sulfur	I-Reactants
+ate	I-Reactants
+complex	I-Reactants
+reacted	O
+with	O
+CH3-	B-Reactants
+OSOlF	I-Reactants
+to	O
+afford	O
+the	O
+S-methylated	B-Prod
+(	I-Prod
+ii	I-Prod
+)	I-Prod
+the	O
+77Se	O
+peak	O
+in	O
+the	O
+77Se	O
+NMR	O
+spectrum	O
+of	O
+2	O
+appeared	O
+at	O
+a	O
+remarkable	O
+low	O
+field	O
+,	O
+which	O
+indicates	O
+the	O
+cationic	O
+property	O
+of	O
+selenium.	O
+
+#	passage=10.1021/ja00024a042-0	segment=0
+The	O	O
+catabolism	B-Reaction	B-Reaction
+of	O	O
+GABA	B-Reactants	B-Reactants
+is	O	O
+catalyzed	O	O
+by	O	O
+the	O	O
+pyridoxal	O	O
+5’-	O	O
+phosphate	O	O
+(PLP)-containing	O	O
+and	O	O
+a-ketoglutarate	O	O
+-	O	O
+dependent	O	O
+en-	O	O
+zyme	O	O
+,	O	O
+GABA	B-Catalyst_Reagents	B-Catalyst_Reagents
+aminotransferase	I-Catalyst_Reagents	I-Catalyst_Reagents
+(	O	O
+EC	O	O
+2.6.1.19	O	O
+)	O	O
+,	O	O
+to	O	O
+yield	O	O
+succinic	B-Prod	O
+semialdehyde	I-Prod	O
+and	O	O
+L-glutamate.	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00544-5	segment=0
+ether	O
+12	O
+was	O
+prepared	O
+from	O
+cis-2-butene-1,4-diol	O
+in	O
+two	O
+steps	O
+by	O
+following	O
+the	O
+literature	O
+procedures.32	O
+After	O
+conversion	O
+of	O
+12	B-Reactants
+to	O
+an	O
+acetonide	O
+form	O
+(13),33	B-Prod
+the	O
+benzylic	O
+groups	O
+(	O
+Bn	O
+)	O
+were	O
+removed	O
+reductively.	O
+
+#	passage=10.1021/acs.joc.5b00544-5	segment=1
+The	O	O
+produced	O	O
+diol	O	O
+14	B-Prod	B-Reactants
+was	O	O
+then	O	O
+treated	O	O
+with	O	O
+methanesulfonyl	O	B-Reactants
+chloride	O	I-Reactants
+(	O	O
+MsCl	O	B-Reactants
+)	O	O
+to	O	O
+give	O	O
+dimesylate	O	O
+15.34	O	B-Prod
+cis-DHSred	O	O
+(	O	O
+6	O	O
+)	O	O
+was	O	O
+obtained	O	O
+by	O	O
+selenation	O	O
+of	O	O
+15	O	O
+with	O	O
+sodium	O	O
+hydrogen	O	O
+selenide	O	O
+(	O	O
+NaHSe	O	O
+)	O	O
+and	O	O
+subsequent	O	O
+deprotection	O	O
+of	O	O
+the	O	O
+acetonide	O	O
+group.	O	O
+
+#	passage=10.1021/acs.joc.5b00002-6	segment=1
+We	O	O	O	O
+found	O	O	O	O
+that	O	O	O	O
+compound	O	O	O	O
+3a	B-Reactants	B-Reactants	B-Reactants	B-Reactants
+could	O	O	O	O
+be	O	O	O	O
+eﬀectively	O	O	O	O
+transformed	O	O	O	O
+to	O	O	O	O
+(E)-3-methyleneisoindolin-1-one	B-Prod	O	O	O
+4a	O	B-Prod	O	O
+in	O	O	O	O
+the	O	O	O	O
+presence	O	O	O	O
+of	O	O	O	O
+a	O	O	O	O
+catalytic	O	O	O	O
+amount	O	O	O	O
+of	O	O	O	O
+both	O	O	O	O
+K2CO3	B-Catalyst_Reagents	B-Catalyst_Reagents	O	O
+and	O	O	O	O
+Bu3P	B-Catalyst_Reagents	B-Catalyst_Reagents	O	O
+at	O	O	O	O
+60	B-Temperature	B-Temperature	O	O
+°	I-Temperature	I-Temperature	O	O
+C	I-Temperature	I-Temperature	O	O
+,	O	O	O	O
+while	O	O	O	O
+it	O	O	O	O
+was	O	O	O	O
+fully	O	O	O	O
+transformed	O	O	O	O
+to	O	O	O	O
+(Z)-3-methylene-	O	O	B-Prod	O
+isoindolin-1-one	O	O	I-Prod	O
+5a	O	O	O	B-Prod
+at	O	O	O	O
+150	O	O	B-Temperature	B-Temperature
+°	O	O	I-Temperature	I-Temperature
+C	O	O	I-Temperature	I-Temperature
+in	O	O	O	O
+the	O	O	O	O
+presence	O	O	O	O
+of	O	O	O	O
+Bu3P	O	O	B-Catalyst_Reagents	B-Catalyst_Reagents
+or	O	O	O	O
+at	O	O	O	O
+100	O	O	B-Temperature	B-Temperature
+°	O	O	I-Temperature	I-Temperature
+C	O	O	I-Temperature	I-Temperature
+in	O	O	O	O
+the	O	O	O	O
+presence	O	O	O	O
+of	O	O	O	O
+K2CO3.	O	O	B-Catalyst_Reagents	B-Catalyst_Reagents
+
+#	passage=10.1021/acs.joc.5b00002-6	segment=2
+We	O	O
+also	O	O
+found	O	O
+that	O	O
+(E)-3-	B-Reactants	B-Reactants
+methyleneisoindolin-1-one	I-Reactants	I-Reactants
+4a	B-Reactants	B-Reactants
+could	O	O
+be	O	O
+eﬀectively	O	O
+transformed	O	O
+to	O	O
+(Z)-3-methyleneisoindolin-1-one	B-Prod	O
+5a	O	B-Prod
+in	O	O
+the	O	O
+presence	O	O
+of	O	O
+a	O	O
+catalytic	O	O
+amount	O	O
+of	O	O
+both	O	O
+K2CO3	B-Catalyst_Reagents	B-Catalyst_Reagents
+and	O	O
+Bu3P	B-Catalyst_Reagents	B-Catalyst_Reagents
+at	O	O
+a	O	O
+higher	O	O
+temperature	O	O
+,	O	O
+which	O	O
+shows	O	O
+a	O	O
+novel	O	O
+example	O	O
+that	O	O
+the	O	O
+(E)-	O	O
+conﬁguration	O	O
+of	O	O
+the	O	O
+carbon	O	O
+−	O	O
+carbon	O	O
+double	O	O
+bond	O	O
+could	O	O
+be	O	O
+transformed	O	O
+to	O	O
+the	O	O
+(Z)-conﬁguration	O	O
+of	O	O
+the	O	O
+carbon	O	O
+−	O	O
+carbon	O	O
+double	O	O
+bond.	O	O
+
+#	passage=10.1021/acs.joc.5b00002-6	segment=3
+It	O	O	O	O	O
+is	O	O	O	O	O
+worth	O	O	O	O	O
+mentioning	O	O	O	O	O
+here	O	O	O	O	O
+that	O	O	O	O	O
+compound	O	O	O	O	O
+3a	B-Reactants	B-Reactants	B-Reactants	B-Reactants	O
+could	O	O	O	O	O
+also	O	O	O	O	O
+be	O	O	O	O	O
+transformed	O	O	O	O	O
+to	O	O	O	O	O
+(E)-3-methyleneisoindolin-1-one	B-Prod	O	O	O	O
+4a	O	B-Prod	O	O	O
+and	O	O	O	O	O
+(Z)-3-methyleneisoindolin-1-one	O	O	B-Prod	O	O
+5a	O	O	O	B-Prod	O
+in	O	O	O	O	O
+the	O	O	O	O	O
+absence	O	O	O	O	O
+of	O	O	O	O	O
+catalyst	O	O	O	O	O
+,	O	O	O	O	O
+and	O	O	O	O	O
+compound	O	O	O	O	O
+4a	O	O	O	O	B-Reactants
+could	O	O	O	O	O
+also	O	O	O	O	O
+be	O	O	O	O	O
+transformed	O	O	O	O	O
+to	O	O	O	O	O
+its	O	O	O	O	O
+isomer	O	O	O	O	O
+5a.	O	O	O	O	B-Prod
+
+#	passage=10.1021/acs.joc.5b00662-8	segment=4
+However	O
+,	O
+we	O
+were	O
+not	O
+able	O
+to	O
+detect	O
+or	O
+isolate	O
+any	O
+acylimine	O
+species.26	O
+The	O
+only	O
+product	O
+we	O
+could	O
+obtain	O
+from	O
+the	O
+two	O
+-	O
+component	O
+reaction	O
+was	O
+bisamide	O
+11	B-Prod
+,	O
+derived	O
+from	O
+a	O
+two-fold	O
+addition	O
+of	O
+benzamide	O
+to	O
+formaldehyde.	O
+
+#	passage=10.1021/ja00133a010-2	segment=0
+(26)45	B-Reactants
+with	O
+N-BOC-	B-Reactants
+~	I-Reactants
+-4-iodophenylalanine	I-Reactants
+(	O
+28	B-Reactants
+)	O
+provided	O
+30	B-Prod
+in	O
+excellent	B-Yield
+yield	O
+(	O
+84	B-Yield
+%	I-Yield
+).	O
+
+#	passage=10.1021/ja00133a010-2	segment=2
+Mild	O	O
+methanolysis	B-Reaction	O
+of	O	O
+30	B-Reactants	O
+provided	O	O
+31	B-Prod	B-Reactants
+and	O	O
+our	O	O
+substrate	O	O
+for	O	O
+the	O	O
+required	O	O
+Ullmann	O	B-Reaction
+closure	O	I-Reaction
+to	O	O
+23.	O	B-Prod
+
+#	passage=10.1021/ja00133a010-2	segment=3
+In	O	O
+the	O	O
+examination	O	O
+of	O	O
+methods	O	O
+for	O	O
+the	O	O
+preparation	O	O
+of	O	O
+31	O	B-Prod
+,	O	O
+the	O	O
+competi-	O	O
+tive	O	O
+0-acylation	O	O
+of	O	O
+27	B-Reactants	B-Reactants
+was	O	O
+found	O	O
+to	O	O
+be	O	O
+minimized	O	O
+if	O	O
+the	O	O
+coupling	O	O
+of	O	O
+methyl	B-Reactants	B-Reactants
+04-methyl-L-DOPA	I-Reactants	I-Reactants
+(27)4	I-Reactants	B-Reactants
+was	O	O
+conducted	O	O
+with	O	O
+the	O	O
+pentafluorophenyl	O	O
+ester	O	O
+of	O	O
+N-BOC-	O	O
+~	O	O
+-4-iodophenylalanine	O	O
+(	O	O
+29	B-Reactants	B-Reactants
+,	O	O
+DMF	B-Solvent	B-Solvent
+,	O	O
+25	B-Temperature	B-Temperature
+“	I-Temperature	I-Temperature
+C	I-Temperature	I-Temperature
+,	O	O
+24	B-Time	B-Time
+h	I-Time	I-Time
+,	O	O
+78	B-Yield	B-Yield
+%	I-Yield	I-Yield
+)	O	O
+and	O	O
+this	O	O
+also	O	O
+provided	O	O
+31	B-Prod	O
+in	O	O
+excellent	B-Yield	B-Yield
+conversions	I-Yield	I-Yield
+(	O	O
+Scheme	O	O
+1	O	O
+).	O	O
+

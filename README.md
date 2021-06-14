@@ -1,6 +1,6 @@
 # Chemical Reaction Extraction from Scientific Literature
 
-This repository contains code/data for extracting chemical reactions from scientific literature.
+This repository contains code/data for the JCIM paper: [Automated Chemical Reaction Extraction from Scientific Literature](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.1c00284).
 
 ## Installation
 
@@ -40,7 +40,7 @@ rxns = rxn_extractor.get_reactions(sents)
 ```
 
 `model_dir` points to the directory of the trained models (e.g., `cre_models_v0.1`).
-`test_file` has an independent paragraph/sentence each line (e.g., `tests/sample_data/raw.txt`). See `pipeline.py` for more details.
+`test_file` has an independent paragraph/sentence each line (e.g., `tests/data/raw.txt`). See `pipeline.py` for more details.
 GPU is used as the default device, please ensure that you have at least >5G allocatable GPU memory.
 
 **Preprocessing:** We recommend using the [ChemDataExtractor](http://chemdataextractor.org/) toolkit for the preprocessing of chemical documents in PDF format, such as PDF parsing, sentence segmentation, and tokenization.
@@ -141,7 +141,7 @@ Configure `configs/prod_train.json` to turn on/off the train/eval modes.
 
 ## Performance
 
-Performance of the provided trained models on our test set (`tests/sample_data/<task>/test.txt`):
+Performance of the provided trained models on our test set (`tests/data/<task>/test.txt`):
 
 Task | Precision | Recall | F1 |
 | :---: | :---: | :---: | :---: |
@@ -150,7 +150,7 @@ Role Extraction | 80.12 | 77.25 | 78.66 |
 
 ## Predict
 
-To generate predictions for unlabeled inputs (see `tests/sample_data/<task>/inputs.txt` for the format of unlabeled inputs), run:
+To generate predictions for unlabeled inputs (see `tests/data/<task>/inputs.txt` for the format of unlabeled inputs), run:
 ```
 python predict.py <task> <config_json>
 ```
