@@ -52,13 +52,20 @@ GPU is used as the default device, please ensure that you have at least >5G allo
 Our model is greatly benefited from a domain-adaptively pre-trained model named **ChemBERT**.
 To train a new model on your own datasets, download [ChemBERT v3.0](https://drive.google.com/file/d/1UMYYD9P8fJgs61FJc06sRbbdDxOYPbMu/view?usp=sharing), and extract to a local directory.
 
+Update! ChemBERT is now installable directly within HuggingFace's framework via path `jiangg/chembert_cased`.
+```python
+from transformers import *
+tokenizer = AutoTokenizer.from_pretrained('jiangg/chembert_cased')
+model = AutoModel.from_pretrained('jiangg/chembert_cased')
+```
+
 ### Fine-tuning
 
-We provide scripts to train new models (product/role extraction) using your own data. We also plan to release our training data in the near future.
+We provide scripts to train new models (product/role extraction) using our annotated data (located in `tests/data/{task}/{train|dev|test}.txt`) or your own data following the same format.
 
 #### Data format
 
-Your training data should contain texts (sequences of tokens) and known target labels.
+The training data should contain texts (sequences of tokens) and known target labels.
 We follow conventional BIO-tagging scheme, where `B-{type}` indicates the Beginning of a specific entity type (e.g., Prod, Reactants, Solvent), and `I-{type}` means the Inside of an entity.
 
 ##### Product Extraction
@@ -130,11 +137,11 @@ To train or evaluate a product extraction model, run:
 ```
 python train.py <task> <config_path>|<options>
 ```
-where `<task>` is either "prod" or "role" depending on the task of interest, `<config_path>` is a json file containing required hyper-parameters such as the paths to the model and the data; `<options>` are instead explicitly-specified hyper-parameters.
+where `<task>` is either "prod" or "role" depending on the task of interest, `<config_path>` is a json file containing required hyper-parameters such as the paths to the pre-trained model and the data; `<options>` are instead explicitly-specified hyper-parameters.
 
 For example:
 ```
-python train.py prod configs/prod_train.json
+python train.py prod configs/prod_train_hf.json
 ```
 
 Configure `configs/prod_train.json` to turn on/off the train/eval modes.
