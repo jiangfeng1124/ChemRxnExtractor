@@ -1,6 +1,7 @@
 # Chemical Reaction Extraction from Scientific Literature
 
 This repository contains code/data for the JCIM paper: [Automated Chemical Reaction Extraction from Scientific Literature](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.1c00284).
+
 <img src="./cre.png" width="600px"></img>
 
 ## Installation
