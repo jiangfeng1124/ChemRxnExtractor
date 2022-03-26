@@ -13,6 +13,7 @@ from chemdataextractor.doc import Paragraph
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import sys
 
 warnings.filterwarnings("ignore")
 
@@ -208,7 +209,7 @@ def get_ents(paragraphs):
 
 
 if __name__ == '__main__':
-    pdf_path = '/data/rsg/nlp/juanmoo1/projects/05_dev/workdir/example_data/01_pilot_data/00_pdfs/ff952951-a074-4c05-b84d-e380a78c5eca.pdf'
+    pdf_path = sys.argv[1]
 
     with open(pdf_path, 'rb') as f:
         extract_documents([f])
