@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Before starting the APIs, make sure that GROBID server is running, and ChemRxnExtraction checkpoints are put in the correct path, as defined in `.env`.
+Before starting the APIs, make sure that GROBID server is running, and ChemRxnExtraction checkpoints are placed in the correct paths defined in `.env`.
 
 ### Starting API
 This project uses Flask to implement its API and can be start using the follwing command:
