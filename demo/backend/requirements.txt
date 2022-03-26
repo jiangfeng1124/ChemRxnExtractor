@@ -1,0 +1,12 @@
+certifi==2020.12.5
+click==7.1.2
+Flask==1.1.2
+Flask-Cors==3.0.10
+Flask-RESTful==0.3.8
+itsdangerous==1.1.0
+python-dateutil==2.8.1
+python-dotenv==0.17.0
+Werkzeug==1.0.1
+seqeval
+spacy
+chemdataextractor

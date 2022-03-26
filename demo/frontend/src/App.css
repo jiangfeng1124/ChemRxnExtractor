@@ -1,0 +1,30 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: fit-content;
+	/* Vertically center the text there */
+	background-color: #343a40;
+	text-align: center;
+}
+
+.footer-head {
+	line-height: 30px;
+	color: white
+}
+
+.footer-info {
+	line-height: 20px;
+	color: white
+}
