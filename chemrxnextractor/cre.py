@@ -255,11 +255,11 @@ class RxnExtractor(object):
                 rxn = {}
                 for role, ss, se in get_entities(rxn_labels):
                     if role == "Prod":
-                        rxn["Product"] = (ss, se)
+                        rxn["Product"] = (" ".join(sent[ss:se+1]), ss, se)
                     else:
                         if role not in rxn:
                             rxn[role] = [] # e.g., multiple reactants
-                        rxn[role].append((ss, se))
+                        rxn[role].append((" ".join(sent[ss:se+1]), ss, se))
                 rxns["reactions"].append(rxn)
                 example_id += 1
 
